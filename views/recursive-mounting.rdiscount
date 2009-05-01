@@ -1,0 +1,4 @@
+# Recursive Mounting Aplikacji Rack compatible 
+
+{%= @out %}
+

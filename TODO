@@ -1,0 +1,5 @@
+
+[2009-05-01] 
+  Convert to helper method:
+
+     "<b>PATH_INFO:</b> #{env['PATH_INFO']}<br /><b>SCRIPT_NAME:</b> #{env['SCRIPT_NAME']}"
