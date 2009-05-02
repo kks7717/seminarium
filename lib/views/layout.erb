@@ -6,8 +6,8 @@
   <meta content="text/html; charset=utf-8" http-equiv="content-type" />
   <title>Gems, Rack, mounting</title>
 
-  <meta name="slideselector" content="h1" />
-  <meta name="titleselector" content="h2" />
+  <meta name="slideselector" content=".slide" />
+  <meta name="titleselector" content="h4" />
   <meta name="stepselector"  content="li:not(.nostep)" />
 
   <link rel="stylesheet" href="/stylesheets/projection.css" type="text/css" media="all" charset="utf-8"/>
@@ -16,7 +16,21 @@
 
 <body>
 
+<div class="logoBanner">
+  <a href="http://www.disruptive-innovations.com"><img id="DIlogo"
+                                   alt="Disruptive Innovations"
+                                   src="http://disruptive-innovations.com/zoo/slides/20060922/DI.png" /></a>
+  <a href="http://www.w3.org"><img id="W3Clogo"
+                                   alt="W3C Member"
+                                   src="http://disruptive-innovations.com/zoo/slides/20060922/w3cmember.png" /></a>
+</div>
+
 <%= yield %>
+
+<div class="footer1">
+  <span class="__FScounter"></span>/<span class="__FStotal" /></span></div>
+</div>
+<div class="footer2">Gdańsk 20.05.2009</div>
 
 </body>
 </html>

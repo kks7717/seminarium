@@ -1,20 +1,21 @@
-# slide 0
-## Gemifying a Rack Compatible applications
+<div class="slide"><h4>How it works</h4>
+  <div class="slidecontent">
+    <ul>
+      <li>It's an extension to Firefox, the F11 key is your friend to turn it on</li>
+      <li>uses only three extra META elements in the document</li>
+      <li>uses CSS styles for the 'projection' media type</li>
+    </ul>
+  </div>
+</div>
 
-...or recursive mounting of rack applications.
-
-# slide 1 
-## Navigation between slides
-
-1. spacebar, arrows, page up/down keys to move between slides/steps
-2. top and end keys to move to first/last slide
-3. move your mouse pointer to the bottom-right of the screen to show the joystick
-4. slide manager with thumbnails
-
-
-# slide 2 
-## How it works
-
-* It's an extension to Firefox, the F11 key is your friend to turn it on
-* uses only three extra META elements in the document
-* uses CSS styles for the 'projection' media type
+<div class="slide"><h4>Slides</h4>
+  <div class="slidecontent">
+    <p>To describe slides :</p>
+    <ul>
+      <li>Insert a new META element in the HEAD of your document</li>
+      <li>Make it have a <code>name="slideselector"</code> attribute</li>
+      <li>Make the <code>content</code> attribute contain a CSS selector matching all slide elements</li>
+    </ul>
+   <p>For instance: <code>&lt;meta name="slideselector" content="div.slide" /&gt;</code></p>
+  </div>
+</div>
