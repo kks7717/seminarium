@@ -1,0 +1,81 @@
+#ZJFlogo {
+  border: 0px solid ;
+}
+#WBlogo {
+  border: 0px solid ;
+}
+.new::before {
+  content: "NEW";
+  background-color: yellow;
+  color: red;
+  margin-right: 5px;
+  font-size: x-small;
+  border: red solid thin;
+  padding: 2px;
+  -moz-border-radius: 5px;
+}
+
+@media projection {
+  body {
+    background-color: rgb(223, 220, 252);
+  }
+  h1 {
+    position: fixed;
+    left: 5cm;
+    right: 2cm;
+    top: 1cm;
+    bottom: 1cm;
+    border-top: thin inset;
+    border-left: thin inset;
+    border-bottom: thin inset;
+    font-family: sans-serif;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-topright: 11px;
+    -moz-border-radius-bottomright: 11px;
+    -moz-border-radius-bottomleft: 11px;
+    background-color: rgb(233, 230, 255);
+  }
+  h2 {
+    font-size: 32pt;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+/*
+  div.slide .slidecontent {
+    font-size: x-large;
+    margin: 1cm;
+  }
+*/
+  div.logoBanner {
+    position: fixed;
+    left: 0.2cm;
+    width: 4.5cm;
+    top: 1cm;
+    bottom: 5px;
+  }
+  #WBlogo {
+    position: absolute;
+    bottom: 1cm;
+    left: 1cm;
+  }
+  #ZJFlogo {
+    position: absolute;
+    top: 5px;
+  }
+  div.footer2 {
+    position: fixed;
+    bottom: 0.1cm;
+    left: 5cm;
+    right: 2cm;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  div.footer1 {
+    position: fixed;
+    bottom: 0.1cm;
+    left: 2cm;
+    right: 2cm;
+    font-family: sans-serif;
+  }
+  .__FSstep { color: #BB0000; }
+}

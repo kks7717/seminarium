@@ -9,14 +9,15 @@ require 'seminarium'
 #STDOUT.reopen(log)
 #STDERR.reopen(log)
 
-use Rack::Static, :urls => ["/stylesheets", "/javascripts", "/images"],
-                  :root => Referaty::PUBLIC
-
 SeminariumReferaty = Rack::Builder.new do
+  use Rack::Static, :urls => ["/stylesheets", "/javascripts", "/images"],
+    :root => "lib/public"
+
+  use Rack::Lint
   use Rack::CommonLogger
   use Rack::ContentLength
   
-  run Referaty.new
+  run Seminarium::Referaty.new
 end
 
 map '/' do 

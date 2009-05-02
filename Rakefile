@@ -10,17 +10,24 @@ task :default => :install
 
 spec = Gem::Specification.new do |s|
   s.name         = "seminarium"
-  s.version      = "0.0.4"
-  s.author       = "Wlodek Bzyl Helmkamp"
+  s.version      = "0.0.6"
+  s.author       = "Wlodek Bzyl"
   s.email        = "matwb" + "@" + "univ.gda.pl"
   s.homepage     = "http://github.com/wbzyl/seminarium"
-  s.summary      = "An attempt to mount Rack, Sinatra, RDiscount and code highlighting middleware."
-  s.description  = s.summary
-  s.files        = %w[TODO Rakefile README.markdown] + Dir["lib/**/*"] +
-                   Dir["views/**/*"] + Dir["public/**/*"]
   
-  # rdoc
-  s.has_rdoc     = false
+  s.description = <<-EOF
+An attempt to mount Rack, Sinatra, RDiscount and code highlighting middleware.
+
+That's all.
+    EOF
+  s.summary      = "An attempt to mount Rack, Sinatra, RDiscount and code highlighting middleware."
+
+  s.files        = %w[Rakefile config.ru] + Dir["lib/**/*"]
+  
+  s.rubyforge_project = 'seminarium'
+  
+  s.has_rdoc     = true
+  s.extra_rdoc_files = ['README.markdown', 'TODO']
 end
 
 Rake::GemPackageTask.new(spec) do |package|
