@@ -1,21 +1,136 @@
-<div class="slide"><h4>How it works</h4>
+<div class="slide"><h4>Modułowe aplikacje WWW</h4>
   <div class="slidecontent">
+    <p>Co składa się na aplikację WWW?</p>
     <ul>
-      <li>It's an extension to Firefox, the F11 key is your friend to turn it on</li>
-      <li>uses only three extra META elements in the document</li>
-      <li>uses CSS styles for the 'projection' media type</li>
+      <li>Obsługa różnych typów szablonów</li>
+      <li>Biblioteka metod pomocniczych</li>
+      <li>Moduł obsługi błędów</li>
+      <li>...</li>
+      <li>Wbudowana obsługa baz danych</li>
+      <li>Obsługa pamięci podręcznej HTTP (etag, last-modified)</li>
+      <li>Moduł i10n</li>
+      <li>...tę listę można ciągnąć w nieskończoność</li>
     </ul>
   </div>
 </div>
 
-<div class="slide"><h4>Slides</h4>
+<div class="slide"><h4>Definujemy aplikację WWW</h4>
   <div class="slidecontent">
-    <p>To describe slides :</p>
-    <ul>
-      <li>Insert a new META element in the HEAD of your document</li>
-      <li>Make it have a <code>name="slideselector"</code> attribute</li>
-      <li>Make the <code>content</code> attribute contain a CSS selector matching all slide elements</li>
-    </ul>
-   <p>For instance: <code>&lt;meta name="slideselector" content="div.slide" /&gt;</code></p>
+    <p><a href="http://chneukirchen.org/blog/">Christian Neukirchen</a>, 
+       <i>Rack: a Ruby Webserver Interface</i></p>
+
+    <p class="quote">
+      Dabbling in my own web framework experiments, I noticed that
+      there is a lot of code duplication among frameworks since they
+      essentially all do the same things. And still, every Ruby web
+      framework developer is writing his own handlers for every
+      webserver he wants to use. Hopefully, the framework users are
+      satisfied with that choice.
+    </p>
+
+    <p class="def">
+      Informally, a <b>Rack application</b>
+      is a thing that responds to <b>#call</b>
+      and <b>takes a hash as argument<b>, 
+      returning an array of 
+      <b>status</b>, <b>headers</b> and a <b>body</b>.
+    </p>
+
+    <p>Od teraz przyjmiemy, że: aplikacja Rack == aplikacja WWW</p> 
+  </div>
+</div>
+
+<div class="slide"><h4>Funkcja aplikacją WWW</h4>
+  <div class="slidecontent">
+<pre><code>:::ruby
+app = lambda do |env|
+  [
+   200,                                             # status
+   {"Content-Type" => "text/html; charset=utf-8"},  # headers
+   [ "hello world" ]                                # body
+  ]
+end
+</code></pre>
+<p>Aplikację tę uruchamiamy tak:</p>
+<pre><code>:::ruby
+Rack::Handler::Thin.run app, :Port => 9292
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Instancja klasy aplikacją WWW</h4>
+  <div class="slidecontent">
+<pre><code>:::ruby
+class HelloWorld
+  def call(env)
+    [200, {"Content-Type" => "text/html"}, ["Hello Rack!"]]
+  end
+end
+app = HelloWorld.new
+</code></pre>
+<p>Aplikację tę uruchamiamy tak:</p>
+<pre><code>:::ruby
+Rack::Handler::Thin.run app, :Port => 9292
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Flitry, czyli Middleware</h4>
+  <div class="slidecontent">
+    <p>What: przykłady + rysunek</p>
+    <p>What: use Rack::CommonLogger, Rack::ContentLength, Rack::Lint</p>
+<pre><code>:::ruby
+def
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Budujemy aplikację za pomocą Rack::Builder, Rack::UrlMap</h4>
+  <div class="slidecontent">
+    <p>What: map, prosty przykład, przykład z zagnieżdżonymi url</p>
+<pre><code>:::ruby
+def
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Składamy aplikacje WWW z aplikacji WWW</h4>
+  <div class="slidecontent">
+    <p>What: rekurencja, przykłady + rysunek</p>
+<pre><code>:::ruby
+sqrt2 = Proc.new {|env| [200, {"Content-Type" => "text/text"}, ["1.4142135623..."]]}
+pi = Proc.new {|env| [200, {"Content-Type" => "text/text"}, ["3.1415926535..."]]}
+e = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["2.7182818284..."]]}
+gamma = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["0.5772156649..."]]}
+phi = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["1.6180339887..."]]}
+inspector = Proc.new {|env| [200, {"Content-Type" => "text/html"}, env.inspect]}
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Składamy</h4>
+  <div class="slidecontent">
+    <p>What :</p>
+<pre><code>:::ruby
+def
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Sinatra/Base</h4>
+  <div class="slidecontent">
+    <p>What :</p>
+<pre><code>:::ruby
+def
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>TODO</h4>
+  <div class="slidecontent">
+    <p>What :</p>
+<pre><code>:::ruby
+def
+</code></pre>
   </div>
 </div>

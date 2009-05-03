@@ -1,9 +1,3 @@
-#W3Clogo {
-  border: 0px solid ;
-}
-#DIlogo {
-  border: 0px solid ;
-}
 .new::before {
   content: "NEW";
   background-color: yellow;
@@ -17,14 +11,15 @@
 
 @media projection {
   body {
-    background-color: rgb(223, 220, 252);
+    font: normal 18px/1.5 Tahoma, sans-serif;
+    background-color: #3D444A;
   }
   div.slide {
     position: fixed;
     left: 5cm;
     right: 2cm;
     top: 1cm;
-    bottom: 1cm;
+    bottom: 2cm;
     border-top: thin inset;
     border-left: thin inset;
     border-bottom: thin inset;
@@ -33,15 +28,16 @@
     -moz-border-radius-topright: 11px;
     -moz-border-radius-bottomright: 11px;
     -moz-border-radius-bottomleft: 11px;
-    background-color: rgb(233, 230, 255);
+    background-color: #E3DFBA;
   }
   div.slide h4 {
-    font-size: 32pt;
+    color: #5A4882;
+    font-size: 200%;
     text-align: center;
     margin-bottom: 1em;
   }
   div.slide .slidecontent {
-    font-size: x-large;
+    font-size: 150%;
     margin: 1cm;
   }
 
@@ -52,35 +48,47 @@
     top: 1cm;
     bottom: 5px;
   }
-  #W3Clogo {
-    position: absolute;
-    bottom: 1cm;
-    left: 1cm;
-  }
-  #DIlogo {
-    position: absolute;
-    top: 5px;
-  }
+
   div.footer2 {
+    font: normal 100%/1 MaszynaAEG, sans-serif;
     position: fixed;
-    bottom: 0.1cm;
+    bottom: 0.75cm;
     left: 5cm;
     right: 2cm;
     text-align: center;
-    font-family: sans-serif;
   }
   div.footer1 {
+    font: normal 150%/1 MaszynaAEG, sans-serif;
     position: fixed;
-    bottom: 0.1cm;
-    left: 2cm;
-    right: 2cm;
-    font-family: sans-serif;
+    width: 5cm;
+    text-align: center;
+    top: 9cm;
+    left: 0cm;
   }
-  #DIPowered {
-    border: 0px solid ;
+
+  #ZJFlogo {
+    font: bold 200%/1 MaszynaAEG, sans-serif;
+    color: #E3DFBA;
     position: absolute;
-    right: 5px;
-    bottom: 0px;
+    width: 5cm;
+    text-align: center;
+    left: 0cm;  
+    top: 0cm;
   }
+  #WBlogo {
+    font: bold 100%/1.5 MaszynaAEG, sans-serif;
+    color: #E3DFBA;
+    position: absolute;
+    width: 5cm;
+    text-align: center;
+    left: 0cm;
+    bottom: 2cm;
+  }
+
   .__FSstep { color: red; }
+
+  .slidecontent li {
+    margin-bottom: 0.25em;
+    list-style-type: none;
+  }
 }

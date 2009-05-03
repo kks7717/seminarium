@@ -10,7 +10,7 @@ module Seminarium
       erb :main
     end
     get '/:title' do
-      erb :"#{params[:title]}"
+      erb :"#{params[:title]}", :layout => :layout
     end
     
     get '/testing/projection' do 
