@@ -1,4 +1,4 @@
-<div class="slide"><h4>Modułowe aplikacje WWW</h4>
+<div class="slide"><h4 class="title">Modułowe aplikacje WWW</h4>
   <div class="slidecontent">
     <p>Co składa się na aplikację WWW?</p>
     <ul>
@@ -19,14 +19,14 @@
     <p><a href="http://chneukirchen.org/blog/">Christian Neukirchen</a>, 
        <i>Rack: a Ruby Webserver Interface</i></p>
 
-    <p class="quote">
-      Dabbling in my own web framework experiments, I noticed that
+    <blockquote>
+      <p>Dabbling in my own web framework experiments, I noticed that
       there is a lot of code duplication among frameworks since they
       essentially all do the same things. And still, every Ruby web
       framework developer is writing his own handlers for every
       webserver he wants to use. Hopefully, the framework users are
-      satisfied with that choice.
-    </p>
+      satisfied with that choice.</p>
+    </blockquote>
 
     <p class="def">
       Informally, a <b>Rack application</b>
@@ -117,7 +117,7 @@ Rack::Handler::Thin.run HelloWorld.new, :Port => 9292
   </div>
 </div>
 
-<div class="slide"><h4>Flitry, czyli Rack Middleware</h4>
+<div class="slide"><h4>Filtry, czyli Rack Middleware</h4>
   <div class="slidecontent">
     <p class="quote">
       Between the server and the framework, Rack can be customized to your
@@ -134,7 +134,7 @@ Rack::Handler::Thin.run HelloWorld.new, :Port => 9292
   </div>
 </div>
 
-<div class="slide"><h4>Flitry, czyli Rack Middleware</h4>
+<div class="slide"><h4>Filtry, czyli Rack Middleware</h4>
   <div class="slidecontent">
     <p>Rack to stojak. Middleware tak umieszczamy w stojaku</p>
     <p>Rysunek stojaka z wstawionym middleware: 
@@ -201,12 +201,6 @@ def
   <div class="slidecontent">
     <p>What: rekurencja, przykłady + rysunek</p>
 <pre><code>:::ruby
-sqrt2 = Proc.new {|env| [200, {"Content-Type" => "text/text"}, ["1.4142135623..."]]}
-pi = Proc.new {|env| [200, {"Content-Type" => "text/text"}, ["3.1415926535..."]]}
-e = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["2.7182818284..."]]}
-gamma = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["0.5772156649..."]]}
-phi = Proc.new {|env| [200, {"Content-Type" => "text/text"},  ["1.6180339887..."]]}
-inspector = Proc.new {|env| [200, {"Content-Type" => "text/html"}, env.inspect]}
 </code></pre>
   </div>
 </div>
@@ -229,6 +223,16 @@ def
   </div>
 </div>
 
+<div class="slide"><h4>TODO</h4>
+  <div class="slidecontent">
+    <p>What :</p>
+<pre><code>:::ruby
+def
+</code></pre>
+  </div>
+</div>
+
+
 <div class="slide"><h4>Modułowe aplikacje Rails 3</h4>
   <div class="slidecontent">
     <p>
@@ -236,24 +240,15 @@ def
       <a href="http://en.oreilly.com/rails2009/public/schedule/detail/7785">The 
       Russian Doll Pattern: Mountable apps in Rails 3</a>
     </p>
-    <p>
-      One of the hottest new features in Rails 3 is the ability to
+    <blockquote cite="http://en.oreilly.com/rails2009/public/schedule/detail/7785">
+      <p>One of the hottest new features in Rails 3 is the ability to
       embed a Rails application in another Rails application. This
       allows the development of components that range from user
       authentication to a fully featured forum. These components can
       then be distributed as gems and fully integrated with another
       application. In fact, user private messaging could be a stand
       alone app, which is then mounted into a forum app, and finally
-      mounted into your own custom app.
-    </p>
-  </div>
-</div>
-
-<div class="slide"><h4>TODO</h4>
-  <div class="slidecontent">
-    <p>What :</p>
-<pre><code>:::ruby
-def
-</code></pre>
+      mounted into your own custom app.</p>
+    </blockquote>
   </div>
 </div>

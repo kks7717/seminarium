@@ -8,6 +8,11 @@ h4 {
   color: #54310E;
 }
 
+h4.title {
+  color: #A00;
+  font-size: 150%;
+}
+
 .new::before {
   content: "NEW";
   background-color: yellow;
@@ -17,4 +22,24 @@ h4 {
   border: red solid thin;
   padding: 2px;
   -moz-border-radius: 5px;
+}
+
+blockquote {
+  background: url(/images/openquote.gif) #FFFFFF 0.25em 0.25em no-repeat;
+  color: #A00;
+  font: italic 1em/1.5 Tahoma, Arial, Helvetica, sans-serif;
+  padding: 0.5em 2em;
+  border: 2px solid #A00;
+  margin: 1em 2em;
+  border-top: thin inset;
+  border-left: thin inset;
+  border-bottom: thin inset;
+  -moz-border-radius: 11px;
+}
+
+.slidecontent a {
+  text-decoration: none;
+  color: #666;
+  margin-bottom: 0.5em;
+  border-bottom: 2px dotted #666;
 }
