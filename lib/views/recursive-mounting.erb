@@ -36,14 +36,15 @@
       <b>status</b>, <b>headers</b> and a <b>body</b>.
     </p>
 
-    <p>Od teraz przyjmiemy, że: aplikacja Rack == aplikacja WWW</p> 
+    <p><b>definicja:</b> aplikacja WWW, to  aplikacja Rack</p> 
   </div>
 </div>
 
-<div class="slide"><h4>Funkcja aplikacją WWW</h4>
+<div class="slide"><h4>Funkcja aplikacją Rack</h4>
   <div class="slidecontent">
 <pre><code>:::ruby
-app = lambda do |env|
+# app.rb
+App = lambda do |env|
   [
    200,                                             # status
    {"Content-Type" => "text/html; charset=utf-8"},  # headers
@@ -51,36 +52,138 @@ app = lambda do |env|
   ]
 end
 </code></pre>
-<p>Aplikację tę uruchamiamy tak:</p>
+<p>Aplikację tę uruchamiamy korzystając z programu <code>rackup</code>:</p>
+<pre><code>rackup -s thin -p 9292 app.rb
+</code></pre>
+<p>Aplikacja się uruchomi, ponieważ program <code>rackup</code> 
+   uruchamia aplikację o takiej samej nazwie jak nazwa pliku
+   (bez rozszerzenia) podanego w linii poleceń.</p>
+  </div>
+</div>
+
+<div class="slide"><h4>...kontynuuuuuuuuacja poprzedniego slajdu</h4>
+  <div class="slidecontent">
+<p>Albo w nowym pliku wpisujemy:</p>
 <pre><code>:::ruby
-Rack::Handler::Thin.run app, :Port => 9292
+# appx.rb
+require 'rubygems'
+require 'rack'
+require 'app'
+Rack::Handler::Thin.run App, :Port => 9292
+</code></pre>
+<p>i teraz tę aplikację uruchamiamy po prostu tak:</p>
+<pre><code>ruby appx.rb
 </code></pre>
   </div>
 </div>
 
-<div class="slide"><h4>Instancja klasy aplikacją WWW</h4>
+<div class="slide"><h4>Instancja klasy aplikacją Rack</h4>
   <div class="slidecontent">
 <pre><code>:::ruby
+# helloworld.rb
 class HelloWorld
   def call(env)
-    [200, {"Content-Type" => "text/html"}, ["Hello Rack!"]]
+    [200, {"Content-Type" => "text/html"}, ["hello world"]]
   end
 end
-app = HelloWorld.new
 </code></pre>
-<p>Aplikację tę uruchamiamy tak:</p>
+<p>Aplikację tę możemy uruchomić, tak jak poprzednio,
+   korzystając z programu <code>rackup</code>. 
+   Ale teraz musimy utworzyć nowy plik:</p>
 <pre><code>:::ruby
-Rack::Handler::Thin.run app, :Port => 9292
+# helloworld_app.ru
+require 'helloworld'
+run HelloWorld.new
+</code></pre>
+<p>i aplikację tę odpalamy tak:</p>
+<pre><code>rackup -s thin -p 9292 app.rb
 </code></pre>
   </div>
 </div>
 
-<div class="slide"><h4>Flitry, czyli Middleware</h4>
+<div class="slide"><h4>...kontynuuuuuuuuacja poprzedniego slajdu</h4>
   <div class="slidecontent">
-    <p>What: przykłady + rysunek</p>
-    <p>What: use Rack::CommonLogger, Rack::ContentLength, Rack::Lint</p>
+<p>Albo tworzymy nowy plik:</p>
 <pre><code>:::ruby
-def
+# helloworld_app.rb
+require 'rubygems'
+require 'rack'
+require 'helloworld'
+Rack::Handler::Thin.run HelloWorld.new, :Port => 9292
+</code></pre>
+<p>i teraz aplikację odpalamy tak po prostu:</p>
+<pre><code>ruby app.rb
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Flitry, czyli Rack Middleware</h4>
+  <div class="slidecontent">
+    <p class="quote">
+      Between the server and the framework, Rack can be customized to your
+      applications needs using middleware, for example:
+    </p>
+    <ul>
+      <li>Rack::URLMap, to route to multiple applications inside the same process.</li>
+      <li>Rack::CommonLogger, for creating Apache-style logfiles.</li>
+      <li>Rack::ShowException, for catching unhandled exceptions and
+          presenting them in a nice and helpful way with clickable backtrace.</li>
+      <li>Rack::File, for serving static files.</li>
+      <li>...many others!</li>
+    </ul>
+  </div>
+</div>
+
+<div class="slide"><h4>Flitry, czyli Rack Middleware</h4>
+  <div class="slidecontent">
+    <p>Rack to stojak. Middleware tak umieszczamy w stojaku</p>
+    <p>Rysunek stojaka z wstawionym middleware: 
+       App, Rack::CommonLogger, Rack::Lint, Rack::ShowException</p>
+    <p>Middleware łączymy z aplikacją HelloWorld
+       korzystając z Rack::Builder</p>
+  </div>
+</div>
+
+<div class="slide"><h4>Rack::Builder: składamy middleware z aplikacją</h4>
+  <div class="slidecontent">
+    <p>Kod, nazwa pliku</p>
+<pre><code>:::ruby
+# rapp.rb
+require 'helloworld'
+Rapp = Rack::Builder.new do
+  use Rack::ShowException
+  use Rack::Lint
+  run HelloWorld
+end
+</code></pre>
+<p>uruchamiamy toto tak:</p>
+<pre><code>rackup rapp.rb
+</code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Aplikacje Rack: Pi, Euler, Sqrt2, Phi</h4>
+  <div class="slidecontent">
+<pre><code>:::ruby
+require 'rack/request'
+require 'rack/response'
+require 'bigdecimal'
+require 'bigdecimal/math'
+include BigMath
+module Rack
+  class Pi
+    def call(env)
+      req = Request.new(env)
+      prec = req.GET["prec"].to_i
+      res = Response.new
+      res.write "&lt;title>PI&lt;/title>"
+      res.write "&lt;p>"
+      res.write PI(prec + 1).to_s("10F")
+      res.write "&lt;/p>"
+      res.finish
+    end
+  end
+end
 </code></pre>
   </div>
 </div>
@@ -117,12 +220,32 @@ def
   </div>
 </div>
 
-<div class="slide"><h4>Sinatra/Base</h4>
+<div class="slide"><h4>Modułowe aplikacje Sinatry</h4>
   <div class="slidecontent">
     <p>What :</p>
 <pre><code>:::ruby
 def
 </code></pre>
+  </div>
+</div>
+
+<div class="slide"><h4>Modułowe aplikacje Rails 3</h4>
+  <div class="slidecontent">
+    <p>
+      Yehuda Katz, 
+      <a href="http://en.oreilly.com/rails2009/public/schedule/detail/7785">The 
+      Russian Doll Pattern: Mountable apps in Rails 3</a>
+    </p>
+    <p>
+      One of the hottest new features in Rails 3 is the ability to
+      embed a Rails application in another Rails application. This
+      allows the development of components that range from user
+      authentication to a fully featured forum. These components can
+      then be distributed as gems and fully integrated with another
+      application. In fact, user private messaging could be a stand
+      alone app, which is then mounted into a forum app, and finally
+      mounted into your own custom app.
+    </p>
   </div>
 </div>
 

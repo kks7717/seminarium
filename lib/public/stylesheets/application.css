@@ -1,0 +1,20 @@
+body {
+  font: normal 16px/1.5 Tahoma, Arial, Helvetica, sans-serif;
+  margin: 1em 10em;
+  padding: 1em 2em;
+}
+
+h4 {
+  color: #54310E;
+}
+
+.new::before {
+  content: "NEW";
+  background-color: yellow;
+  color: red;
+  margin-right: 5px;
+  font-size: x-small;
+  border: red solid thin;
+  padding: 2px;
+  -moz-border-radius: 5px;
+}
