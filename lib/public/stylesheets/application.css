@@ -54,3 +54,7 @@ div.rect {
   padding: 4px 6px;
   color: white;
 }
+
+i b {
+  color: #c00;
+}

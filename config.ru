@@ -4,7 +4,7 @@ $LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
 
 require 'seminarium'
 require 'coderay'
-require 'sinatra-middleware--codehighlighter'
+require 'codehighlighter-middleware'
 
 #FileUtils.mkdir_p 'log' unless File.exists?('log')
 #log = File.new("log/sinatra.log", "a")
