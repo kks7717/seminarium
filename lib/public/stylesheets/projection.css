@@ -1,6 +1,7 @@
 @media projection {
+
   body {
-    font: normal 18px/1.5 Tahoma, sans-serif;
+    font: normal 16px/1.5 Tahoma, sans-serif;
     background-color: #3D444A;
   }
   div.slide {
@@ -93,4 +94,22 @@
     margin-bottom: 0.25em;
     list-style-type: none;
   }
+
+  div.rect {
+    float: left;
+    margin: 6px;
+    width: 100px;
+    height: 100px;
+    font-family: Airmole Stripe, serif;
+    font-size: 300%;
+    font-weight: normal;
+    color: #ddd;
+    border: 2px solid black;
+    text-align: center;
+}
+
+  div.center p {
+    text-align: center;
+  }
+
 }

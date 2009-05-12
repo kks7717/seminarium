@@ -46,3 +46,11 @@ blockquote {
   margin-bottom: 0.5em;
   border-bottom: 2px dotted #666;
 }
+
+div.rect {
+  font-family: Airmole Stripe, serif;
+  font-size: 200%;
+  display: inline;
+  padding: 4px 6px;
+  color: white;
+}

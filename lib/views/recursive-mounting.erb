@@ -1,6 +1,14 @@
-<div class="slide"><h4 class="title">Modułowe aplikacje WWW</h4>
+<div class="slide"><!--<h4 class="title">Modułowe aplikacje WWW</h4>-->
   <div class="slidecontent">
-    <p>Co składa się na aplikację WWW?</p>
+    <% ["M", "O", "D", "U", "Ł", "O", "W", "E", " ", "A", "P", "L", "I", "K", "A", "C", "J", "E", " ", "W", "W", "W", " ", " "].each do |c| %>
+      <div class="rect" style="background-color: <%= sprintf("#%.6x;", rand(0xffffff)) %>"><%= c %></div>
+    <% end %>
+  </div>
+</div>
+
+
+<div class="slide"><h4>Z czego składa się aplikacja WWW?</h4>
+  <div class="slidecontent">
     <ul>
       <li>Obsługa różnych typów szablonów</li>
       <li>Biblioteka metod pomocniczych</li>
