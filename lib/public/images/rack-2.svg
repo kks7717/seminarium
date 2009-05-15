@@ -15,7 +15,7 @@
    inkscape:version="0.46"
    sodipodi:docname="rack-2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/wbzyl/public_git/forks/seminarium/lib/public/images/rack-1.png"
+   inkscape:export-filename="/home/wbzyl/public_git/projects/seminarium/lib/public/images/rack-2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -99,6 +99,14 @@
          stdDeviation="4.3103448"
          id="feGaussianBlur15395" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4078">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.8013796"
+         id="feGaussianBlur4080" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -145,10 +153,15 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.18971872;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 40.635452,150 C 699.33113,150 699.33113,150 699.33113,150 L 699.33113,424.82032 L 40.635452,424.82032"
-       id="path11949" />
+    <g
+       id="g3380"
+       transform="translate(-11.78681,0)"
+       style="filter:url(#filter4078)">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.06599998;stroke-linecap:butt;stroke-linejoin:round;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 91.78681,60.073976 C 780,60.073976 780,60.073976 780,60.073976 L 780,460 L 91.78681,460"
+         id="path3330" />
+    </g>
     <g
        id="g3718"
        transform="matrix(0.7110556,0,0,1.5522849,212.7008,-151.95971)"
@@ -256,23 +269,23 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="40"
-       y="108.02676"
+       x="80"
+       y="120"
        id="text15127"><tspan
          sodipodi:role="line"
          id="tspan15129"
-         x="40"
-         y="108.02676">żądanie HTTP</tspan></text>
+         x="80"
+         y="120">żądanie HTTP</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
        x="40"
-       y="389.29767"
+       y="420"
        id="text15131"><tspan
          sodipodi:role="line"
          id="tspan15133"
          x="40"
-         y="389.29767">odpowiedź HTTP</tspan></text>
+         y="420">odpowiedź HTTP</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
@@ -284,7 +297,8 @@
          x="88.294312"
          y="531.77258" /></text>
     <g
-       id="g15425">
+       id="g15425"
+       transform="translate(-2.0066889,0)">
       <g
          transform="translate(539.71572,-79.013378)"
          id="g15397">
@@ -320,7 +334,7 @@
     </g>
     <g
        id="g15432"
-       transform="translate(0,82.943144)">
+       transform="translate(-2.0066889,82.943144)">
       <g
          id="g15434"
          transform="translate(539.71572,-79.013378)">
@@ -355,7 +369,7 @@
            y="153.28056">App</tspan></text>
     </g>
     <g
-       transform="translate(0,276.92308)"
+       transform="translate(-2.0066889,278.92308)"
        id="g15444">
       <g
          transform="translate(539.71572,-79.013378)"
@@ -389,6 +403,17 @@
            x="671.89148"
            id="tspan15454"
            sodipodi:role="line">App</tspan></text>
+    </g>
+    <g
+       id="g4082">
+      <g
+         id="g3525"
+         transform="translate(-11.78681,-7.3976e-2)">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.06599998;stroke-linecap:butt;stroke-linejoin:round;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 91.78681,60.073976 C 780,60.073976 780,60.073976 780,60.073976 L 780,460 L 91.78681,460"
+           id="path3527" />
+      </g>
     </g>
   </g>
 </svg>

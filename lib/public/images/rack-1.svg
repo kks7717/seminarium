@@ -87,6 +87,14 @@
          stdDeviation="5.5753427"
          id="feGaussianBlur3716" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3376">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.8013796"
+         id="feGaussianBlur3378" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -96,8 +104,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.79833333"
-     inkscape:cx="400"
-     inkscape:cy="249.89562"
+     inkscape:cx="406.47839"
+     inkscape:cy="350.10439"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="true"
@@ -130,8 +138,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.18971872;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 41.30432,150 C 700,150 700,150 700,150 L 700,424.82032 L 41.30432,424.82032"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.06599999999999984;stroke-linecap:butt;stroke-linejoin:round;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3376)"
+       d="M 91.826389,60.416354 C 780.03958,60.416354 780.03958,60.416354 780.03958,60.416354 L 780.03958,460.34238 L 91.826389,460.34238"
        id="path11949" />
     <g
        id="g3718"
@@ -178,7 +186,10 @@
     <g
        id="g3728"
        transform="matrix(0.7110556,0,0,1.5522849,333.58026,-151.95971)"
-       style="opacity:0.90988375;fill:#aa4400;fill-opacity:1">
+       style="opacity:0.90988375;fill:#aa4400;fill-opacity:1"
+       inkscape:export-filename="/home/wbzyl/public_git/projects/seminarium/lib/public/images/rack-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          y="161.66667"
          x="120"
@@ -240,23 +251,23 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="40"
-       y="111.97324"
+       x="80"
+       y="120"
        id="text15127"><tspan
          sodipodi:role="line"
          id="tspan15129"
-         x="40"
-         y="111.97324">żądanie HTTP</tspan></text>
+         x="80"
+         y="120">żądanie HTTP</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
        x="40"
-       y="380"
+       y="420"
        id="text15131"><tspan
          sodipodi:role="line"
          id="tspan15133"
          x="40"
-         y="380">odpowiedź HTTP</tspan></text>
+         y="420">odpowiedź HTTP</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
@@ -307,5 +318,12 @@
          id="tspan2437"
          x="288.89352"
          y="320">Rack::CommonLogger</tspan></text>
+    <g
+       id="g3380">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.06599998;stroke-linecap:butt;stroke-linejoin:round;marker-start:url(#Arrow2Mend);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 91.78681,60.073976 C 780,60.073976 780,60.073976 780,60.073976 L 780,460 L 91.78681,460"
+         id="path3330" />
+    </g>
   </g>
 </svg>

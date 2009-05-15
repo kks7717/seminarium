@@ -10,7 +10,7 @@ task :default => :install
 
 spec = Gem::Specification.new do |s|
   s.name         = "seminarium"
-  s.version      = "0.0.6"
+  s.version      = "0.0.8"
   s.author       = "Wlodek Bzyl"
   s.email        = "matwb" + "@" + "univ.gda.pl"
   s.homepage     = "http://github.com/wbzyl/seminarium"
@@ -27,7 +27,7 @@ That's all.
   s.rubyforge_project = 'seminarium'
   
   s.has_rdoc     = true
-  s.extra_rdoc_files = ['README.markdown', 'TODO']
+  s.extra_rdoc_files = ['README.markdown', 'TODO', 'config.rb', 'config.ru']
 end
 
 Rake::GemPackageTask.new(spec) do |package|

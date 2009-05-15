@@ -171,17 +171,17 @@ app = Rack::CommonLogger.new(app)
 <div class="slidecontent">
 
 <pre><code>:::ruby
-# rapp.rb
+# rapp.ru
 require 'helloworld'
 
 Rapp = Rack::Builder.new do
-  use Rack::ShowException
+  use Rack::CommonLogger
   use Rack::Lint
   run HelloWorld
 end
 </code></pre>
 <p>Aplikację <i>rapp.rb</i> uruchamiamy tak:</p>
-<pre><code>rackup rapp.rb
+<pre><code>rackup rapp.ru
 </code></pre>
 <p>Polecenie <code>rackup</code> doda za nas wiersz z <i>Rack::Handler</i>
    oraz bibliotekę <i>rubygems</i> i <i>rack</i>.</p>

@@ -1,11 +1,12 @@
-require 'rubygems'
-require 'rack'
-
-require 'seminarium/referaty.rb'
+require 'seminarium/referaty'
 
 module Seminarium
   class Referaty < Sinatra::Base
+    # disable overriding public and views dirs
     set :app_file, __FILE__
+    set :static, true  
+    
+    set :logging, true
     
     #STDERR.puts "app   file: #{app_file}"  
     #STDERR.puts "app   root: #{root}"
