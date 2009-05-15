@@ -2,12 +2,12 @@ require 'seminarium/referaty'
 
 module Seminarium
   class Referaty < Sinatra::Base
+    set :logging, true
+    
     # disable overriding public and views dirs
     set :app_file, __FILE__
     set :static, true  
-    
-    set :logging, true
-    
+   
     #STDERR.puts "app   file: #{app_file}"  
     #STDERR.puts "app   root: #{root}"
     #STDERR.puts "app public: #{public}"

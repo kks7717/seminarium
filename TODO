@@ -3,3 +3,6 @@
   Convert to helper method:
 
      "<b>PATH_INFO:</b> #{env['PATH_INFO']}<br /><b>SCRIPT_NAME:</b> #{env['SCRIPT_NAME']}"
+
+[2009-05-15]
+  Dodać do rack-math przykład z Rack::Static (np. mój przykład z Tatrami Zachodnimi)

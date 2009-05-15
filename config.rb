@@ -1,4 +1,4 @@
-#$LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
+$LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
 
 require 'seminarium'
 require 'coderay'
@@ -10,7 +10,7 @@ require 'codehighlighter-middleware'
 #STDERR.reopen(log)
 
 SeminariumReferaty = Rack::Builder.new do
-  #use Rack::Lint
+  use Rack::Lint
   use Rack::ContentLength
   use Rack::Codehighlighter, :coderay
   

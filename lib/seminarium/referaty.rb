@@ -9,6 +9,7 @@ module Seminarium
     get '/' do
       erb :main
     end
+    
     get '/:title' do
       erb :"#{params[:title]}", :layout => :layout
     end

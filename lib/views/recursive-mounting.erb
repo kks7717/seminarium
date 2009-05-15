@@ -235,11 +235,10 @@ end
 <div class="slide"><h4>...kontynuuuuacja poprzedniego slajdu</h4>
 <div class="slidecontent">
 
-<p>Włączamy jeszcze jedną aplikację z gemu *rack*: 
+<p>Włączamy jeszcze jedną aplikację z gemu <i>Rack</i>: 
 <pre><code>:::ruby
 # app4.rb
-require 'rack/lobster'
-require 'app3'
+require 'rack/lobster' ; require 'app3'
 App4 = Rack::Builder.new do
   map '/math' do
     run App3
@@ -250,7 +249,7 @@ App4 = Rack::Builder.new do
 end
 </code></pre>
 
-<p>Uruchamiamy aplikację *app4.ru*:
+<p>Uruchamiamy aplikację <i>app4.ru</i>:
 <pre><code>:::ruby
 require 'app4'
 use Rack::CommonLogger
@@ -290,14 +289,10 @@ end
 <div class="slide"><h4>...kontunuuuuacja poprzedniego slajdu</h4>
 <div class="slidecontent">
 
-<p>Dodamy do tej aplikacji homara i uruchomimy ją 
-via pomocniczy pliczek dla programu rackup.</p>
+<p>Poniższą aplikację urozmaicimy homarem:</p>
 <pre><code>:::ruby
-# app5.ru
-require 'sinatra/base'
-require 'sinatra-math'
-require 'rack/lobster'
-
+# app5.rb
+require 'sinatra/base' ; require 'sinatra-math' ; require 'rack/lobster'
 SinatraApp5 = Rack::Builder.new do
   map '/' do 
     run Sinatra::Pi.new
@@ -306,7 +301,11 @@ SinatraApp5 = Rack::Builder.new do
     run Rack::Lobster.new
   end
 end
-
+</code></pre>
+<p>i uruchomimy ją korzystając via prosty plik:</p>
+<pre><code>:::ruby
+# app5.ru
+require 'app5'
 run SinatraApp5
 </code></pre>
 
@@ -362,7 +361,7 @@ run SinatraApp5
 </div>
 </div>
 
-<div class="slide"><h4>...more Railsconf 2009 Recap</h4>
+<div class="slide"><h4>...more Railsconf 2008</h4>
 <div class="slidecontent">
 
     <blockquote>
