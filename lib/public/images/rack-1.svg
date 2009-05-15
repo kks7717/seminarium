@@ -95,9 +95,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7475"
+     inkscape:zoom="0.79833333"
      inkscape:cx="400"
-     inkscape:cy="282.91904"
+     inkscape:cy="249.89562"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="true"
@@ -267,5 +267,45 @@
          id="tspan15137"
          x="88.294312"
          y="531.77258" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2b0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+       x="520"
+       y="240"
+       id="text2423"><tspan
+         sodipodi:role="line"
+         id="tspan2425"
+         x="520"
+         y="240">Rack::Lint</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffd42a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+       x="580"
+       y="200"
+       id="text2427"><tspan
+         sodipodi:role="line"
+         id="tspan2429"
+         x="580"
+         y="200">MyRackApp.new</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+       x="400"
+       y="280"
+       id="text2431"><tspan
+         sodipodi:role="line"
+         id="tspan2433"
+         x="400"
+         y="280">Rack::ShowExceptions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+       x="288.89352"
+       y="320"
+       id="text2435"><tspan
+         sodipodi:role="line"
+         id="tspan2437"
+         x="288.89352"
+         y="320">Rack::CommonLogger</tspan></text>
   </g>
 </svg>

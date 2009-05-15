@@ -17,7 +17,7 @@
       <li>Obsługa pamięci podręcznej HTTP (etag, last-modified)</li>
       <li>Moduł i10n</li>
       <li>...</li>
-      <li>...i najważniejsza część...</li>
+      <li>...</li>
     </ul>
   </div>
 </div>
@@ -44,7 +44,8 @@
       <b>status</b>, <b>headers</b> and a <b>body</b>.
     </p>
 
-    <p><b>Definicja:</b> aplikacja WWW, to  aplikacja Rack</p> 
+    <p>Artykuł Christiana Neukirchena z opisem implementacji powyższej specyfikacji:  
+       <i><a href="/doc/neukirchen07introducingrack.pdf">Introducing Rack</a></i>.</p> 
   </div>
 </div>
 
@@ -104,7 +105,7 @@ run HelloWorld.new
     </p>
     <ul>
       <li><b>Rack::CommonLogger</b>, for creating Apache-style logfiles.</li>
-      <li><b>Rack::ShowException</b>, for catching unhandled exceptions and
+      <li><b>Rack::ShowExceptions</b>, for catching unhandled exceptions and
           presenting them in a nice and helpful way with clickable backtrace.</li>
       <li><b>Rack::File</b>, for serving static files.</li>
       <li><b>Rack::Static</b> intercepts requests for static
@@ -121,6 +122,31 @@ run HelloWorld.new
     <img src="/images/rack-1.png" alt="rack: middleware | apps">
   </div>
 </div>
+
+
+<div class="slide"><h4>Aplikacja middleware, to filtr</h4>
+  <div class="slidecontent">
+
+<p>Aplikacje składamy tak, jak składamy funkcje:</p>
+
+<pre><code>:::ruby
+app = Rack::CommonLogger.new(                  
+        Rack::ShowExceptions.new(              
+          Rack::Lint.new(MyRackApp.new)))
+</pre></code>
+
+<p>Albo tak:</p>
+
+<pre><code>:::ruby
+app = MyRackApp.new
+app = Rack::Lint.new(app)
+app = Rack::ShowExceptions.new(app)
+app = Rack::CommonLogger.new(app)
+</pre></code>
+
+</div>
+</div>
+
 
 <div class="slide"><h4>...więcej middleware</h4>
   <div class="slidecontent">
@@ -194,9 +220,6 @@ end
 # app3.rb
 require 'rack-math' # gem z aplikacjami Rack:Euler, Rack:Pi...
 App3 = Rack::Builder.new do
-  use Rack::ShowExceptions
-  use Rack::Lint
-  use Rack::CommonLogger
   map '/euler' do
     run Rack::Euler.new
   end
@@ -230,6 +253,7 @@ end
 <p>Uruchamiamy aplikację *app4.ru*:
 <pre><code>:::ruby
 require 'app4'
+use Rack::CommonLogger
 run App4
 </code></pre>
 
@@ -313,13 +337,10 @@ run SinatraApp5
 </div>
 
 
-<div class="slide"><h4>Prawa Murphy’ego</h4>
+<div class="slide"><h4>Prawa Murphy’ego (1918–1990)</h4>
 <div class="slidecontent">
     <blockquote>
-      <p>Każde rozwiązanie ujawnia nowe problemy.</p>
-    </blockquote>
-
-    <blockquote>
+      <img src="/images/emurphy.gif" alt="E. A. Murphy">
       <p>Nic nie jest tak łatwe, jak wygląda.</p>
     </blockquote>
 </div>
@@ -343,6 +364,12 @@ run SinatraApp5
 
 <div class="slide"><h4>...more Railsconf 2009 Recap</h4>
 <div class="slidecontent">
+
+    <blockquote>
+      <p>Każde rozwiązanie ujawnia nowe problemy.</p>
+      <p class="author">— Edward A. Murphy</p>
+    </blockquote>
+
     <blockquote cite="http://blog.zerosum.org/?q=node/66">
       <p>[mountable app slices] are a challenging problem, and there
       are a lot of issues in terms of sharing application state,
@@ -353,6 +380,7 @@ run SinatraApp5
       engines approach (if the latter case prevails, the Radiant
       extensions system has some stuff we can learn from).</p>
     </blockquote>
+
 </div>
 </div>
 

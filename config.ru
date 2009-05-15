@@ -13,7 +13,7 @@ require 'codehighlighter-middleware'
 
 SeminariumReferaty = Rack::Builder.new do
   use Rack::Static,
-    :urls => ["/stylesheets", "/javascripts", "/images", "/favicon.ico"],
+    :urls => ["/doc", "/stylesheets", "/javascripts", "/images", "/favicon.ico"],
     :root => "lib/public"
 
   use Rack::Lint
