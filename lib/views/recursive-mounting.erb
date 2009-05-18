@@ -1,28 +1,31 @@
 <div class="slide"><!--<h4 class="title">Modułowe aplikacje WWW</h4>-->
   <div class="slidecontent">
-    <% ["M", "O", "D", "U", "Ł", "O", "W", "E", " ", "A", "P", "L", "I", "K", "A", "C", "J", "E", " ", "W", "W", "W", " ", " ", " ", " ", " ", " "].each do |c| %>
+    <% "MODULARNE APLIKACJE WWW     ".each_char do |c| %>
       <div class="rect" style="background-color: <%= sprintf("#%.6x;", rand(0xffffff)) %>"><%= c %></div>
     <% end %>
   </div>
 </div>
 
-<div class="slide"><h4>Co składa się na aplikację WWW?</h4>
+<div class="slide"><h4>Jak budujemy modularne aplikacje WWW?</h4>
   <div class="slidecontent">
+    <p><img class="right" src="/images/rack-logo.png" alt="rack logo">
+      Zaczynamy od postawienia stałej konstrukcji nośnej: stojaka
+      (ang. <i>rack</i>). Następnie wstawiamy do stojaka 
+      wymienialne moduły, które zestawiamy według potrzeb, na przykład:
+    </p>
     <ul>
-      <li>Obsługa różnych typów szablonów</li>
-      <li>Biblioteka metod pomocniczych</li>
-      <li>Moduł obsługi błędów</li>
-      <li>...</li>
-      <li>Wbudowana obsługa baz danych</li>
-      <li>Obsługa pamięci podręcznej HTTP (etag, last-modified)</li>
-      <li>Moduł i10n</li>
-      <li>...</li>
-      <li>...</li>
+      <li>moduły do obsługi różnych typów szablonów: Erb, Markdown</li>
+      <li>moduł uaktywniający buforowanie HTTP:
+          freshness (Expires, Cache-Control), 
+          walidacja (Last-Modified, ETag)</li>
+      <li>moduły do obsługi baz danych: ActiveRecord, Datamapper</li>
+      <li>moduł i18n</li>
+      <li>...inne aplikacje modularne</li>
     </ul>
   </div>
 </div>
 
-<div class="slide"><h4>Co składa się na aplikację WWW?</h4>
+<div class="slide"><h4>Czym są moduły, które wstawiamy do stojaka?</h4>
   <div class="slidecontent">
     <p><a href="http://chneukirchen.org/blog/">Christian Neukirchen</a>, 
        <i>Rack: a Ruby Webserver Interface</i></p>
@@ -37,19 +40,21 @@
     </blockquote>
 
     <p class="def">
-      Informally, a <b>Rack application</b>
-      is <i><b>a thing</b></i> that responds to <b>#call</b>
-      and <b>takes a hash as argument<b>, 
-      returning an array of 
-      <b>status</b>, <b>headers</b> and a <b>body</b>.
+      Nieformalnie, <b>modułem/aplikacją Rack</b>
+      jest <i><b>obiekt</b></i> odpowiadający na wywołanie <b>#call</b>
+      z haszem jako jedynym argumentem i zwracającym tablicę 
+      trzech elementów: <b>status</b>, <b>headers</b> i <b>body</b>.
     </p>
 
+<!--
     <p>Artykuł Christiana Neukirchena z opisem implementacji powyższej specyfikacji:  
        <i><a href="/doc/neukirchen07introducingrack.pdf">Introducing Rack</a></i>.</p> 
-  </div>
+-->
+
+</div>
 </div>
 
-<div class="slide"><h4>Funkcja aplikacją Rack</h4>
+<div class="slide"><h4>Funkcja modułem Rack</h4>
 <div class="slidecontent">
 
 <pre><code>:::ruby
@@ -67,14 +72,16 @@ end
 
 Rack::Handler::Thin.run App, :Port => 9292
 </code></pre>
-<p>Tę aplikację uruchamiamy po prostu tak:</p>
+<p>
+  Tę aplikację uruchamiamy po prostu tak
+  (bez wstawiania do stojaka):</p>
 <pre><code>ruby app.rb
 </code></pre>
 
 </div>
 </div>
 
-<div class="slide"><h4>Instancja klasy aplikacją Rack</h4>
+<div class="slide"><h4>Instancja klasy modułem Rack</h4>
 <div class="slidecontent">
 
 <pre><code>:::ruby
@@ -85,19 +92,21 @@ class HelloWorld
   end
 end
 </code></pre>
-<p>Tę klasę/aplikację uruchamiamy tak:</p>
-<pre><code>rackup -s thin -p 9292 app2.ru 
-</code></pre>
-<p>gdzie w pliku <i>app2.ru</i> wpisujemy:</p>
+
+<p>Tę klasę wstawiamy do stojaka (jako jedyny moduł):</p>
 <pre><code>:::ruby
+# app2.ru
 require 'helloworld'
 run HelloWorld.new
 </code></pre>
+<p>i uruchamiamy wpisując w wierszu poleceń:</p>
+<pre><code>rackup -s thin -p 9292 app2.ru 
+</code></pre>
 
 </div>
 </div>
 
-<div class="slide"><h4>Rack Middleware czyli Filtry</h4>
+<div class="slide"><h4>Filtry, czyli Rack Middleware</h4>
   <div class="slidecontent">
     <p class="quote">
       Between the server and the framework, Rack can be customized to your
@@ -117,14 +126,14 @@ run HelloWorld.new
   </div>
 </div>
 
-<div class="slide"><h4>Aplikacja Rack z middleware</h4>
+<div class="slide"><h4>Aplikacja Rack z dołożonym Middleware</h4>
   <div class="slidecontent">
     <img src="/images/rack-1.png" alt="rack: middleware | apps">
   </div>
 </div>
 
 
-<div class="slide"><h4>Aplikacja middleware, to filtr</h4>
+<div class="slide"><h4>Jak składamy aplikacje modularne?</h4>
   <div class="slidecontent">
 
 <p>Aplikacje składamy tak, jak składamy funkcje:</p>
@@ -147,16 +156,17 @@ app = Rack::CommonLogger.new(app)
 </div>
 </div>
 
-
-<div class="slide"><h4>...więcej middleware</h4>
+<div class="slide"><h4>albo w postaci „kaskady”...</h4>
   <div class="slidecontent">
     <ul>
-      <li><b>Rack::URLMap</b>, to route to multiple applications inside the same process.</li>
       <li><b>Rack::Cascade</b>, tries an request on several apps, 
-          and returns the first response that is not 404 
-          (or in a list of configurable status codes).</li>
+        and returns the first response that is not 404 
+        (or in a list of configurable status codes)</li>
+      <li><i>Aplikację Rack zamieniamy na moduł za pomocą</i></li>
       <li><b>Rack::Builder</b> implements a small DSL to iteratively 
-          construct Rack applications.</li>
+        construct Rack applications oraz</li>
+      <li><b>Rack::URLMap</b>, to route to multiple applications 
+        inside the same process</li>
     </ul>
   </div>
 </div>
@@ -175,16 +185,21 @@ app = Rack::CommonLogger.new(app)
 require 'helloworld'
 
 Rapp = Rack::Builder.new do
-  use Rack::CommonLogger
   use Rack::Lint
-  run HelloWorld
+  run HelloWorld.new
 end
+
+use Rack::CommonLogger
+run Rapp
 </code></pre>
-<p>Aplikację <i>rapp.rb</i> uruchamiamy tak:</p>
+
+<p>Aplikację <i>rapp.ru</i> uruchamiamy tak:</p>
 <pre><code>rackup rapp.ru
 </code></pre>
-<p>Polecenie <code>rackup</code> doda za nas wiersz z <i>Rack::Handler</i>
-   oraz bibliotekę <i>rubygems</i> i <i>rack</i>.</p>
+<p>Polecenie <code>rackup</code> doda za nas wiersz 
+   z <i>Rack::Handler</i> oraz bibliotekę 
+   <i>rubygems</i> i <i>rack</i>.
+</p>
 
 </div>
 </div>
@@ -220,17 +235,27 @@ end
 # app3.rb
 require 'rack-math' # gem z aplikacjami Rack:Euler, Rack:Pi...
 App3 = Rack::Builder.new do
-  map '/euler' do
-    run Rack::Euler.new
-  end
   map '/pi' do
     run Rack::Pi.new
+  end
+  map '/euler' do
+    run Rack::Euler.new
   end
 end
 </code></pre>
 
+<p>Umieszczamy aplikację w stojaku, który uruchamiamy za pomocą 
+  <code>rackup</code>:
+</p>
+<pre><code>:::ruby
+# app3.ru
+require 'app3'
+run App3
+</code></pre>
+
 </div>
 </div>
+
 
 <div class="slide"><h4>...kontynuuuuacja poprzedniego slajdu</h4>
 <div class="slidecontent">

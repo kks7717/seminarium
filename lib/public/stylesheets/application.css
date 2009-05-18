@@ -58,3 +58,10 @@ div.rect {
 i b {
   color: #c00;
 }
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}

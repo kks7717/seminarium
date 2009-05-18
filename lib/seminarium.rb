@@ -1,3 +1,6 @@
+$KCODE = 'UTF8'
+require 'jcode'
+
 require 'seminarium/referaty'
 
 module Seminarium
