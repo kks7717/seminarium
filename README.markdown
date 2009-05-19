@@ -1,5 +1,6 @@
 # Seminarium
 
+ 
 ## Ruby
 
 * [Mr. Neighborly's Humble Little 
@@ -22,7 +23,10 @@
 
 1. Charset table dla 
    [języka polskiego](http://sphinxsearch.com/wiki/doku.php?id=charset_tables#polish)
+   \([plik konfiguracyjny](http://pastie.org/481846)\)
 2. [Sphinx reference manual](http://www.sphinxsearch.com/docs/current.html)
 3. [Ultrasphinx](http://github.com/fauna/ultrasphinx/),
    [maintaned fork](http://github.com/DrMark/ultrasphinx/) (plugin)
 4. [Thinking Sphinx](http://github.com/freelancing-god/thinking-sphinx/) (gem)
+5. [A Sphinx DataMapper adapter](http://github.com/shanna/dm-sphinx-adapter/).
+   Przykład w Sinatrze, Railsach z PostgreSQL
