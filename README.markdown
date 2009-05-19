@@ -11,13 +11,16 @@
 
 1. FullerScreen. Jak piszemy rozszerzenia do Firefoxa (Safari/iPhone)
    Aplikacja Rails/Sinatry zarządzająca pokazami slajdów.
-1. Sphinx / ThinkingSphinx dla Datamapper
+1. Sphinx / ThinkingSphinx dla Datamapper: już jest
+   Xapian dla Datamapper: nie ma?
 1. Gem ala ThinkingSphinx/Ultrasphinx dla search tak
    jak to jest zaimplementowane w PostgreSQL.
 1. Polski stemmer dla PostgreSQL / Sphinx / Xapian.
 1. Wczytywanie dużej liczby rekordów testowych do bazy danych.
    Gemy Faker i Populator -- polskie dane
 1. Rails 3 / Sinatra i CouchDB (couchrest).
+1. Dokumentowe bazy danych: CouchDB, gemy couchrest i dm-couchdb
+
 
 ## Linki
 
