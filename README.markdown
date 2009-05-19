@@ -33,3 +33,10 @@
 4. [Thinking Sphinx](http://github.com/freelancing-god/thinking-sphinx/) (gem)
 5. [A Sphinx DataMapper adapter](http://github.com/shanna/dm-sphinx-adapter/).
    Przykład w Sinatrze, Railsach z PostgreSQL
+
+
+## Sinatra Extensions
+
+1. Przygotować rozszerzenie dla *static assets* (tak jak w Rails): 
+   link, script, img. Skorzystać z rozszerzenia: sinatra-url-for.
+   Zobacz dokumentacja do *Passenger* (broken links).
