@@ -1,21 +1,14 @@
-require 'rubygems'
 require 'sinatra/base'
 require 'sinatra/rdiscount'
 
 module Seminarium
   class Referaty < Sinatra::Base
-    helpers Sinatra::RDiscount
-    
-    get '/' do
-      erb :main
+    get '/?' do
+      erb :"presentations-list", :layout => :layout
     end
-    
+
     get '/:title' do
-      erb :"#{params[:title]}", :layout => :layout
-    end
-    
-    get '/testing/projection' do 
-      erb :"projection-test", :layout => :projection
+      erb :"#{params[:title]}", :layout => :slides
     end
   end
 end

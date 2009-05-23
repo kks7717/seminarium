@@ -81,6 +81,36 @@ Rack::Handler::Thin.run App, :Port => 9292
 </div>
 </div>
 
+
+<div class="slide"><h4>Czym jest argument *env*?</h4>
+<div class="slidecontent">
+
+<p>Argument <i>env</i> jest haszem, wyglądającym mniej więcej tak:</p>
+
+<pre><code>:::ruby
+{
+  "HTTP_ACCEPT" => "*/*",
+  "HTTP_HOST" => "inf.univ.gda.pl",
+  "HTTP_PRAGMA" => "no-cache",
+  "HTTP_USER_AGENT" => "curl/7.12.2 ..."
+  "PATH_INFO" => "/",
+  "QUERY_STRING" => "",
+  "REMOTE_ADDR" => "127.0.0.1",
+  "REMOTE_HOST" => "127.0.0.1",
+  "REQUEST_METHOD" => "GET"
+  "REQUEST_PATH" => "/",
+  "REQUEST_URI" => "http://inf.univ.gda.pl/",
+  "SCRIPT_NAME" => "",
+  "SERVER_PORT" => "80",
+  "SERVER_PROTOCOL" => "HTTP/1.1",
+}
+</code></pre>
+
+</div>
+</div>
+
+
+
 <div class="slide"><h4>Instancja klasy modułem Rack</h4>
 <div class="slidecontent">
 
