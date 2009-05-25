@@ -28,7 +28,7 @@ h4.title {
 }
 
 blockquote {
-  background: url(/images/openquote.gif) #FFFFFF 0.25em 0.25em no-repeat;
+  background: url(src/openquote.gif) #FFFFFF 0.25em 0.25em no-repeat;
   color: #A00;
   font: italic 1em/1.5 Tahoma, Arial, Helvetica, sans-serif;
   padding: 0.5em 2em;

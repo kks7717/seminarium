@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{seminarium}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
-  s.date = %q{2009-05-19}
+  s.date = %q{2009-05-25}
   s.description = %q{Moje notatki, prezentacje itp.
 }
   s.email = %q{matwb@univ.gda.pl}
@@ -42,12 +42,14 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/prettify.css",
      "lib/public/stylesheets/projection.css",
      "lib/seminarium.rb",
+     "lib/seminarium/info.rb",
      "lib/seminarium/referaty.rb",
-     "lib/views/layout.erb",
-     "lib/views/main.erb",
-     "lib/views/projection-test.erb",
-     "lib/views/projection.erb",
-     "lib/views/recursive-mounting.erb"
+     "lib/views/index.rdiscount",
+     "lib/views/info.rdiscount",
+     "lib/views/modular-applications-www.erb",
+     "lib/views/presentations-list.erb",
+     "lib/views/slides.erb",
+     "lib/views/styl-naukowy.rdiscount"
   ]
   s.homepage = %q{http://github.com/wbzyl/seminarium}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -64,23 +66,23 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rack>, [">= 0"])
       s.add_runtime_dependency(%q<sinatra>, [">= 0"])
       s.add_runtime_dependency(%q<rdiscount>, [">= 0"])
-      s.add_runtime_dependency(%q<sinatra-rdiscount>, [">= 0"])
-      s.add_runtime_dependency(%q<codehighlighter-middleware>, [">= 0"])
+      s.add_runtime_dependency(%q<wbzyl-sinatra-rdiscount>, [">= 0"])
+      s.add_runtime_dependency(%q<wbzyl-codehighlighter-middleware>, [">= 0"])
       s.add_runtime_dependency(%q<coderay>, [">= 0"])
     else
       s.add_dependency(%q<rack>, [">= 0"])
       s.add_dependency(%q<sinatra>, [">= 0"])
       s.add_dependency(%q<rdiscount>, [">= 0"])
-      s.add_dependency(%q<sinatra-rdiscount>, [">= 0"])
-      s.add_dependency(%q<codehighlighter-middleware>, [">= 0"])
+      s.add_dependency(%q<wbzyl-sinatra-rdiscount>, [">= 0"])
+      s.add_dependency(%q<wbzyl-codehighlighter-middleware>, [">= 0"])
       s.add_dependency(%q<coderay>, [">= 0"])
     end
   else
     s.add_dependency(%q<rack>, [">= 0"])
     s.add_dependency(%q<sinatra>, [">= 0"])
     s.add_dependency(%q<rdiscount>, [">= 0"])
-    s.add_dependency(%q<sinatra-rdiscount>, [">= 0"])
-    s.add_dependency(%q<codehighlighter-middleware>, [">= 0"])
+    s.add_dependency(%q<wbzyl-sinatra-rdiscount>, [">= 0"])
+    s.add_dependency(%q<wbzyl-codehighlighter-middleware>, [">= 0"])
     s.add_dependency(%q<coderay>, [">= 0"])
   end
 end

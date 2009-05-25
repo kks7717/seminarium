@@ -8,7 +8,7 @@
 
 <div class="slide"><h4>Jak budujemy modularne aplikacje WWW?</h4>
   <div class="slidecontent">
-    <p><img class="right" src="/images/rack-logo.png" alt="rack logo">
+    <p><%= image_tag "/images/rack-logo.png", :class => "right", :alt => "rack logo" %>
       Zaczynamy od postawienia stałej konstrukcji nośnej: stojaka
       (ang. <i>rack</i>). Następnie wstawiamy do stojaka 
       wymienialne moduły, które zestawiamy według potrzeb, na przykład:
@@ -158,7 +158,7 @@ run HelloWorld.new
 
 <div class="slide"><h4>Aplikacja Rack z dołożonym Middleware</h4>
   <div class="slidecontent">
-    <img src="/images/rack-1.png" alt="rack: middleware | apps">
+    <%= image_tag "/images/rack-1.png", :alt => "rack: middleware | apps" %>
   </div>
 </div>
 
@@ -203,7 +203,7 @@ app = Rack::CommonLogger.new(app)
 
 <div class="slide"><h4>Iteracyjne składanie + kaskada aplikacji Rack</h4>
   <div class="slidecontent">
-    <img src="/images/rack-2.png" alt="rack: middleware | apps">
+    <%= image_tag "/images/rack-2.png", :alt => "rack: middleware | apps" %>
   </div>
 </div>
 

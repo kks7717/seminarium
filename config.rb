@@ -14,7 +14,7 @@ SeminariumReferaty = Rack::Builder.new do
   use Rack::ContentLength
   use Rack::Codehighlighter, :coderay
   
-  map '/?' do 
+  map '/info' do 
     run Seminarium::Info.new
   end
   

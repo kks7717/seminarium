@@ -7,7 +7,7 @@ begin
   Jeweler::Tasks.new do |s|
     s.name         = "seminarium"
     s.author       = "Wlodek Bzyl"
-    s.email        = "matwb" + "@" + "univ.gda.pl"
+    s.email        = "matwb@univ.gda.pl"
     s.homepage     = "http://github.com/wbzyl/seminarium"
   
     s.description = <<-EOF
@@ -20,8 +20,8 @@ Moje notatki, prezentacje itp.
     s.add_dependency 'rack' 
     s.add_dependency 'sinatra'
     s.add_dependency 'rdiscount'
-    s.add_dependency 'sinatra-rdiscount'
-    s.add_dependency 'codehighlighter-middleware'
+    s.add_dependency 'wbzyl-sinatra-rdiscount'
+    s.add_dependency 'wbzyl-codehighlighter-middleware'
     s.add_dependency 'coderay'
   
     s.rubyforge_project = 'seminarium'
@@ -38,11 +38,3 @@ Rake::TestTask.new(:test) do |t|
   t.pattern = 'test/**/*_test.rb'
   t.verbose = false
 end
-
-desc 'Install the package as a gem.'
-task :install => [:clean, :build] do
-  gem = Dir['pkg/*.gem'].last
-  sh "sudo gem install --no-rdoc --no-ri --local #{gem}"
-end
-
-task :default => :test
