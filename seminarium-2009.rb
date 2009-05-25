@@ -9,10 +9,14 @@ require 'codehighlighter-middleware'
 ##STDOUT.reopen(log)
 #STDERR.reopen(log)
 
-SeminariumReferaty = Rack::Builder.new do
+Seminarium2009 = Rack::Builder.new do
   use Rack::Lint
   use Rack::ContentLength
   use Rack::Codehighlighter, :coderay
+  
+  map '/' do 
+    run Seminarium::Info.new
+  end
   
   map '/info' do 
     run Seminarium::Info.new

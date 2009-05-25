@@ -14,7 +14,7 @@ module Seminarium
     set :app_file, __FILE__
     set :static, true  
     
-    set :logging, true
+    #set :logging, true
   end
 end
 
@@ -23,6 +23,6 @@ module Seminarium
     set :app_file, __FILE__
     set :static, true  
     
-    set :logging, true
+    #set :logging, true
   end
 end

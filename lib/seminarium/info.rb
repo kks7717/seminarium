@@ -7,6 +7,10 @@ module Seminarium
     
     helpers Sinatra::RDiscount
     
+    get '/' do
+      rdiscount :index, :layout => :info
+    end
+    
     get '/:title' do
       rdiscount :"#{params[:title]}", :layout => :info
     end
