@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{seminarium}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
@@ -41,12 +41,13 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/coderay.css",
      "lib/public/stylesheets/prettify.css",
      "lib/public/stylesheets/projection.css",
+     "lib/public/stylesheets/src/openquote.gif",
      "lib/seminarium.rb",
      "lib/seminarium/info.rb",
      "lib/seminarium/referaty.rb",
      "lib/views/index.rdiscount",
      "lib/views/info.rdiscount",
-     "lib/views/modular-applications-www.erb",
+     "lib/views/modularne-aplikacje-www.erb",
      "lib/views/presentations-list.erb",
      "lib/views/slides.erb",
      "lib/views/styl-naukowy.rdiscount"
