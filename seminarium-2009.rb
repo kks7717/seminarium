@@ -15,14 +15,6 @@ Seminarium2009 = Rack::Builder.new do
   use Rack::Codehighlighter, :coderay
   
   map '/' do 
-    run Seminarium::Info.new
-  end
-  
-  map '/info' do 
-    run Seminarium::Info.new
-  end
-  
-  map '/referaty' do 
-    run Seminarium::Referaty.new
+    run Seminarium::Rails.new
   end
 end

@@ -1,0 +1,115 @@
+html {
+  background: #121621 url(src/shattered_mirror.png);
+}
+
+body {
+  width: 913px;
+  margin: 40px 0px 0px 42px; 
+  padding: 0 0 11px 22px;
+  line-height: 1.6;
+  -moz-border-radius: 11px;
+  border-color: black;
+  border-right: 4px inset;
+  border-bottom: 4px inset;
+  background-color: red;
+  background: transparent url(src/body.png) repeat-y;
+}
+
+.container {
+  padding-left: 22px;
+  width: 561px;
+  -moz-border-radius: 11px;
+  background-color: rgb(254, 249, 240);
+}
+
+h1 {
+  width: 847px;
+  margin: 0 0 22px -22px;
+  padding: 8px 22px 8px 44px;
+  font-family: Airmole Stripe, Times, serif;
+  font-weight: normal;
+  font-size: 333%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* font-variant: small-caps; */
+  background-color: #FCE5C0;
+  color: rgb(237,0,86);
+  -moz-border-radius-topright: 7px;
+}
+
+h2, h3, h4 {
+  margin-right: 11px;
+  color: black;
+}
+
+h2 {
+  border-bottom: 2px dotted black;
+}
+
+blockquote {
+/*
+  width: 341px;
+  margin-left: 561px;
+*/
+  width: 275px;
+  margin: 0 0 0 583px;
+  padding: 11px 11px 0 11px;
+  position: absolute;
+  background: rgb(252, 229, 192);
+  -moz-border-radius: 8px;
+}
+
+blockquote img {
+  margin: 0 auto 11px auto;
+  display: block;
+}
+
+blockquote p.author {
+  margin-top: -1.5em;
+  padding-right: 44px;
+  color: black;
+  font-style: italic;
+  text-align: right;
+}
+
+pre, code {
+  font-family: Andale Mono, monospace; 
+}
+
+pre {
+  margin-left: -33px;
+  padding-left: 33px;
+  border-left: 22px solid rgb(237,0,86);
+}
+
+pre code, li pre {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+code {
+  margin: 0 2px;
+  padding: 0.06em 0.125em;
+  border: 1px solid #403B33;
+}
+
+caption {
+  text-align: right;
+}
+
+thead th {
+  background-color: #ADD8C7;
+}
+
+.table1 {
+  background-color: #EB7C7C;
+}
+
+.table2 {
+  background-color: #ECB39F;
+}
+
+li ul {
+  margin-bottom: 1.5em;
+}

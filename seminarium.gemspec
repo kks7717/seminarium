@@ -43,14 +43,13 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/projection.css",
      "lib/public/stylesheets/src/openquote.gif",
      "lib/seminarium.rb",
-     "lib/seminarium/info.rb",
-     "lib/seminarium/referaty.rb",
-     "lib/views/index.rdiscount",
+     "lib/seminarium/rails.rb",
      "lib/views/info.rdiscount",
-     "lib/views/modularne-aplikacje-www.erb",
-     "lib/views/presentations-list.erb",
+     "lib/views/info/index.rdiscount",
+     "lib/views/info/styl-naukowy.rdiscount",
      "lib/views/slides.erb",
-     "lib/views/styl-naukowy.rdiscount"
+     "lib/views/slides/index.erb",
+     "lib/views/slides/modularne-aplikacje-www.erb"
   ]
   s.homepage = %q{http://github.com/wbzyl/seminarium}
   s.rdoc_options = ["--charset=UTF-8"]
