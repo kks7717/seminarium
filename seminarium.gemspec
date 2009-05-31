@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
-  s.date = %q{2009-05-25}
+  s.date = %q{2009-05-31}
   s.description = %q{Moje notatki, prezentacje itp.
 }
   s.email = %q{matwb@univ.gda.pl}
@@ -16,6 +16,8 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "Rakefile",
+     "TODO",
+     "VERSION.yml",
      "config.ru",
      "lib/public/doc/neukirchen07introducingrack.pdf",
      "lib/public/favicon.ico",
@@ -37,11 +39,16 @@ Gem::Specification.new do |s|
      "lib/public/javascripts/lang-vb.js",
      "lib/public/javascripts/lang-wiki.js",
      "lib/public/javascripts/prettify.js",
-     "lib/public/stylesheets/application.css",
      "lib/public/stylesheets/coderay.css",
      "lib/public/stylesheets/prettify.css",
      "lib/public/stylesheets/projection.css",
+     "lib/public/stylesheets/rails-2009.css",
+     "lib/public/stylesheets/slides.css",
+     "lib/public/stylesheets/src/body.png",
+     "lib/public/stylesheets/src/grid.png",
+     "lib/public/stylesheets/src/make_background_images.sh",
      "lib/public/stylesheets/src/openquote.gif",
+     "lib/public/stylesheets/src/shattered_mirror.png",
      "lib/seminarium.rb",
      "lib/seminarium/rails.rb",
      "lib/views/info.rdiscount",

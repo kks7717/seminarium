@@ -15,8 +15,8 @@ Moje notatki, prezentacje itp.
     EOF
     s.summary      = "Prosta aplikacja Sinatry na seminarium 2009/2010"
     
-    s.files        = %w[Rakefile config.ru] + Dir["lib/**/*"]
-  
+    s.files        = %w[TODO VERSION.yml Rakefile config.ru seminarium-2009.rb] + FileList["lib/**/*", "examples/**/*"]
+
     s.add_dependency 'rack' 
     s.add_dependency 'sinatra'
     s.add_dependency 'rdiscount'
