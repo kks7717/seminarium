@@ -4,4 +4,4 @@
 
 ## Prezentacje
 
-1. {%= link_to "Modularne aplikacje WWW", "/slides/modular-applications-www" %}
+1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}
