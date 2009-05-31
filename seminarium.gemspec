@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
-  s.date = %q{2009-05-31}
+  s.date = %q{2009-06-01}
   s.description = %q{Moje notatki, prezentacje itp.
 }
   s.email = %q{matwb@univ.gda.pl}
@@ -55,9 +55,9 @@ Gem::Specification.new do |s|
      "lib/views/info.rdiscount",
      "lib/views/info/index.rdiscount",
      "lib/views/info/styl-naukowy.rdiscount",
+     "lib/views/slajdy/index.erb",
+     "lib/views/slajdy/modularne-aplikacje-www.erb",
      "lib/views/slides.erb",
-     "lib/views/slides/index.erb",
-     "lib/views/slides/modularne-aplikacje-www.erb",
      "seminarium-2009.rb"
   ]
   s.homepage = %q{http://github.com/wbzyl/seminarium}
