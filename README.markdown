@@ -1,4 +1,38 @@
-# Seminarium
+# Seminarium 2009/2010
+
+**Uwaga**: Passenger nie przechodzi przez *Rack::Lint*.
+
+Wdrożenie z Apache &amp; Passenger:
+
+    # /etc/httpd/conf.d/passenger.conf
+    <VirtualHost *:80>
+      ServerName sinatra.local
+      DocumentRoot /srv/www/sinatra
+    
+      RackBaseURI /seminarium
+      RackBaseURI /rails3
+    </VirtualHost>
+
+Aplikacja będzie dostępna z sub URI:
+
+    http://sinatra.local/seminarium/
+
+Ale można też tak:
+
+    # /etc/httpd/conf.d/passenger.conf
+    <VirtualHost *:80>
+      ServerName sinatra.local
+      DocumentRoot /srv/www/sinatra/public
+    </VirtualHost>
+
+Teraz instalujemy gem *seminarium* i wykonujemy kilka poleceń:
+
+    sudo gem install seminarium
+    mkdir -p /srv/www/sinatra/{public,tmp}
+    touch /srv/www/sinatra/tmp/always_restart.txt
+    cp config.ru /srv/www/sinatra
+
+Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 
  
 ## Ruby

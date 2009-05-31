@@ -1,18 +1,17 @@
 $LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
 
 require 'seminarium'
-require 'coderay'
-require 'codehighlighter-middleware'
 
-#FileUtils.mkdir_p 'log' unless File.exists?('log')
-#log = File.new("log/sinatra.log", "a")
-##STDOUT.reopen(log)
-#STDERR.reopen(log)
+gem 'coderay'
+require 'coderay'
+
+gem 'wbzyl-rack-codehighlighter'
+require 'rack/codehighlighter'
 
 Seminarium2009 = Rack::Builder.new do
+  use Rack::ShowExceptions
   use Rack::Lint
-  use Rack::ContentLength
-  use Rack::Codehighlighter, :coderay
+  use Rack::Codehighlighter, :ultraviolet
   
   map '/' do 
     run Seminarium::Rails.new

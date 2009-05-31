@@ -7,7 +7,7 @@ body {
   margin: 40px 0px 0px 42px; 
   padding: 0 0 11px 22px;
   line-height: 1.6;
-  -moz-border-radius: 11px;
+  /* -moz-border-radius: 11px; */
   border-color: black;
   border-right: 4px inset;
   border-bottom: 4px inset;
@@ -18,7 +18,7 @@ body {
 .container {
   padding-left: 22px;
   width: 561px;
-  -moz-border-radius: 11px;
+  /* -moz-border-radius: 11px; */
   background-color: rgb(254, 249, 240);
 }
 
@@ -34,7 +34,7 @@ h1 {
   /* font-variant: small-caps; */
   background-color: #FCE5C0;
   color: rgb(237,0,86);
-  -moz-border-radius-topright: 7px;
+  /* -moz-border-radius-topright: 7px; */
 }
 
 h2, h3, h4 {
@@ -56,7 +56,7 @@ blockquote {
   padding: 11px 11px 0 11px;
   position: absolute;
   background: rgb(252, 229, 192);
-  -moz-border-radius: 8px;
+  -moz-border-radius: 4px;
 }
 
 blockquote img {

@@ -49,6 +49,7 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/src/make_background_images.sh",
      "lib/public/stylesheets/src/openquote.gif",
      "lib/public/stylesheets/src/shattered_mirror.png",
+     "lib/public/stylesheets/uv.css",
      "lib/seminarium.rb",
      "lib/seminarium/rails.rb",
      "lib/views/info.rdiscount",
@@ -56,13 +57,14 @@ Gem::Specification.new do |s|
      "lib/views/info/styl-naukowy.rdiscount",
      "lib/views/slides.erb",
      "lib/views/slides/index.erb",
-     "lib/views/slides/modularne-aplikacje-www.erb"
+     "lib/views/slides/modularne-aplikacje-www.erb",
+     "seminarium-2009.rb"
   ]
   s.homepage = %q{http://github.com/wbzyl/seminarium}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{seminarium}
-  s.rubygems_version = %q{1.3.3}
+  s.rubygems_version = %q{1.3.4}
   s.summary = %q{Prosta aplikacja Sinatry na seminarium 2009/2010}
 
   if s.respond_to? :specification_version then
