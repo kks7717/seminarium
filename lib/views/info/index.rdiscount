@@ -1,8 +1,8 @@
 # Indeks
 
 1. [Kompozycja artykułu, prezentacji, pracy licencjackiej,
-   magisterskiej](/info/styl-naukowy)
+   magisterskiej](<%=url_for "/info/styl-naukowy"%>)
 
 ## Prezentacje
 
-1. [Modularne aplikacje WWW](/referaty/modular-applications-www)
+1. [Modularne aplikacje WWW](<%=url_for "/referaty/modular-applications-www"%>)
