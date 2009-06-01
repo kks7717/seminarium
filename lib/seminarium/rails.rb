@@ -14,7 +14,7 @@ module Seminarium
     end
     
     get '/slajdy/:title' do
-      erb :"slides/#{params[:title]}", :layout => :slides
+      erb :"slajdy/#{params[:title]}", :layout => :slides
     end
   end
 end
