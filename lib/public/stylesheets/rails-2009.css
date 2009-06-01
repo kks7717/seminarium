@@ -7,10 +7,6 @@ body {
   margin: 40px 0px 0px 42px; 
   padding: 0 0 11px 22px;
   line-height: 1.6;
-  /* -moz-border-radius: 11px; */
-  border-color: black;
-  border-right: 4px inset;
-  border-bottom: 4px inset;
   background-color: red;
   background: transparent url(src/body.png) repeat-y;
 }
