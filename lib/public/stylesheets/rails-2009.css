@@ -1,4 +1,8 @@
 html {
+  /* http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
+  height: 100%; 
+  margin-bottom: 1px;
+
   background: #121621 url(src/shattered_mirror.png);
 }
 
