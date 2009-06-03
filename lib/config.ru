@@ -7,7 +7,7 @@ gem 'ultraviolet'
 require 'uv'
 
 use Rack::ShowExceptions
-use Rack::Lint
+#use Rack::Lint
 use Rack::Codehighlighter, :ultraviolet
 
 run Seminarium::Rails.new
