@@ -13,8 +13,8 @@ module Seminarium
       rdiscount :"/info/#{params[:title]}", :layout => :info
     end
     
-    get '/slides/:title' do
-      erb :"slides/#{params[:title]}", :layout => :slides
+    get '/slajdy/:title' do
+      erb :"slajdy/#{params[:title]}", :layout => :slides
     end
   end
 end

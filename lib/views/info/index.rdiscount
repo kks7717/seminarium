@@ -1,8 +1,7 @@
 # Indeks
 
-1. [Kompozycja artykułu, prezentacji, pracy licencjackiej,
-   magisterskiej](/info/styl-naukowy)
+1. {%= link_to "Kompozycja artykułu, prezentacji, pracy licencjackiej, magisterskiej", "/info/styl-naukowy" %}
 
 ## Prezentacje
 
-1. [Modularne aplikacje WWW](/referaty/modular-applications-www)
+1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}

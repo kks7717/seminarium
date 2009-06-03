@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{seminarium}
-  s.version = "0.1.2"
+  s.version = "0.1.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
-  s.date = %q{2009-05-25}
+  s.date = %q{2009-06-03}
   s.description = %q{Moje notatki, prezentacje itp.
 }
   s.email = %q{matwb@univ.gda.pl}
@@ -16,7 +16,10 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "Rakefile",
+     "TODO",
+     "VERSION.yml",
      "config.ru",
+     "lib/config.ru",
      "lib/public/doc/neukirchen07introducingrack.pdf",
      "lib/public/favicon.ico",
      "lib/public/images/emurphy.gif",
@@ -47,20 +50,23 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/src/make_background_images.sh",
      "lib/public/stylesheets/src/openquote.gif",
      "lib/public/stylesheets/src/shattered_mirror.png",
+     "lib/public/stylesheets/uv.css",
      "lib/seminarium.rb",
      "lib/seminarium/rails.rb",
+     "lib/tmp/restart.txt",
      "lib/views/info.rdiscount",
      "lib/views/info/index.rdiscount",
      "lib/views/info/styl-naukowy.rdiscount",
+     "lib/views/slajdy/index.erb",
+     "lib/views/slajdy/modularne-aplikacje-www.erb",
      "lib/views/slides.erb",
-     "lib/views/slides/index.erb",
-     "lib/views/slides/modularne-aplikacje-www.erb"
+     "seminarium-2009.rb"
   ]
   s.homepage = %q{http://github.com/wbzyl/seminarium}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{seminarium}
-  s.rubygems_version = %q{1.3.3}
+  s.rubygems_version = %q{1.3.4}
   s.summary = %q{Prosta aplikacja Sinatry na seminarium 2009/2010}
 
   if s.respond_to? :specification_version then
