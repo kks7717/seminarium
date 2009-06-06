@@ -10,7 +10,10 @@ body {
   width: 913px;
   margin: 40px 0px 0px 42px; 
   padding: 0 0 11px 22px;
-  line-height: 1.6;
+
+  font-family: "DejaVu Sans", "PakTypeNaqsh", "Trebuchet MS", sans-serif ;
+  line-height: 28px;
+
   background-color: red;
   background: transparent url(src/body.png) repeat-y;
 }
@@ -25,7 +28,7 @@ body {
 h1 {
   width: 847px;
   margin: 0 0 22px -22px;
-  padding: 8px 22px 8px 44px;
+  padding: 28px 22px 28px 44px;
   font-family: Airmole Stripe, Times, serif;
   font-weight: normal;
   font-size: 333%;
@@ -43,6 +46,7 @@ h2, h3, h4 {
 }
 
 h2 {
+  padding-bottom: 8px;
   border-bottom: 2px dotted black;
 }
 
@@ -51,11 +55,14 @@ blockquote {
   width: 341px;
   margin-left: 561px;
 */
+  font-size: 90%;
+  line-height: 1.5;
   width: 275px;
   margin: 0 0 0 583px;
   padding: 11px 11px 0 11px;
   position: absolute;
-  background: rgb(252, 229, 192);
+  color: #800;
+  background-color: rgb(252, 229, 192);
   -moz-border-radius: 4px;
 }
 
@@ -65,9 +72,9 @@ blockquote img {
 }
 
 blockquote p.author {
-  margin-top: -1.5em;
+  margin-top: -0.5em;
   padding-right: 44px;
-  color: black;
+  color: #B00;;
   font-style: italic;
   text-align: right;
 }
