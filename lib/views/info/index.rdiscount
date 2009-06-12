@@ -1,6 +1,17 @@
-# Indeks
+# Rails 3
 
-1. {%= link_to "Kompozycja artykułu, prezentacji, pracy licencjackiej, magisterskiej", "/info/styl-naukowy" %}
+<blockquote>
+{%= image_tag "/images/simpsons.math.png", :alt => "[Simpson &amp; Math]" %}
+<p>
+  A piece of program is like a poem, and we can ask if it satisfies our
+  aesthetic criteria: Is this argument sound? Does it make sense? Is it
+  simple and elegant? Does it get me closer to the heart of the matter?
+</p>
+<p class="author">— Paul Lockhart</p>
+</blockquote>
+
+1. {%= link_to "Kompozycja artykułu i pracy  magisterskiej", "/info/styl-naukowy" %}
+1. {%= link_to "Jekyll – zakładamy bloga", "/info/jekyll" %}
 
 ## Prezentacje
 

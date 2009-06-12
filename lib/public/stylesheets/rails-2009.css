@@ -1,3 +1,9 @@
+/* hack for RDiscount comments */
+
+h4 {
+  display: none;
+}
+
 html {
   /* http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
   height: 100%; 

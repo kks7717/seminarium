@@ -17,6 +17,10 @@ module Seminarium
     set :app_file, __FILE__
     set :static, true  
     
+    def title(name = "Seminarium 2009/2010")
+      @title = "Rails 3 | " +  name
+    end
+    
     #set :logging, true
   end
 end

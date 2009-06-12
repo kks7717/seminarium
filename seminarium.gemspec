@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{seminarium}
-  s.version = "0.1.6"
+  s.version = "0.1.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wlodek Bzyl"]
-  s.date = %q{2009-06-03}
+  s.date = %q{2009-06-12}
   s.description = %q{Moje notatki, prezentacje itp.
 }
   s.email = %q{matwb@univ.gda.pl}
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "lib/config.ru",
      "lib/public/doc/neukirchen07introducingrack.pdf",
      "lib/public/favicon.ico",
+     "lib/public/images/agnieszka_osiecka.jpg",
      "lib/public/images/emurphy.gif",
      "lib/public/images/openquote.gif",
      "lib/public/images/rack-1.png",
@@ -30,6 +31,7 @@ Gem::Specification.new do |s|
      "lib/public/images/rack-2.svg",
      "lib/public/images/rack-logo.png",
      "lib/public/images/rack-logo.svg",
+     "lib/public/images/simpsons.math.png",
      "lib/public/javascripts/lang-css.js",
      "lib/public/javascripts/lang-hs.js",
      "lib/public/javascripts/lang-lisp.js",
@@ -56,6 +58,7 @@ Gem::Specification.new do |s|
      "lib/tmp/restart.txt",
      "lib/views/info.rdiscount",
      "lib/views/info/index.rdiscount",
+     "lib/views/info/jekyll.rdiscount",
      "lib/views/info/styl-naukowy.rdiscount",
      "lib/views/slajdy/index.erb",
      "lib/views/slajdy/modularne-aplikacje-www.erb",
