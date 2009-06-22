@@ -54,7 +54,8 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
    Gemy Faker i Populator -- polskie dane
 1. Rails 3 / Sinatra i CouchDB (couchrest).
 1. Dokumentowe bazy danych: CouchDB, gemy couchrest i dm-couchdb
-
+1. Xapian + Polish stemmer; 
+   zob. [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/)
 
 ## Linki
 
