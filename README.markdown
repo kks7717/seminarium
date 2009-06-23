@@ -56,6 +56,11 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 1. Dokumentowe bazy danych: CouchDB, gemy couchrest i dm-couchdb
 1. Xapian + Polish stemmer; 
    zob. [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/)
+1. After programming with jQuery to do some unobtrusive javascript…
+   Przykład: [Standard JSON Response for Rails and 
+   jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
+   Więcej przykładów. RJS + Prototype → unobtrusive jQuery.
+
 
 ## Linki
 
