@@ -60,6 +60,8 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
    Przykład: [Standard JSON Response for Rails and 
    jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
    Więcej przykładów. RJS + Prototype → unobtrusive jQuery.
+1. Ruby extensions. Gem + Ext. Inne, lepsze API dla libxml.
+   Podobne zadanie dla jakiegoś innego gemu.
 
 
 ## Linki
