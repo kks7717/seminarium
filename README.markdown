@@ -62,6 +62,7 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
    Więcej przykładów. RJS + Prototype → unobtrusive jQuery.
 1. Ruby extensions. Gem + Ext. Inne, lepsze API dla libxml.
    Podobne zadanie dla jakiegoś innego gemu.
+1. Nginx: konfiguracja z Rails, Sinatra, proxy, static, konfiguracja
 
 
 ## Linki
