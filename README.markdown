@@ -1,7 +1,5 @@
 # Seminarium 2009/2010
 
-**Uwaga**: Passenger nie przechodzi przez *Rack::Lint*.
-
 Wdrożenie z Apache &amp; Passenger:
 
     # /etc/httpd/conf.d/passenger.conf
@@ -40,6 +38,12 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 * [Mr. Neighborly's Humble Little 
   Ruby Book](http://www.humblelittlerubybook.com/book/html/index.html)
   \([pdf](http://www.humblelittlerubybook.com/book/hlrb.pdf)\)
+
+
+## Referaty
+
+1. HTTP Proxy i Firefox: instalacja, rozszerzenia, charles.
+
 
 ## Tematy
 
