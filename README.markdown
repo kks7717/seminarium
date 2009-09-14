@@ -42,7 +42,10 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 
 ## Referaty
 
-1. HTTP Proxy i Firefox: instalacja, rozszerzenia, charles.
+0. Blog, BlueprintCSS.
+1. HTML5.
+1. CSS 3.x.
+1. HTTP Proxy i Firefox. Rozszerzenia: Tamper Data i Charles.
 
 
 ## Tematy
@@ -67,7 +70,8 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 1. Ruby extensions. Gem + Ext. Inne, lepsze API dla libxml.
    Podobne zadanie dla jakiegoś innego gemu.
 1. Nginx: konfiguracja z Rails, Sinatra, proxy, static, konfiguracja
-1. Authlogic na Datamapper/Sequel
+1. Authlogic i Searchlogic na Datamapper/Sequel
+1. [Jaxer](http://jaxer.org/)
 
 
 ## Linki
