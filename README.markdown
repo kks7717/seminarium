@@ -13,9 +13,11 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 
 ## Referaty
 
+1. Blog. Korzystamy z BlueprintCSS.
 1. HTML5. Książka online:
    Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
-1. HTTP Proxy i Firefox: instalacja, rozszerzenia, charles.
+1. CSS 3.x.
+1. HTTP Proxy i Firefox. Rozszerzenia: Tamper Data i Charles.
 
 
 ## Tematy
@@ -40,7 +42,8 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 1. Ruby extensions. Gem + Ext. Inne, lepsze API dla libxml.
    Podobne zadanie dla jakiegoś innego gemu.
 1. Nginx: konfiguracja z Rails, Sinatra, proxy, static, konfiguracja
-1. Authlogic na Datamapper/Sequel
+1. Authlogic i Searchlogic na Datamapper/Sequel
+1. [Jaxer](http://jaxer.org/)
 
 
 ## Linki
