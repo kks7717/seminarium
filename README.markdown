@@ -1,38 +1,9 @@
 # Seminarium 2009/2010
 
-Wdrożenie z Apache &amp; Passenger:
+Zaczynamy od lektury: Jacob Kaplan-Moss,
+[Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
 
-    # /etc/httpd/conf.d/passenger.conf
-    <VirtualHost *:80>
-      ServerName sinatra.local
-      DocumentRoot /srv/www/sinatra
-    
-      RackBaseURI /seminarium
-      RackBaseURI /rails3
-    </VirtualHost>
 
-Aplikacja będzie dostępna z sub URI:
-
-    http://sinatra.local/seminarium/
-
-Ale można też tak:
-
-    # /etc/httpd/conf.d/passenger.conf
-    <VirtualHost *:80>
-      ServerName sinatra.local
-      DocumentRoot /srv/www/sinatra/public
-    </VirtualHost>
-
-Teraz instalujemy gem *seminarium* i wykonujemy kilka poleceń:
-
-    sudo gem install seminarium
-    mkdir -p /srv/www/sinatra/{public,tmp}
-    touch /srv/www/sinatra/tmp/always_restart.txt
-    cp config.ru /srv/www/sinatra
-
-Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
-
- 
 ## Ruby
 
 * [Mr. Neighborly's Humble Little 
@@ -42,6 +13,8 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 
 ## Referaty
 
+1. HTML5. Książka online:
+   Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
 1. HTTP Proxy i Firefox: instalacja, rozszerzenia, charles.
 
 
@@ -88,3 +61,38 @@ Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
 1. Przygotować rozszerzenie dla *static assets* (tak jak w Rails): 
    link, script, img. Skorzystać z rozszerzenia: sinatra-url-for.
    Zobacz dokumentacja do *Passenger* (broken links).
+
+
+## About
+
+Wdrożenie z Apache &amp; Passenger:
+
+    # /etc/httpd/conf.d/passenger.conf
+    <VirtualHost *:80>
+      ServerName sinatra.local
+      DocumentRoot /srv/www/sinatra
+    
+      RackBaseURI /seminarium
+      RackBaseURI /rails3
+    </VirtualHost>
+
+Aplikacja będzie dostępna z sub URI:
+
+    http://sinatra.local/seminarium/
+
+Ale można też tak:
+
+    # /etc/httpd/conf.d/passenger.conf
+    <VirtualHost *:80>
+      ServerName sinatra.local
+      DocumentRoot /srv/www/sinatra/public
+    </VirtualHost>
+
+Teraz instalujemy gem *seminarium* i wykonujemy kilka poleceń:
+
+    sudo gem install seminarium
+    mkdir -p /srv/www/sinatra/{public,tmp}
+    touch /srv/www/sinatra/tmp/always_restart.txt
+    cp config.ru /srv/www/sinatra
+
+Teraz możemy sami w pliku *config.ru* podmontowywać kolejne aplikacje.
