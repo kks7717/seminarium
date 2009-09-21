@@ -48,6 +48,7 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 1. Firefox Extensions w Rails 3
 1. Implementacja ciasteczek w Rails 3. Sesje / bezpieczeństwo 
 1. Rails 3 + Redis
+1. Rails 3 + GIS (geocoding… tak jak to jest w Django)
 
 
 ## Linki
