@@ -44,6 +44,11 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 1. Nginx: konfiguracja z Rails, Sinatra, proxy, static, konfiguracja
 1. Authlogic i Searchlogic na Datamapper/Sequel
 1. [Jaxer](http://jaxer.org/)
+1. [HTTPS + SSL w Rails 3](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications)
+1. Firefox Extensions w Rails 3
+1. Implementacja ciasteczek w Rails 3. Sesje / bezpieczeństwo 
+1. Rails 3 + Redis
+1. Rails 3 + GIS (geocoding… tak jak to jest w Django)
 
 
 ## Linki
@@ -58,12 +63,6 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 5. [A Sphinx DataMapper adapter](http://github.com/shanna/dm-sphinx-adapter/).
    Przykład w Sinatrze, Railsach z PostgreSQL
 
-
-## Sinatra Extensions
-
-1. Przygotować rozszerzenie dla *static assets* (tak jak w Rails): 
-   link, script, img. Skorzystać z rozszerzenia: sinatra-url-for.
-   Zobacz dokumentacja do *Passenger* (broken links).
 
 
 ## About
