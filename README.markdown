@@ -17,6 +17,7 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 1. HTML5. Książka online:
    Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
 1. CSS 3.x.
+1. Piszemy Ruby Extensions. Przykład: CSV.
 1. HTTP Proxy i Firefox. Rozszerzenia: Tamper Data i Charles.
 
 
