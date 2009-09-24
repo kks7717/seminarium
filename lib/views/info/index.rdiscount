@@ -4,7 +4,7 @@
 {%= image_tag "/images/simpsons.math.png", :alt => "[Simpson &amp; Math]" %}
 <p>
   A piece of program is like a poem, and we can ask if it satisfies our
-  aesthetic criteria: Is this argument sound? Does it make sense? Is it
+  aesthetic criteria: Does it make sense? Is it
   simple and elegant? Does it get me closer to the heart of the matter?
 </p>
 <p class="author">— Paul Lockhart</p>
