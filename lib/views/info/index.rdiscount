@@ -20,6 +20,7 @@ Na początek polecam lekturę artykułu Jacoba Kaplan-Moss'a,
 ## Referaty
 
 1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
+1. Do czego może się nam przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
 1. Porównanie HTML5 z HTML4.01.
    Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
 1. CSS 3.x.
