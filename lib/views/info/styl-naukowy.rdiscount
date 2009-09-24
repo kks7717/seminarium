@@ -2,6 +2,10 @@
 
 # Jak pisać pracę mgr?
 
+<blockquote>
+{%= image_tag "/images/31415i.png", :alt => "[pi &amp; i]" %}
+</blockquote>
+
 Opracowano na podstawie: 
 
 *  *Polszczyzna na co dzień*, pod. red. Mirosława Bańko, 
