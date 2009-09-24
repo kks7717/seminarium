@@ -63,28 +63,29 @@ body {
   background-color: rgb(254, 249, 240);
 }
 
+h1, h2, h3 {
+  color: #664422;
+}
+
 h1 {
-  width: 847px;
+  width: 869px;
   margin: 0 0 22px -22px;
-  padding: 28px 22px 28px 44px;
+  padding: 28px 22px 28px 22px;
   font: italic normal 200%/1 Cyklop, sans-serif;
   text-transform: uppercase;
   /* font-variant: small-caps; */
   background-color: #FCE5C0;
-  color: rgb(237,0,86);
   /* -moz-border-radius-topright: 7px; */
 }
 
 h2, h3, h4 {
   margin-right: 11px;
-  color: black;
 }
 
 h2 {
   font: italic normal 140%/1 Cyklop, sans-serif;
   padding-bottom: 8px;
   border-bottom: 2px dotted black;
-  color: #CC2222;
 }
 
 blockquote {
