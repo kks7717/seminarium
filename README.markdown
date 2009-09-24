@@ -13,43 +13,22 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 
 ## Referaty
 
-1. Blog. Korzystamy z BlueprintCSS.
-1. HTML5. Książka online:
-   Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
-1. CSS 3.x.
-1. Piszemy Ruby Extensions. Przykład: CSV.
 1. HTTP Proxy i Firefox. Rozszerzenia: Tamper Data i Charles.
 
 
 ## Tematy
 
-1. FullerScreen. Jak piszemy rozszerzenia do Firefoxa (Safari/iPhone)
-   Aplikacja Rails/Sinatry zarządzająca pokazami slajdów.
 1. Sphinx / ThinkingSphinx dla Datamapper: już jest
    Xapian dla Datamapper: nie ma?
 1. Gem ala ThinkingSphinx/Ultrasphinx dla search tak
    jak to jest zaimplementowane w PostgreSQL.
-1. Polski stemmer dla PostgreSQL / Sphinx / Xapian.
+1. Polski stemmer dla PostgreSQL / Sphinx.
 1. Wczytywanie dużej liczby rekordów testowych do bazy danych.
    Gemy Faker i Populator -- polskie dane
 1. Rails 3 / Sinatra i CouchDB (couchrest).
-1. Dokumentowe bazy danych: CouchDB, gemy couchrest i dm-couchdb
-1. Xapian + Polish stemmer; 
-   zob. [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/)
-1. After programming with jQuery to do some unobtrusive javascript…
-   Przykład: [Standard JSON Response for Rails and 
-   jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
-   Więcej przykładów. RJS + Prototype → unobtrusive jQuery.
-1. Ruby extensions. Gem + Ext. Inne, lepsze API dla libxml.
-   Podobne zadanie dla jakiegoś innego gemu.
 1. Nginx: konfiguracja z Rails, Sinatra, proxy, static, konfiguracja
-1. Authlogic i Searchlogic na Datamapper/Sequel
-1. [Jaxer](http://jaxer.org/)
-1. [HTTPS + SSL w Rails 3](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications)
 1. Firefox Extensions w Rails 3
 1. Implementacja ciasteczek w Rails 3. Sesje / bezpieczeństwo 
-1. Rails 3 + Redis
-1. Rails 3 + GIS (geocoding… tak jak to jest w Django)
 
 
 ## Linki
@@ -63,7 +42,6 @@ Zaczynamy od lektury: Jacob Kaplan-Moss,
 4. [Thinking Sphinx](http://github.com/freelancing-god/thinking-sphinx/) (gem)
 5. [A Sphinx DataMapper adapter](http://github.com/shanna/dm-sphinx-adapter/).
    Przykład w Sinatrze, Railsach z PostgreSQL
-
 
 
 ## About
