@@ -1,3 +1,35 @@
+/* fonts */
+
+@font-face {
+   font-family: "Cyklop"; 
+   src: url(fonts/Cyklop-Regular.otf) format("opentype");
+}
+ 
+@font-face {
+   font-family: "Cyklop";
+   src: url(fonts/Cyklop-Italic.otf) format("opentype");
+   font-style: italic;
+}
+
+/* There is no Bold or BoldItalic variants. */
+
+/* 
+ 
+@font-face {
+   font-family: "Cyklop";
+   src: url(fonts/Cyklop-Bold.otf) format("opentype");
+   font-weight: bold;
+}
+ 
+@font-face {
+   font-family: "Cyklop";
+   src: url(fonts/Cyklop-BoldItalic.otf) format("opentype");
+   font-weight: bold;
+   font-style: italic;
+}
+
+*/
+
 /* hack for RDiscount comments */
 
 h4 {
@@ -35,10 +67,7 @@ h1 {
   width: 847px;
   margin: 0 0 22px -22px;
   padding: 28px 22px 28px 44px;
-  font-family: Airmole Stripe, Times, serif;
-  font-weight: normal;
-  font-size: 333%;
-  letter-spacing: 2px;
+  font: italic normal 200%/1 Cyklop, sans-serif;
   text-transform: uppercase;
   /* font-variant: small-caps; */
   background-color: #FCE5C0;
@@ -52,8 +81,10 @@ h2, h3, h4 {
 }
 
 h2 {
+  font: italic normal 140%/1 Cyklop, sans-serif;
   padding-bottom: 8px;
   border-bottom: 2px dotted black;
+  color: #CC2222;
 }
 
 blockquote {
