@@ -10,9 +10,48 @@
 <p class="author">— Paul Lockhart</p>
 </blockquote>
 
-1. {%= link_to "Kompozycja artykułu i pracy  magisterskiej", "/info/styl-naukowy" %}
-1. {%= link_to "Jekyll – zakładamy bloga", "/info/jekyll" %}
+Spotykamy się w poniedziałki, godz. 14–15:30, sala 116.
 
-## Prezentacje
+Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/styl-naukowy" %}
 
-1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}
+Na początek polecam lekturę artykułu Jacoba Kaplan-Moss'a,
+[Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
+
+## Referaty
+
+1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
+1. Porównanie HTML5 z HTML4.01.
+   Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
+1. CSS 3.x.
+1. Ruby Extensions w przykładach. W książce 
+   B. W. Kernighan, R. Pike (2002). *Lekcja programowania*. WNT,
+   w rozdziale 4 *Interfejsy* jest opisana implementacja
+   C biblioteki dla formatu CSV. Przerobić implementację
+   z książki na Gem.
+
+## Lista obecności
+
+1. <a href="http://sszypulski.inf.ug.edu.pl">Szypulski, Szymon</a>
+
+## Proponowane tematy prac
+
+1. Rails 3 + [Redis](http://code.google.com/p/redis/).
+1. [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/).
+1. HTTPS i SSL w Rails 3. [Using SSL in Rails 
+   Applications](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications).
+1. Unobtrusive Javascript w aplikacjach Rails3.
+   [Standard JSON Response for Rails and 
+   jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
+   Przykłady: RJS + Prototype → unobtrusive jQuery.
+1. Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
+   [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/).
+1. Aplikacja Rails3 zarządzająca pokazami slajdów.
+   Aplikacja powinna działać z przeglądarką Firefox 
+   z rozszerzeniem (które też należy napisać) podobnym do
+   [FullerScreen](https://addons.mozilla.org/pl/firefox/addon/4650)
+   (nie działa z Firefoxem 3.5). 
+1. Aplikacje internetowe w Javascript. [Jaxer](http://jaxer.org/).
+1. Ruby Extensions. Na przykład implementujemy *lepsze* API dla biblioteki *libxml*.
+1. Korzystamy z gemów *Authlogic* i *Searchlogic* w Rails3 + Datamapper/Sequel.
+1. Dokumentowe bazy danych w aplikacjach Rails3.
+   Na przykład [CouchDB](http://couchdb.apache.org/).
