@@ -38,6 +38,11 @@ Podręczniki do języka Ruby:
    w rozdziale 4 *Interfejsy* jest opisana implementacja
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
+1. Prezentacja bazy [Redis] [redis].
+1. Prezentacja bazy [MongoDB] [mongodb].
+1. Prezentacja frameworka [Jaxer] [jaxer].
+1. Prezentacja bazy [CouchDB] [couchdb].
+
 
 ## Lista obecności
 
@@ -58,11 +63,11 @@ term refers to certain non-relational data stores.
 Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
 
 * Bazy danych „key/value” w aplikacjach internetowych 
-   na przykładzie Rails 3 + [Redis](http://code.google.com/p/redis/).
+   na przykładzie Rails 3 + [Redis] [redis].
 * Dokumentowe bazy danych w aplikacjach internetowych 
-   na przykładzie Rails 3 i [MongoDB](http://www.mongodb.org/)
+   na przykładzie Rails 3 + [MongoDB] [mongodb].
 * Dokumentowe bazy danych w aplikacjach internetowych 
-   na przykładzie Rails 3 i [CouchDB](http://couchdb.apache.org/).
+   na przykładzie Rails 3 + [CouchDB] [couchdb].
 
 
 Nowe trendy w aplikacjach internetowych:
@@ -87,3 +92,11 @@ Pozostałe tematy:
    Applications](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications).
 * Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
    [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/).
+
+
+#### Linki
+
+[redis]: http://code.google.com/p/redis/ "Redis datastore"
+[mongodb]: http://www.mongodb.org "MongoDB"
+[jaxer]: http://jaxer.org/ "Jaxer"
+[couchdb]: http://couchdb.apache.org/ "CouchDB"
