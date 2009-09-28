@@ -63,9 +63,14 @@ Podręczniki do języka Ruby:
 
 ## Proponowane tematy prac
 
+<blockquote>
+{%= image_tag "/images/cassandra.png", :alt => "[Cassandra data store]" %}
+</blockquote>
+
 NOSQL is a database movement which began in early to mid 2009. The
 term refers to certain non-relational data stores.
-Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
+Google *BigTable*, Amazon *Dynamo* and 
+Facebook *Cassandra* are NOSQL databases.
 
 * Bazy danych „key/value” w aplikacjach internetowych 
    na przykładzie Rails 3 + [Redis] [redis].
@@ -74,11 +79,6 @@ Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
   \([Awesome gem for modeling your domain and storing it in mongo] [mongomapper].\)
 * Dokumentowe bazy danych w aplikacjach internetowych 
    na przykładzie Rails 3 + [CouchDB] [couchdb].
-
-Cytat: „[…] inżynierowie Facebooka […] hurtownia danych
-Cassandra. Pozwala ona na zapisanie 50 GB danych w 0,12 milisekundy,
-ponad 2500 razy szybciej, niż robi to MySQL.”
-
 
 Nowe trendy w aplikacjach internetowych:
 
