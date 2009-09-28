@@ -44,7 +44,7 @@ Podręczniki do języka Ruby:
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
 1. Prezentacja bazy [Redis] [redis].
-1. Prezentacja bazy [MongoDB] [mongodb].
+1. Prezentacja bazy [MongoDB] [mongodb]. 
 1. Prezentacja frameworka [Jaxer] [jaxer].
 1. Prezentacja bazy [CouchDB] [couchdb].
 
@@ -70,9 +70,14 @@ Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
 * Bazy danych „key/value” w aplikacjach internetowych 
    na przykładzie Rails 3 + [Redis] [redis].
 * Dokumentowe bazy danych w aplikacjach internetowych 
-   na przykładzie Rails 3 + [MongoDB] [mongodb].
+  na przykładzie Rails 3 + [MongoDB] [mongodb].
+  \([Awesome gem for modeling your domain and storing it in mongo] [mongomapper].\)
 * Dokumentowe bazy danych w aplikacjach internetowych 
    na przykładzie Rails 3 + [CouchDB] [couchdb].
+
+Cytat: „[…] inżynierowie Facebooka […] hurtownia danych
+Cassandra. Pozwala ona na zapisanie 50 GB danych w 0,12 milisekundy,
+ponad 2500 razy szybciej, niż robi to MySQL.”
 
 
 Nowe trendy w aplikacjach internetowych:
@@ -102,6 +107,10 @@ Pozostałe tematy:
 #### Linki
 
 [redis]: http://code.google.com/p/redis/ "Redis datastore"
+
 [mongodb]: http://www.mongodb.org "MongoDB"
+[mongomapper]: http://wiki.github.com/jnunemaker/mongomapper/quickstart "Awesome gem for modeling your domain and storing it in mongo"
+
 [jaxer]: http://jaxer.org/ "Jaxer"
+
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
