@@ -17,6 +17,15 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/styl-naukowy
 Na początek polecam lekturę artykułu Jacoba Kaplan-Moss'a,
 [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
 
+Podręczniki do języka Ruby:
+
+* [Why's (Poignant) Guide to Ruby](http://www.ember.co.nz/files/resources/whys-poignant-guide-to-ruby.pdf)
+  \({%= link_to "lokalna kopia", "/doc/whys-poignant-guide-to-ruby.pdf" %}\)
+* [Mr. Neighborly's Humble Little 
+  Ruby Book](http://www.humblelittlerubybook.com/book/html/index.html)
+  \([pdf](http://www.humblelittlerubybook.com/book/hlrb.pdf)\)
+
+
 ## Referaty
 
 1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
@@ -32,27 +41,49 @@ Na początek polecam lekturę artykułu Jacoba Kaplan-Moss'a,
 
 ## Lista obecności
 
-1. <a href="http://sszypulski.inf.ug.edu.pl">Szypulski, Szymon</a>
+1. Karol  Domagała
+1. Paweł  Olejniczak
+1. Kamil  Pluszczewicz
+1. Marta  Sikora
+1. Marcin Sulkowski
+1. Oskar  Szrajer
+1. Szymon Szypulski
+1. Piotr  Zieliński
+
 
 ## Proponowane tematy prac
 
-1. Rails 3 + [Redis](http://code.google.com/p/redis/).
-1. [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/).
-1. HTTPS i SSL w Rails 3. [Using SSL in Rails 
-   Applications](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications).
-1. Unobtrusive Javascript w aplikacjach Rails3.
+NOSQL is a database movement which began in early to mid 2009. The
+term refers to certain non-relational data stores.
+Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
+
+* Bazy danych „key/value” w aplikacjach internetowych 
+   na przykładzie Rails 3 + [Redis](http://code.google.com/p/redis/).
+* Dokumentowe bazy danych w aplikacjach internetowych 
+   na przykładzie Rails 3 i [MongoDB](http://www.mongodb.org/)
+* Dokumentowe bazy danych w aplikacjach internetowych 
+   na przykładzie Rails 3 i [CouchDB](http://couchdb.apache.org/).
+
+
+Nowe trendy w aplikacjach internetowych:
+
+* Aplikacje internetowe w Javascript. [Jaxer](http://jaxer.org/).
+
+„Unobtrusive JavaScript” is an emerging technique in the JavaScript
+programming language, as used on the World Wide Web:
+
+* Unobtrusive Javascript w aplikacjach Rails3.
    [Standard JSON Response for Rails and 
    jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
-   Przykłady: RJS + Prototype → unobtrusive jQuery.
-1. Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
+   (Przykłady: RJS + Prototype → unobtrusive jQuery.)
+
+Pozostałe tematy:
+
+* Rozszerzenia Ruby. Piszemy rozszerzenie dla biblioteki *libxml*.
+* Korzystamy z gemów *Authlogic* i *Searchlogic*
+   w aplikacjach Rails i Sinatry + Datamapper/Sequel.
+* [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/).
+* HTTPS i SSL w Rails 3. [Using SSL in Rails 
+   Applications](http://www.buildingwebapps.com/articles/6401-using-ssl-in-rails-applications).
+* Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
    [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/).
-1. Aplikacja Rails3 zarządzająca pokazami slajdów.
-   Aplikacja powinna działać z przeglądarką Firefox 
-   z rozszerzeniem (które też należy napisać) podobnym do
-   [FullerScreen](https://addons.mozilla.org/pl/firefox/addon/4650)
-   (nie działa z Firefoxem 3.5). 
-1. Aplikacje internetowe w Javascript. [Jaxer](http://jaxer.org/).
-1. Ruby Extensions. Na przykład implementujemy *lepsze* API dla biblioteki *libxml*.
-1. Korzystamy z gemów *Authlogic* i *Searchlogic* w Rails3 + Datamapper/Sequel.
-1. Dokumentowe bazy danych w aplikacjach Rails3.
-   Na przykład [CouchDB](http://couchdb.apache.org/).
