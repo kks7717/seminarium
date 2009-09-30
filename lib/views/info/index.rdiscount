@@ -14,8 +14,14 @@ Spotykamy się w poniedziałki, godz. 14–15:30, sala 116.
 
 Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/styl-naukowy" %}
 
-Na początek polecam lekturę artykułu Jacoba Kaplan-Moss'a,
-[Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
+Obowiązkowa lektura do poduszki:
+
+* Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
+* Bradford. [Social Media Kills the Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
+
+<!--
+* Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
+-->
 
 Podręczniki do języka Ruby:
 
@@ -62,17 +68,22 @@ Podręczniki do języka Ruby:
 
 ## Proponowane tematy prac
 
+<blockquote>
+{%= image_tag "/images/cassandra.png", :alt => "[Cassandra data store]" %}
+</blockquote>
+
 NOSQL is a database movement which began in early to mid 2009. The
 term refers to certain non-relational data stores.
-Google *BigTable* and Amazon *Dynamo* are NOSQL databases.
+Google *BigTable*, Amazon *Dynamo* and 
+Facebook *Cassandra* are NOSQL databases.
 
 * Bazy danych „key/value” w aplikacjach internetowych 
    na przykładzie Rails 3 + [Redis] [redis].
 * Dokumentowe bazy danych w aplikacjach internetowych 
-   na przykładzie Rails 3 + [MongoDB] [mongodb].
+  na przykładzie Rails 3 + [MongoDB] [mongodb].
+  \([Awesome gem for modeling your domain and storing it in mongo] [mongomapper].\)
 * Dokumentowe bazy danych w aplikacjach internetowych 
    na przykładzie Rails 3 + [CouchDB] [couchdb].
-
 
 Nowe trendy w aplikacjach internetowych:
 
@@ -101,6 +112,10 @@ Pozostałe tematy:
 #### Linki
 
 [redis]: http://code.google.com/p/redis/ "Redis datastore"
+
 [mongodb]: http://www.mongodb.org "MongoDB"
+[mongomapper]: http://wiki.github.com/jnunemaker/mongomapper/quickstart "Awesome gem for modeling your domain and storing it in mongo"
+
 [jaxer]: http://jaxer.org/ "Jaxer"
+
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
