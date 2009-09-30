@@ -30,8 +30,11 @@ Podręczniki do języka Ruby:
 
 1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 1. Do czego może się nam przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
-1. Porównanie HTML5 z HTML4.01.
-   Mark Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/).
+1. HTML5:
+   * J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
+   * Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ)
+   \(video\)
+   * Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
 1. [CSS3 Previews](http://www.css3.info/preview/).
 1. Ruby Extensions w przykładach. W książce 
    B. W. Kernighan, R. Pike (2002). *Lekcja programowania*. WNT,
@@ -39,7 +42,8 @@ Podręczniki do języka Ruby:
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
 1. Prezentacja bazy [Redis] [redis].
-1. Prezentacja bazy [MongoDB] [mongodb].
+1. Prezentacja bazy [MongoDB] [mongodb]:
+   * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
 1. Prezentacja frameworka [Jaxer] [jaxer].
 1. Prezentacja bazy [CouchDB] [couchdb].
 
