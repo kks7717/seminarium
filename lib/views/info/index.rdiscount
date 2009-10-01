@@ -12,7 +12,7 @@
 
 Spotykamy się w poniedziałki, godz. 14–15:30, sala 116.
 
-Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/styl-naukowy" %}
+Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %}
 
 Obowiązkowa lektura do poduszki:
 
