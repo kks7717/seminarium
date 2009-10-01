@@ -1,4 +1,4 @@
-# SEMINARIUM
+# SEMINARIUM: Rails 3
 
 <blockquote>
 {%= image_tag "/images/simpsons.math.png", :alt => "[Simpson &amp; Math]" %}

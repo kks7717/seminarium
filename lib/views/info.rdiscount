@@ -9,7 +9,7 @@
                             "/stylesheets/screen.css", 
                             "/stylesheets/uv.css" %>
 
-    <title><%= @title || "Rails 3 | Seminarium 2009/2010" %></title>
+    <title><%= @title || "Seminarium 2009: Rails 3" %></title>
   </head>
   
   <body>
