@@ -41,6 +41,7 @@ Podręczniki do języka Ruby:
 1. *Sz. Szypulski*, Prezentacja bazy [MongoDB] [mongodb]:
    * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
 1. *P. Olejniczak*. Prezentacja bazy [CouchDB] [couchdb].
+1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 
 Referentów proszę podesłanie linków do artykułu na blogu.
 
@@ -56,7 +57,6 @@ Referentów proszę podesłanie linków do artykułu na blogu.
    w rozdziale 4 *Interfejsy* jest opisana implementacja
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
-1. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 1. Prezentacja bazy [Redis] [redis].
 
 
