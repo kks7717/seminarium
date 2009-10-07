@@ -36,6 +36,11 @@ Podręczniki do języka Ruby:
 
 1. *O. Szrajer*. Co to jest [HAML](http://haml-lang.com/)? \(12.10.2009\)
 1. *M. Sulkowski*. jRuby + Rails.
+1. *K. Pluszczewicz*. HTML5:
+* J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
+* Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ) \(video\)
+* Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
+* [HTML5 Validator](http://html5.validator.nu/)
 1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/)
 1. *K. Domagała*. Prezentacja frameworka [Jaxer] [jaxer].
 1. *Sz. Szypulski*, Prezentacja bazy [MongoDB] [mongodb]:
@@ -46,12 +51,6 @@ Podręczniki do języka Ruby:
 Referentów proszę podesłanie linków do artykułu na blogu.
 
 1. Do czego może nam się przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
-1. HTML5:
-   * J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
-   * Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ)
-   \(video\)
-   * Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
-   * [HTML5 Validator](http://html5.validator.nu/)
 1. Ruby Extensions w przykładach. W książce 
    B. W. Kernighan, R. Pike (2002). *Lekcja programowania*. WNT,
    w rozdziale 4 *Interfejsy* jest opisana implementacja
