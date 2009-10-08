@@ -36,16 +36,14 @@ Podręczniki do języka Ruby:
 
 1. *O. Szrajer*. Co to jest [HAML](http://haml-lang.com/)? \(12.10.2009\)
 1. *M. Sulkowski*. jRuby + Rails.
-1. *K. Pluszczewicz*. HTML5:
-* J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
-* Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ) \(video\)
-* Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
-* [HTML5 Validator](http://html5.validator.nu/)
-1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/)
-1. *K. Domagała*. Prezentacja frameworka [Jaxer] [jaxer].
-1. *Sz. Szypulski*, Prezentacja bazy [MongoDB] [mongodb]:
-   * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
-1. *P. Olejniczak*. Prezentacja bazy [CouchDB] [couchdb].
+1. *K. Pluszczewicz*. Co nowego w HTML5?
+1. *K. Domagała*. Framework [Jaxer] [jaxer].
+1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/).
+1. *Sz. Szypulski*, [MongoDB] [mongodb].
+1. *P. Olejniczak*. [CouchDB] [couchdb].
+1. *P. Chałkowski*. ???
+1. *M. Malinowski*. ???
+1. *M. Rusajczyk*. ???
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 
 Referentów proszę podesłanie linków do artykułu na blogu.
@@ -57,7 +55,13 @@ Referentów proszę podesłanie linków do artykułu na blogu.
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
 1. Prezentacja bazy [Redis] [redis].
-
+1. HTML5, linki:
+   * J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
+   * Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ) \(video\)
+   * Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
+   * [HTML5 Validator](http://html5.validator.nu/)
+1. Mongodb:
+   * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
 
 ## Lista obecności
 
