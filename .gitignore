@@ -5,3 +5,4 @@ pkg
 log/*
 lib/log/
 lib/log/tmp/
+lib/tmp/pids/
