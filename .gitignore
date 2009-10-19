@@ -3,4 +3,5 @@
 *~
 pkg
 log/*
-lib/log/*
+lib/log/
+lib/log/tmp/
