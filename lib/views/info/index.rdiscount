@@ -17,7 +17,12 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 Obowiązkowa lektura do poduszki:
 
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
-* Bradford. [Social Media Kills the Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
+* Bradford Stephens. [Social Media Kills the 
+  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
+* Linus Torvalds. [Re: [RFC] Convert builin-mailinfo.c to use The Better 
+  String Library](http://lwn.net/Articles/249460/).
+* Yossi Kreinin. [C++ FQA Lite: Main page](http://yosefk.com/c++fqa/)
+
 
 <!--
 * Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
@@ -72,7 +77,7 @@ Referentów proszę podesłanie linków do artykułu na blogu.
 1. Monika Rusajczyk
 1. Marta  Sikora
 1. Marcin Sulkowski
-1. [Oskar  Szrajer]
+1. [Oskar  Szrajer](http://gotar.ath.cx)
 1. [Szymon Szypulski](http://rails2.gen.org/)
 
 
