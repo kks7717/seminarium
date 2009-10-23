@@ -22,7 +22,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 * Linus Torvalds. [Re: [RFC] Convert builin-mailinfo.c to use The Better 
   String Library](http://lwn.net/Articles/249460/).
 * Yossi Kreinin. [C++ FQA Lite: Main page](http://yosefk.com/c++fqa/).
-* Chris Wanstrath. [Railsconf 2009 Keynote](https://gist.github.com/0a2655aed6a26fa15a02)
+* Chris Wanstrath. [Railsconf 2009 Keynote](https://gist.github.com/0a2655aed6a26fa15a02).
 
 
 <!--
