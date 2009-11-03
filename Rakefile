@@ -1,19 +1,27 @@
+# -*- coding: utf-8 -*-
+
 require 'rake'
 require 'rake/testtask'
 require "rake/clean"
+
+# don't use the gem command in your main code at all, use a loader
+# program that pulls it in if you need it.  In almost all cases it is
+# going away in 1.9, and good riddance;
+#
+#   http://blog.bytemark.co.uk/2009/11/01/ruby-gems-and-when-well-be-shot-of-them
 
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name         = "seminarium"
-    s.author       = "Wlodek Bzyl"
+    s.author       = "Włodek Bzyl"
     s.email        = "matwb@univ.gda.pl"
     s.homepage     = "http://github.com/wbzyl/seminarium"
   
     s.description = <<-EOF
-Moje notatki, prezentacje itp.
+Seminarium „Rails 3”.
     EOF
-    s.summary      = "Prosta aplikacja Sinatry na seminarium 2009/2010"
+    s.summary      = "Prosta aplikacja Sinatry do seminarium 2009/2010"
     
     s.files        = %w[TODO VERSION.yml Rakefile config.ru seminarium-2009.rb] + FileList["lib/**/*", "examples/**/*"]
 
