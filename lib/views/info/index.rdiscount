@@ -43,15 +43,17 @@ Podręczniki do języka Ruby:
 1. *O. Szrajer*. Co to jest [HAML](http://haml-lang.com/)? (12.10.2009)
 1. *K. Pluszczewicz*. Co nowego w HTML5? (19.10.2009)
 1. *K. Domagała*. Framework [Jaxer] [jaxer]. (26.10.2009)
-1. *P. Chałkowski*. HTTPS i SSL w Rails 3. (2.11.2009)
-1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/). (9.11.2009)
-1. *Sz. Szypulski]*, [MongoDB] [mongodb]. (16.11.2009)
-1. *P. Olejniczak*. [CouchDB] [couchdb]. (23.11.2009)
-1. *M. Sulkowski*. jRuby + Rails. (30.11.2009)
+1. *P. Chałkowski*. HTTPS i SSL w Rails 3. (9.11.2009)
+1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/). (16.11.2009)
+1. *Sz. Szypulski]*, [MongoDB] [mongodb]. (23.11.2009)
+1. *P. Olejniczak*. [CouchDB] [couchdb]. (30.11.2009)
+1. *M. Sulkowski*. jRuby + Rails. (7.12.2009)
 1. *M. Rusajczyk*. Do czego może nam się przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
-  (7.12.2009)
-1. *M. Malinowski*. ???
+  (14.12.2009)
+
+<!--
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
+-->
 
 Referentów proszę podesłanie linków do artykułu na blogu.
 
@@ -73,7 +75,6 @@ Referentów proszę podesłanie linków do artykułu na blogu.
 
 1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkow/rails3/)
 1. [Karol  Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
-1. Marek Malinowski
 1. Paweł  Olejniczak
 1. [Kamil  Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
 1. Monika Rusajczyk
