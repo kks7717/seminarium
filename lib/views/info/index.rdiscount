@@ -43,7 +43,9 @@ Podręczniki do języka Ruby:
 1. *O. Szrajer*. Co to jest [HAML](http://haml-lang.com/)? (12.10.2009)
 1. *K. Pluszczewicz*. Co nowego w HTML5? (19.10.2009)
 1. *K. Domagała*. Framework [Jaxer] [jaxer]. (26.10.2009)
-1. *P. Chałkowski*. HTTPS i SSL w Rails 3. (9.11.2009)
+1. *P. Chałkowski*. 
+  [HTTPS i SSL w Rails 3](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/2009/10/12/Using-SSL-in-Rails3/). 
+  (9.11.2009)
 1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/). (16.11.2009)
 1. *Sz. Szypulski]*, [MongoDB] [mongodb]. (23.11.2009)
 1. *P. Olejniczak*. [CouchDB] [couchdb]. (30.11.2009)
@@ -73,14 +75,14 @@ Referentów proszę podesłanie linków do artykułu na blogu.
 
 ## Lista obecności
 
-1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkow/rails3/)
-1. [Karol  Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
-1. Paweł  Olejniczak
-1. [Kamil  Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
+1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/)
+1. [Karol Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
+1. Paweł Olejniczak
+1. [Kamil Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
 1. Monika Rusajczyk
-1. Marta  Sikora
+1. Marta Sikora
 1. Marcin Sulkowski
-1. [Oskar  Szrajer](http://blog.gotar.info)
+1. [Oskar Szrajer](http://blog.gotar.info)
 1. [Szymon Szypulski](http://rails.gen2.org/)
 
 
