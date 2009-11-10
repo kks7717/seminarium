@@ -23,7 +23,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
   String Library](http://lwn.net/Articles/249460/).
 * Yossi Kreinin. [C++ FQA Lite: Main page](http://yosefk.com/c++fqa/).
 * Chris Wanstrath. [Railsconf 2009 Keynote](https://gist.github.com/0a2655aed6a26fa15a02).
-
+* Jacob Kaplan-Moss. [Thank you, Rails](http://jacobian.org/writing/thank-you-rails/).
 
 <!--
 * Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
