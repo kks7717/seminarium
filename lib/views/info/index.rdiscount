@@ -40,16 +40,17 @@ Podręczniki do języka Ruby:
 
 ## Referaty
 
-1. *O. Szrajer*. Co to jest [HAML](http://haml-lang.com/)? (12.10.2009)
-1. *K. Pluszczewicz*. Co nowego w HTML5? (19.10.2009)
-1. *K. Domagała*. Framework [Jaxer] [jaxer]. (26.10.2009)
-1. *P. Chałkowski*. 
-  [HTTPS i SSL w Rails 3](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/2009/10/12/Using-SSL-in-Rails3/). 
+1. *O. Szrajer*. Co to jest [HAML](http://gotar.ath.cx:5000/posts/1) (12.10.2009)
+1. *K. Pluszczewicz*. [HTML 5 - już niedługo w Twoim 
+  domu](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/2009/10/12/html5-quick-guide/) (19.10.2009)
+1. *K. Domagała*. [Jaxer](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/2009/10/22/jaxer/) (26.10.2009)
+1. *P. Chałkowski*. [HTTPS i SSL w 
+  Rails 3](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/2009/10/12/Using-SSL-in-Rails3/) 
   (9.11.2009)
-1. *M. Sikora*. [CSS3 Previews](http://www.css3.info/preview/). (16.11.2009)
-1. *Sz. Szypulski]*, [MongoDB] [mongodb]. (23.11.2009)
-1. *P. Olejniczak*. [CouchDB] [couchdb]. (30.11.2009)
-1. *M. Sulkowski*. jRuby + Rails. (7.12.2009)
+1. *M. Sikora*. [CSS3 Previews](http://sigma.inf.ug.edu.pl/~msikora/blog/2009/11/16/CSS3/) (16.11.2009)
+1. *Sz. Szypulski]*, [MongoDB](http://rails.gen2.org/2009/11/30/mongo-db/) (23.11.2009)
+1. *P. Olejniczak*. CouchDB (30.11.2009)
+1. *M. Sulkowski*. jRuby + Rails (7.12.2009)
 1. *M. Rusajczyk*. Do czego może nam się przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
   (14.12.2009)
 
@@ -65,13 +66,7 @@ Referentów proszę podesłanie linków do artykułu na blogu.
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
 1. Prezentacja bazy [Redis] [redis].
-1. HTML5, linki:
-   * J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
-   * Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ) \(video\)
-   * Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
-   * [HTML5 Validator](http://html5.validator.nu/)
-1. Mongodb:
-   * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
+
 
 ## Lista obecności
 
@@ -80,9 +75,9 @@ Referentów proszę podesłanie linków do artykułu na blogu.
 1. Paweł Olejniczak
 1. [Kamil Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
 1. Monika Rusajczyk
-1. Marta Sikora
+1. [Marta Sikora](http://sigma.inf.ug.edu.pl/~msikora/blog/)
 1. Marcin Sulkowski
-1. [Oskar Szrajer](http://blog.gotar.info)
+1. [Oskar Szrajer](http://blog.gotar.info/)
 1. [Szymon Szypulski](http://rails.gen2.org/)
 
 
@@ -132,10 +127,17 @@ Pozostałe tematy:
 #### Linki
 
 [redis]: http://code.google.com/p/redis/ "Redis datastore"
-
 [mongodb]: http://www.mongodb.org "MongoDB"
 [mongomapper]: http://wiki.github.com/jnunemaker/mongomapper/quickstart "Awesome gem for modeling your domain and storing it in mongo"
-
 [jaxer]: http://jaxer.org/ "Jaxer"
-
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
+
+<!--
+1. HTML5, linki:
+   * J. David Eisenberg. [Get Ready for HTML 5](http://www.alistapart.com/articles/get-ready-for-html-5/)
+   * Ian Hickson. [HTML 5: Features you want desperately but still can't use](http://www.youtube.com/watch?v=xIxDJof7xxQ) \(video\)
+   * Mark Pilgrim. [Dive Into HTML5](http://diveintohtml5.org/)
+   * [HTML5 Validator](http://html5.validator.nu/)
+1. Mongodb:
+   * Clinton R. Nixon. [WordBadger](http://github.com/crnixon/wordbadger)
+-->
