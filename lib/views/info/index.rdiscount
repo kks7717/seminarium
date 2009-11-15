@@ -29,14 +29,6 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 * Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
 -->
 
-Podręczniki do języka Ruby:
-
-* [Why's (Poignant) Guide to Ruby](http://www.ember.co.nz/files/resources/whys-poignant-guide-to-ruby.pdf)
-  \({%= link_to "lokalna kopia", "/doc/whys-poignant-guide-to-ruby.pdf" %}\)
-* [Mr. Neighborly's Humble Little 
-  Ruby Book](http://www.humblelittlerubybook.com/book/html/index.html)
-  \([pdf](http://www.humblelittlerubybook.com/book/hlrb.pdf)\)
-
 
 ## Referaty
 
@@ -99,10 +91,6 @@ Facebook *Cassandra* are NOSQL databases.
   \([Awesome gem for modeling your domain and storing it in mongo] [mongomapper].\)
 * Dokumentowe bazy danych w aplikacjach internetowych 
    na przykładzie Rails 3 + [CouchDB] [couchdb].
-
-Nowe trendy w aplikacjach internetowych:
-
-* Aplikacje internetowe w Javascript. [Jaxer](http://jaxer.org/).
 
 „Unobtrusive JavaScript” is an emerging technique in the JavaScript
 programming language, as used on the World Wide Web:
