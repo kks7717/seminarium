@@ -32,7 +32,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 
 ## Referaty
 
-1. *O. Szrajer*. Co to jest [HAML](http://gotar.ath.cx:5000/posts/1) (12.10.2009)
+1. *O. Szrajer*. [Co to jest HAML](http://gotar.ath.cx:5000/posts/1) (12.10.2009)
 1. *K. Pluszczewicz*. [HTML 5 - już niedługo w Twoim 
   domu](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/2009/10/12/html5-quick-guide/) (19.10.2009)
 1. *K. Domagała*. [Jaxer](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/2009/10/22/jaxer/) (26.10.2009)
@@ -50,14 +50,14 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 -->
 
-Referentów proszę podesłanie linków do artykułu na blogu.
+Pozostałe tematy referatów:
 
+1. Prezentacja bazy [Redis] [redis].
 1. Ruby Extensions w przykładach. W książce 
    B. W. Kernighan, R. Pike (2002). *Lekcja programowania*. WNT,
    w rozdziale 4 *Interfejsy* jest opisana implementacja
    C biblioteki dla formatu CSV. Przerobić implementację
    z książki na Gem.
-1. Prezentacja bazy [Redis] [redis].
 
 
 ## Lista obecności
