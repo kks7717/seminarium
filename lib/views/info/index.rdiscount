@@ -43,7 +43,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. *Sz. Szypulski]*, [MongoDB](http://rails.gen2.org/2009/11/30/mongo-db/) (23.11.2009)
 1. *O. Szrajer*. Napisze aplikację na dowolny podany przez was temat (30.11.2009)
 1. *P. Olejniczak*. CouchDB (7.12.2009)
-1. *M. Rusajczyk*. Do czego może nam się przydać system [Pandoc](http://johnmacfarlane.net/pandoc/)?
+1. *M. Rusajczyk*. Do czego może nam się przydać system Pandoc?
   (14.12.2009)
 1. *M. Sulkowski*. jRuby + Rails (21.12.2009)
 
@@ -114,6 +114,7 @@ Pozostałe tematy:
 [mongomapper]: http://wiki.github.com/jnunemaker/mongomapper/quickstart "Awesome gem for modeling your domain and storing it in mongo"
 [jaxer]: http://jaxer.org/ "Jaxer"
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
+[pandoc]: http://johnmacfarlane.net/pandoc/ "Pandoc"
 
 <!--
 1. HTML5, linki:
