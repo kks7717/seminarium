@@ -4,7 +4,7 @@ require 'jcode'
 gem 'sinatra', '>=0.9.2'
 require 'sinatra/base'
 
-gem 'wbzyl-sinatra-static-assets'
+gem 'sinatra-static-assets'
 require 'sinatra/static_assets'
 
 gem 'wbzyl-sinatra-rdiscount'
