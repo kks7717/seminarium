@@ -1,7 +1,7 @@
 module Seminarium
   class Rails < Sinatra::Base
     helpers Sinatra::UrlForHelper
-    helpers Sinatra::StaticAssets
+    register Sinatra::StaticAssets
     
     helpers Sinatra::RDiscount
     

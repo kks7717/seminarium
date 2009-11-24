@@ -1,6 +1,6 @@
 require 'seminarium'
 
-gem 'wbzyl-rack-codehighlighter'
+gem 'rack-codehighlighter'
 require 'rack/codehighlighter'
 
 gem 'ultraviolet'
