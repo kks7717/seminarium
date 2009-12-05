@@ -57,10 +57,10 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. *M. Sikora*. [CSS3 Previews](http://sigma.inf.ug.edu.pl/~msikora/blog/2009/11/16/CSS3/) (16.11.2009)
 1. *Sz. Szypulski]*, [MongoDB](http://rails.gen2.org/2009/11/30/mongo-db/) (23.11.2009)
 1. *O. Szrajer*. Napisze aplikację na dowolny podany przez was temat (30.11.2009)
-1. *P. Olejniczak*. [CouchDB](http://sigma.inf.ug.edu.pl/~polejnic/rails3/2009/11/23/couchdb/) (7.12.2009)
+1. *P. Olejniczak*. [CouchDB](http://sigma.inf.ug.edu.pl/~polejnic/rails3/2009/11/23/couchdb/) (14.12.2009)
 1. *M. Rusajczyk*. Do czego może nam się przydać system Pandoc?
-  (14.12.2009)
-1. *M. Sulkowski*. jRuby + Rails (21.12.2009)
+  (21.12.2009)
+1. *M. Sulkowski*. jRuby + Rails (4.1.2010)
 
 <!--
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
