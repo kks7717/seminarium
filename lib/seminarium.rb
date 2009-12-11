@@ -1,13 +1,9 @@
 $KCODE = 'UTF8'
 require 'jcode'
 
-gem 'sinatra', '>=0.9.2'
+gem 'sinatra', '>=0.10.1'
 require 'sinatra/base'
-
-gem 'sinatra-static-assets'
 require 'sinatra/static_assets'
-
-gem 'wbzyl-sinatra-rdiscount'
 require 'sinatra/rdiscount'
 
 require 'seminarium/rails'
