@@ -12,15 +12,13 @@
 
 ## Info
 
-[30.11.2009] Oskar umiescił na [githubie](http://github.com/gotar/test) 
+[10.12.2009] Dodałem listę referatów na drugi semestr.
+
+[30.11.2009, 7.12.2009] Oskar umiescił na [githubie](http://github.com/gotar/test) 
 to, co udało się zrobić dzisiaj i prosi o uwagi/sugestie na emaila.
 
 [27.11.2009] Nasz ulubiony autor, czyli J. Kaplan-Moss, jest w trakcie pisania
 serii [Writing great documentation](http://jacobian.org/writing/great-documentation/).
-
-[27.11.2009] Cały czas czekam na zgłoszenia ochotników do trzech referatów:
-„Redis“, „NodeJS” oraz „Rozszerzenia Ruby w przykładach”.
-NodeJS polecam uwadze Oskara. 
 
 Spotykamy się w poniedziałki, godz. 14–15:30, sala 116.
 
@@ -45,7 +43,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 -->
 
 
-## Referaty
+## Referaty: zima 2009
 
 1. *O. Szrajer*. [Co to jest HAML](http://gotar.ath.cx:5000/posts/1) (12.10.2009)
 1. *K. Pluszczewicz*. [HTML 5 - już niedługo w Twoim 
@@ -67,20 +65,37 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 -->
 
-Pozostałe tematy referatów:
+## Referaty: lato 2010
 
-1. Prezentacja bazy [Redis] [redis].
-1. [NodeJS](http://nodejs.org/). Kilka linków na początek:
+1. [P. Chałkowski] Rozszerzenia języka Ruby.
+   Plan referatu: (1) Piszemy rozszerzenie „hello world”.
+   (2) B. W. Kernighan, R. Pike (2002). 
+   *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
+   opis implementacji biblioteki dla formatu CSV. 
+   Napisać rozszerzenie udostępniające funkcje tej biblioteki 
+   w języku Ruby.
+   (3) Omówić implementację gemu [Excelsior]:
+   „Ruby gem that uses C bindings to read CSV files superfast. 
+   I'm totally serial!”.
+1. [M. Rusajczyk + 1] 
+   i18n w Ruby on Rails
+   (model, metody pomocnicze, kontroler, widoki, javascript).
+1. [O. Szrajer] 
+   Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
+1. [K. Domagała + 1] 
+   Model zdarzeń w programach sieciowych na przykładzie
+   [NodeJS](http://nodejs.org/).
+   Kilka linków na początek:
    * Simon Willison. 
-   [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/)
+   [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
    * Ryan Dahl.
    [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
    prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
-1. Ruby Extensions w przykładach. W książce 
-   B. W. Kernighan, R. Pike (2002). *Lekcja programowania*. WNT,
-   w rozdziale 4 *Interfejsy* jest opisana implementacja
-   C biblioteki dla formatu CSV. Przerobić implementację
-   z książki na Gem.
+1. [Sz. Szypulski, P. Olejniczak]. 
+   NoSQL w przykładach.
+
+Na kolejne spotkania należy przygotować referat z postępów
+w pisaniu pracy.
 
 
 ## Lista obecności
@@ -108,7 +123,7 @@ term refers to certain non-relational data stores.
 Google *BigTable*, Amazon *Dynamo* and 
 Facebook *Cassandra* are NOSQL databases.
 
-* Bazy danych „key/value” w aplikacjach internetowych 
+* Bazy danych „key/value” w aplikacjach internetowych
    na przykładzie Rails 3 + [Redis] [redis].
 * Dokumentowe bazy danych w aplikacjach internetowych 
   na przykładzie Rails 3 + [MongoDB] [mongodb].
@@ -141,11 +156,13 @@ Pozostałe tematy:
 #### Linki
 
 [redis]: http://code.google.com/p/redis/ "Redis datastore"
+[ohm]: http://ohm.keyvalue.org/ "Object-hash mapping library for Redis"
 [mongodb]: http://www.mongodb.org "MongoDB"
 [mongomapper]: http://wiki.github.com/jnunemaker/mongomapper/quickstart "Awesome gem for modeling your domain and storing it in mongo"
 [jaxer]: http://jaxer.org/ "Jaxer"
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
 [pandoc]: http://johnmacfarlane.net/pandoc/ "Pandoc"
+[excelsior]: http://www.toastyapps.com/excelsior/ "ToastyApps: A Warm Fresh Slice of Web Development"
 
 <!--
 1. HTML5, linki:
