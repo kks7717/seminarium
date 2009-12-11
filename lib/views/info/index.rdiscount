@@ -93,6 +93,15 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
    prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
 1. [Sz. Szypulski, P. Olejniczak]. 
    NoSQL w przykładach.
+1. [M. Sulkowski]
+   Dwustronna komunikacja między aplikacją a serwerem:
+   [WebSockets] [].
+   Kilka linków: 
+   * [Chromium Blog] [chromium].
+   * [Ajax Push Engine - Complete Comet solution] [ape].
+   * [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
+
+   
 
 Na kolejne spotkania należy przygotować referat z postępów
 w pisaniu pracy.
@@ -163,6 +172,10 @@ Pozostałe tematy:
 [couchdb]: http://couchdb.apache.org/ "CouchDB"
 [pandoc]: http://johnmacfarlane.net/pandoc/ "Pandoc"
 [excelsior]: http://www.toastyapps.com/excelsior/ "ToastyApps: A Warm Fresh Slice of Web Development"
+[websockets]: http://dev.w3.org/html5/websockets/ "The Web Sockets API"
+[chromium]: http://blog.chromium.org/2009/12/web-sockets-now-available-in-google.html
+[web-sockets-js]: http://github.com/gimite/web-socket-js "HTML5 Web Socket implementation powered by Flash"
+[ape]: http://www.ape-project.org/ "Ajax Push Engine – Complete Comet solution"
 
 <!--
 1. HTML5, linki:
