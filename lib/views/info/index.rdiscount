@@ -1,13 +1,12 @@
 # SEMINARIUM: Rails 3
 
 <blockquote>
-{%= image_tag "/images/simpsons.math.png", :alt => "[Simpson &amp; Math]" %}
+{%= image_tag "/images/algorithm.png", :alt => "[algorithm]" %}
 <p>
-  A piece of program is like a poem, and we can ask if it satisfies our
-  aesthetic criteria: Does it make sense? Is it
-  simple and elegant? Does it get me closer to the heart of the matter?
+  Any fool can write code that a computer can understand.
+  Good programmers write code that humans can understand.
 </p>
-<p class="author">— Paul Lockhart</p>
+<p class="author">— Martin Fowler</p>
 </blockquote>
 
 ## Info
