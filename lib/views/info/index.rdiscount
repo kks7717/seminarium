@@ -77,7 +77,8 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
    * Omówić implementację gemu [Excelsior]:
    „Ruby gem that uses C bindings to read CSV files superfast. 
    I'm totally serial!”.
-   * [Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
+   * Aaron Patterson. 
+   [Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
 1. [M. Rusajczyk, M. Sikora] 
    i18n w Ruby on Rails
    (model, metody pomocnicze, kontroler, widoki, javascript).
