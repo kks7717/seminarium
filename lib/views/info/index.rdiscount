@@ -68,20 +68,22 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 
 1. [P. Chałkowski] Rozszerzenia języka Ruby.
    Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-   (2) B. W. Kernighan, R. Pike (2002). 
-   *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
+   (2) B. W. Kernighan, R. Pike (2002).
+   Literatura:
+   * *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
    opis implementacji biblioteki dla formatu CSV. 
    Napisać rozszerzenie udostępniające funkcje tej biblioteki 
    w języku Ruby.
-   (3) Omówić implementację gemu [Excelsior]:
+   * Omówić implementację gemu [Excelsior]:
    „Ruby gem that uses C bindings to read CSV files superfast. 
    I'm totally serial!”.
-1. [M. Rusajczyk + 1] 
+   * [Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
+1. [M. Rusajczyk, M. Sikora] 
    i18n w Ruby on Rails
    (model, metody pomocnicze, kontroler, widoki, javascript).
 1. [O. Szrajer] 
    Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
-1. [K. Domagała + 1] 
+1. [K. Domagała] 
    Model zdarzeń w programach sieciowych na przykładzie
    [NodeJS](http://nodejs.org/).
    Kilka linków na początek:
@@ -92,14 +94,14 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
    prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
 1. [Sz. Szypulski, P. Olejniczak]. 
    NoSQL w przykładach.
-1. [M. Sulkowski]
+1. [M. Sulkowski, K. Pluszczewicz]
    Dwustronna komunikacja między aplikacją a serwerem:
    [WebSockets] [].
    Kilka linków: 
    * [Chromium Blog] [chromium].
    * [Ajax Push Engine - Complete Comet solution] [ape].
    * [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
-
+   * [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
    
 
 Na kolejne spotkania należy przygotować referat z postępów
@@ -175,6 +177,7 @@ Pozostałe tematy:
 [chromium]: http://blog.chromium.org/2009/12/web-sockets-now-available-in-google.html
 [web-sockets-js]: http://github.com/gimite/web-socket-js "HTML5 Web Socket implementation powered by Flash"
 [ape]: http://www.ape-project.org/ "Ajax Push Engine – Complete Comet solution"
+[igvita-ruby-websockets]: http://www.igvita.com/2009/12/22/ruby-websockets-tcp-for-the-browser/ "igvita about websockets"
 
 <!--
 1. HTML5, linki:
