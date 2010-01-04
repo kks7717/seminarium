@@ -82,6 +82,11 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. [M. Rusajczyk, M. Sikora] 
    i18n w Ruby on Rails
    (model, metody pomocnicze, kontroler, widoki, javascript).
+   Kilka linków:
+   * R. Bates. [i18n](http://railscasts.com/episodes/138-i18n)
+   * [Ready for i18n](http://github.com/zigzag/ready_for_i18n);
+   [Get your local rails application ready fori18n](http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html)
+   * [Why r18n?](http://r18n.rubyforge.org/)
 1. [O. Szrajer] 
    Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
 1. [K. Domagała] 
