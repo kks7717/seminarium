@@ -70,7 +70,7 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 
 ## Referaty: lato 2010
 
-1. [P. Chałkowski] Rozszerzenia języka Ruby.
+1. [P. Chałkowski, M. Malinowski] Rozszerzenia języka Ruby.
    Plan referatu: (1) Piszemy rozszerzenie „hello world”.
    (2) B. W. Kernighan, R. Pike (2002).
    Literatura:
