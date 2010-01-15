@@ -114,10 +114,6 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
    * [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
    
 
-Na kolejne spotkania należy przygotować referat z postępów
-w pisaniu pracy.
-
-
 ## Lista obecności
 
 1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/)
@@ -137,6 +133,16 @@ w pisaniu pracy.
 
 
 ## Proponowane tematy prac
+
+<blockquote>
+{%= image_tag "/images/chesterton.png", :alt => "[G. K. Chesterton]" %}
+<p>
+  There is no such thing on earth as an uninteresting subject; the
+  only thing that can exist is an uninterested person.
+</p>
+<p class="author">— G. K. Chesterton, Heretics (1905)</p>
+</blockquote>
+
 
 NOSQL is a database movement which began in early to mid 2009. The
 term refers to certain non-relational data stores.
