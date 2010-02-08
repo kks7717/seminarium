@@ -1,7 +1,6 @@
 $KCODE = 'UTF8'
 require 'jcode'
 
-gem 'sinatra', '>=0.10.1'
 require 'sinatra/base'
 require 'sinatra/static_assets'
 require 'sinatra/rdiscount'
