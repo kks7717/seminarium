@@ -75,48 +75,61 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 
 ## Referaty: lato 2010
 
-1. [P. Chałkowski, M. Malinowski] Rozszerzenia języka Ruby.
-   Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-   (2) B. W. Kernighan, R. Pike (2002).
-   Literatura:
-   * *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
+1\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
+Plan referatu: (1) Piszemy rozszerzenie „hello world”.
+(2) B. W. Kernighan, R. Pike (2002). **26.02.2010**
+
+Literatura:
+
+* *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
    opis implementacji biblioteki dla formatu CSV. 
    Napisać rozszerzenie udostępniające funkcje tej biblioteki 
    w języku Ruby.
-   * Omówić implementację gemu [Excelsior]:
+* Omówić implementację gemu [Excelsior]:
    „Ruby gem that uses C bindings to read CSV files superfast. 
    I'm totally serial!”.
-   * Aaron Patterson. 
-   [Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
-1. [M. Rusajczyk, M. Sikora] 
-   i18n w Ruby on Rails
-   (model, metody pomocnicze, kontroler, widoki, javascript).
-   Kilka linków:
-   * R. Bates. [i18n](http://railscasts.com/episodes/138-i18n)
-   * [Ready for i18n](http://github.com/zigzag/ready_for_i18n);
-   [Get your local rails application ready fori18n](http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html)
-   * [Why r18n?](http://r18n.rubyforge.org/)
-1. [O. Szrajer] 
-   Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
-1. [K. Domagała] 
-   Model zdarzeń w programach sieciowych na przykładzie
-   [NodeJS](http://nodejs.org/).
-   Kilka linków na początek:
-   * Simon Willison. 
-   [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
-   * Ryan Dahl.
-   [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
-   prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
-1. [Sz. Szypulski, P. Olejniczak]. 
-   NoSQL w przykładach.
-1. [M. Sulkowski, K. Pluszczewicz]
-   Dwustronna komunikacja między aplikacją a serwerem:
-   [WebSockets] [].
-   Kilka linków: 
-   * [Chromium Blog] [chromium].
-   * [Ajax Push Engine - Complete Comet solution] [ape].
-   * [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
-   * [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
+* Aaron Patterson. 
+[Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
+
+2\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
+(model, metody pomocnicze, kontroler, widoki, javascript). **5.03.2010**
+
+Kilka linków:
+
+* R. Bates. [i18n](http://railscasts.com/episodes/138-i18n)
+* [Ready for i18n](http://github.com/zigzag/ready_for_i18n);
+  [Get your local rails application ready fori18n](http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html)
+* [Why r18n?](http://r18n.rubyforge.org/)
+
+1\. *O. Szrajer*.
+Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
+**12.03.2010**
+
+1\. *K. Domagała*. 
+Model zdarzeń w programach sieciowych na przykładzie
+[NodeJS](http://nodejs.org/). **19.03.2010**
+
+Kilka linków na początek:
+
+* Simon Willison. 
+  [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
+* Ryan Dahl.
+  [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
+  prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
+
+1\. *Sz. Szypulski*, *P. Olejniczak*. 
+   NoSQL w przykładach. **26.03.2010**
+
+1\. *M. Sulkowski*, *K. Pluszczewicz*.
+Dwustronna komunikacja między aplikacją a serwerem: [WebSockets] [].
+**2.04.2010**
+
+Kilka linków: 
+
+* [Chromium Blog] [chromium].
+* [Ajax Push Engine - Complete Comet solution] [ape].
+* [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
+* [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
    
 
 ## Lista obecności
