@@ -98,7 +98,10 @@ Kilka linków:
 * [Redis: Data Cheeseburgers](http://robots.thoughtbot.com/post/443934722/redis-data-cheeseburgers)
 * [This is how Open Source works](http://blog.zawodny.com/2010/03/12/this-is-how-open-source-works/)
 * [VMware hires key developer for Redis](http://blogs.vmware.com/console/2010/03/vmware-hires-key-developer-for-redis.html)
-* [Retwis](http://retwis.antirez.com/index.php) – prosta wersja Twittera
+* [Retwis](http://retwis.antirez.com/index.php) — prosta wersja Twittera
+* [Node + Redis = Fun](http://howtonode.org/node-redis-fun) —
+  an example of Pastebin service (uses Pygments to syntax highlight code)
+
 
 Redis działa na serwerach [Craiglists](http://www.craigslist.org/about/sites),
 Githubie.
