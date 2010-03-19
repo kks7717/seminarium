@@ -114,6 +114,13 @@ Kilka linków na początek:
 * Ryan Dahl.
   [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
   prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
+*  created by TJ
+  TJ Holowaychuk.
+  [Express](http://expressjs.com/) —
+  is a *Node.js* web development framework loosely based on
+  the Sinatra framework for Ruby. Express aims to be one of the
+  fastest and most user friendly frameworks on the web, by combining
+  the RESTful Sinatra DSL with the raw asynchronous power of *Node.js*.
 
 4\. *Sz. Szypulski*
    Porównanie wydajności MongoDB z PostgreSQL. **26.03.2010**
