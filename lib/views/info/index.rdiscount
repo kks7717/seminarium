@@ -129,11 +129,14 @@ Kilka linków na początek:
 
 5\. *M. Sulkowski*, *K. Pluszczewicz*.
 Dwustronna komunikacja między aplikacją a serwerem: [WebSockets] [].
-**8.04.2010**
+**9.04.2010**
 
 6\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
 Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-(2) B. W. Kernighan, R. Pike (2002). **15.04.2010**, **22.04.2010**
+(2) B. W. Kernighan, R. Pike (2002). **16.04.2010**, **23.04.2010**
+
+7\. *P. Olejniczak*. 
+   Autentykacja i autoryzacja w CouchDB. **30.04.2010**
 
 Literatura:
 
