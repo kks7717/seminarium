@@ -69,7 +69,8 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
   [CouchDB](http://sigma.inf.ug.edu.pl/~polejnic/rails3/2009/11/23/couchdb/) (14.12.2009)
 1. *M. Rusajczyk*. [Do czego może nam się przydać system 
   Pandoc?](http://sigma.ug.edu.pl/~mrusajcz/rails3/2009/12/21/seminarium/)
-  (21.12.2009)
+  (21.12.2009): 
+  [Scripting with pandoc](http://johnmacfarlane.net/pandoc/scripting.html)
 1. *M. Sulkowski*. jRuby + Rails (4.1.2010)
 
 <!--
