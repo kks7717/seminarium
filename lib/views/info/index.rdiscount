@@ -99,9 +99,9 @@ Model zdarzeń w programach sieciowych na przykładzie
 * [How To Node](http://howtonode.org/) — 
   is a blog featuring projects and tutorials relating to the *Node.js* project. 
 
-4\. *Sz. Szypulski*
+4\. *Sz. Szypulski*
    Porównanie wydajności MongoDB z PostgreSQL.
-   *P. Olejniczak*. 
+   *P. Olejniczak*. 
    Porównanie wydajności CouchDB z MySQL. **26.03.2010**
 
 5\. *K. Pluszczewicz*.
@@ -114,15 +114,13 @@ Dwustronna komunikacja między aplikacją a serwerem: [WebSockets] [].
 * [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
 
 6\. *M. Sulkowski*.
-Title to be announced shortly.
+Języki skryptowe na JVM: Groovy on Grails.
 **16.04.2010**
 
 7\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
 Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-(2) B. W. Kernighan, R. Pike (2002). **23.04.2010**, **30.04.2010**
-
-8\. *P. Olejniczak*. 
-   Autentykacja i autoryzacja w CouchDB. **7.05.2010**
+(2) Przykład za B. W. Kernighan, R. Pike (2002)
+**23.04.2010**, **30.04.2010**
 
 * *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
    opis implementacji biblioteki dla formatu CSV. 
@@ -133,6 +131,10 @@ Plan referatu: (1) Piszemy rozszerzenie „hello world”.
    I'm totally serial!”.
 * Aaron Patterson. [Writing Ruby C extensions: 
   Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
+* Poprawianie gemu *couchrest*.
+
+8\. *P. Olejniczak*. 
+   Autentykacja i autoryzacja w CouchDB. **7.05.2010**
 
 
 ## Referaty: zima 2009
