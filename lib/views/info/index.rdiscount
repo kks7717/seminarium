@@ -220,9 +220,9 @@ programming language, as used on the World Wide Web:
 
 Pozostałe tematy:
 
-* Rozszerzenia Ruby. Na przykład, piszemy rozszerzenie dla biblioteki *libxml*.
-* Korzystamy z gemów *Authlogic* i *Searchlogic*
-  w aplikacjach Rails i Sinatry + Datamapper/Sequel.
+* Rozszerzenia Ruby. Na przykład, piszemy rozszerzenie dla biblioteki 
+  *couchrest* lub *couch_foo*.
+* Autoryzacja i autentykacja w aplikacjach Rails i Sinatry.
 * [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/).
 * Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
   [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/).
