@@ -9,7 +9,31 @@
 <p class="author">— Martin Fowler</p>
 </blockquote>
 
+
+## Lista obecności
+
+1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/)
+1. [Karol Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
+1. [Paweł Olejniczak](http://sigma.inf.ug.edu.pl/~polejnic/rails3/)
+1. [Kamil Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
+1. [Monika Rusajczyk](http://sigma.ug.edu.pl/~mrusajcz/rails3/)
+1. [Marta Sikora](http://sigma.inf.ug.edu.pl/~msikora/blog/)
+1. [Marcin Sulkowski](http://sigma.inf.ug.edu.pl/~msulkows/rails3/)
+1. [Oskar Szrajer](http://blog.gotar.info/)
+1. [Szymon Szypulski](http://rails.gen2.org/)
+
+
 ## Info
+
+[28.03.2010] Pojawiła się nowa strona poświęcona technologiom
+NoSQL — [NoSQL.pl](http://nosql.pl). Warto też zajrzeć
+na stronę Alexa Popescu [myNoSQL](http://nosql.mypopescu.com/) —
+the most important source of daily NoSQL news, articles 
+and links covering all major NoSQL projects 
+and following closely all things related to the NoSQL ecosystem
+
+
+<!--
 
 [15.03.2010] [NoSQL Live](http://nosqlboston.eventbrite.com/) —
 dużo ciekawych wystąpień. Niestety jest już po konferencji.
@@ -27,27 +51,88 @@ to, co udało się zrobić dzisiaj i prosi o uwagi/sugestie na emaila.
 [27.11.2009] Nasz ulubiony autor, czyli J. Kaplan-Moss, jest w trakcie pisania
 serii [Writing great documentation](http://jacobian.org/writing/great-documentation/).
 
-Spotykamy się w poniedziałki, godz. 14–15:30, sala 116.
+-->
 
 Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %}
 
 
-## Lektura obowiązkowa
+## Referaty: lato 2010
 
-* Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
-* Bradford Stephens. [Social Media Kills the 
-  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
-* Linus Torvalds. [Re: [RFC] Convert builin-mailinfo.c to use The Better 
-  String Library](http://lwn.net/Articles/249460/).
-* Yossi Kreinin. [C++ FQA Lite: Main page](http://yosefk.com/c++fqa/).
-* Chris Wanstrath. [Railsconf 2009 Keynote](https://gist.github.com/0a2655aed6a26fa15a02).
-* Jacob Kaplan-Moss. [Thank you, Rails](http://jacobian.org/writing/thank-you-rails/).
-* Jacob Kaplan-Moss. [Writing great documentation](http://jacobian.org/writing/great-documentation/).
+1\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
+(model, metody pomocnicze, kontroler, widoki, javascript). **5.03.2010**
 
+* R. Bates. [i18n](http://railscasts.com/episodes/138-i18n)
+* [Ready for i18n](http://github.com/zigzag/ready_for_i18n);
+  [Get your local rails application ready fori18n](http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html)
+* [Why r18n?](http://r18n.rubyforge.org/)
 
-<!--
-* Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
--->
+2\. *O. Szrajer*.
+Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
+**12.03.2010**
+
+* [Redis – Project Hosting on Google Code](http://code.google.com/p/redis/)
+* [Redis: Data Cheeseburgers](http://robots.thoughtbot.com/post/443934722/redis-data-cheeseburgers)
+* [This is how Open Source works](http://blog.zawodny.com/2010/03/12/this-is-how-open-source-works/)
+* [VMware hires key developer for Redis](http://blogs.vmware.com/console/2010/03/vmware-hires-key-developer-for-redis.html)
+* [Retwis](http://retwis.antirez.com/index.php) — prosta wersja Twittera
+* [Node + Redis = Fun](http://howtonode.org/node-redis-fun) —
+  an example of Pastebin service (uses Pygments to syntax highlight code)
+
+Redis działa na serwerach [Craiglists](http://www.craigslist.org/about/sites),
+Githubie.
+
+3\. *K. Domagała*. 
+Model zdarzeń w programach sieciowych na przykładzie
+[NodeJS](http://nodejs.org/). **19.03.2010**
+
+* Simon Willison. 
+  [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
+* Ryan Dahl.
+  [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
+  prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
+* TJ Holowaychuk.
+  [Express](http://expressjs.com/) —
+  is a *Node.js* web development framework loosely based on
+  the Sinatra framework for Ruby. Express aims to be one of the
+  fastest and most user friendly frameworks on the web, by combining
+  the RESTful Sinatra DSL with the raw asynchronous power of *Node.js*.
+* [How To Node](http://howtonode.org/) — 
+  is a blog featuring projects and tutorials relating to the *Node.js* project. 
+
+4\. *Sz. Szypulski*
+   Porównanie wydajności MongoDB z PostgreSQL.
+   *P. Olejniczak*. 
+   Porównanie wydajności CouchDB z MySQL. **26.03.2010**
+
+5\. *K. Pluszczewicz*.
+Dwustronna komunikacja między aplikacją a serwerem: [WebSockets] [].
+**9.04.2010**
+
+* [Chromium Blog] [chromium].
+* [Ajax Push Engine - Complete Comet solution] [ape].
+* [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
+* [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
+
+6\. *M. Sulkowski*.
+Title to be announced shortly.
+**16.04.2010**
+
+7\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
+Plan referatu: (1) Piszemy rozszerzenie „hello world”.
+(2) B. W. Kernighan, R. Pike (2002). **23.04.2010**, **30.04.2010**
+
+8\. *P. Olejniczak*. 
+   Autentykacja i autoryzacja w CouchDB. **7.05.2010**
+
+* *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
+   opis implementacji biblioteki dla formatu CSV. 
+   Napisać rozszerzenie udostępniające funkcje tej biblioteki 
+   w języku Ruby.
+* Omówić implementację gemu [Excelsior]:
+   „Ruby gem that uses C bindings to read CSV files superfast. 
+   I'm totally serial!”.
+* Aaron Patterson. [Writing Ruby C extensions: 
+  Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
 
 
 ## Referaty: zima 2009
@@ -77,110 +162,21 @@ Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 -->
 
-## Referaty: lato 2010
+## Lektura obowiązkowa
 
-1\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
-(model, metody pomocnicze, kontroler, widoki, javascript). **5.03.2010**
+* Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
+* Bradford Stephens. [Social Media Kills the 
+  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
+* Linus Torvalds. [Re: [RFC] Convert builin-mailinfo.c to use The Better 
+  String Library](http://lwn.net/Articles/249460/).
+* Yossi Kreinin. [C++ FQA Lite: Main page](http://yosefk.com/c++fqa/).
+* Chris Wanstrath. [Railsconf 2009 Keynote](https://gist.github.com/0a2655aed6a26fa15a02).
+* Jacob Kaplan-Moss. [Thank you, Rails](http://jacobian.org/writing/thank-you-rails/).
+* Jacob Kaplan-Moss. [Writing great documentation](http://jacobian.org/writing/great-documentation/).
 
-Kilka linków:
-
-* R. Bates. [i18n](http://railscasts.com/episodes/138-i18n)
-* [Ready for i18n](http://github.com/zigzag/ready_for_i18n);
-  [Get your local rails application ready fori18n](http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html)
-* [Why r18n?](http://r18n.rubyforge.org/)
-
-2\. *O. Szrajer*.
-Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
-**12.03.2010**
-
-Kilka linków:
-
-* [Redis – Project Hosting on Google Code](http://code.google.com/p/redis/)
-* [Redis: Data Cheeseburgers](http://robots.thoughtbot.com/post/443934722/redis-data-cheeseburgers)
-* [This is how Open Source works](http://blog.zawodny.com/2010/03/12/this-is-how-open-source-works/)
-* [VMware hires key developer for Redis](http://blogs.vmware.com/console/2010/03/vmware-hires-key-developer-for-redis.html)
-* [Retwis](http://retwis.antirez.com/index.php) — prosta wersja Twittera
-* [Node + Redis = Fun](http://howtonode.org/node-redis-fun) —
-  an example of Pastebin service (uses Pygments to syntax highlight code)
-
-
-Redis działa na serwerach [Craiglists](http://www.craigslist.org/about/sites),
-Githubie.
-
-3\. *K. Domagała*. 
-Model zdarzeń w programach sieciowych na przykładzie
-[NodeJS](http://nodejs.org/). **19.03.2010**
-
-Kilka linków na początek:
-
-* Simon Willison. 
-  [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
-* Ryan Dahl.
-  [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
-  prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
-* TJ Holowaychuk.
-  [Express](http://expressjs.com/) —
-  is a *Node.js* web development framework loosely based on
-  the Sinatra framework for Ruby. Express aims to be one of the
-  fastest and most user friendly frameworks on the web, by combining
-  the RESTful Sinatra DSL with the raw asynchronous power of *Node.js*.
-* [How To Node](http://howtonode.org/) — 
-  is a blog featuring projects and tutorials relating to the *Node.js* project. 
-
-
-4\. *Sz. Szypulski*
-   Porównanie wydajności MongoDB z PostgreSQL. **26.03.2010**
-
-4\. *P. Olejniczak*. 
-   Porównanie wydajności CouchDB z MySQL. **26.03.2010**
-
-5\. *M. Sulkowski*, *K. Pluszczewicz*.
-Dwustronna komunikacja między aplikacją a serwerem: [WebSockets] [].
-**9.04.2010**
-
-6\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
-Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-(2) B. W. Kernighan, R. Pike (2002). **16.04.2010**, **23.04.2010**
-
-7\. *P. Olejniczak*. 
-   Autentykacja i autoryzacja w CouchDB. **30.04.2010**
-
-Literatura:
-
-* *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
-   opis implementacji biblioteki dla formatu CSV. 
-   Napisać rozszerzenie udostępniające funkcje tej biblioteki 
-   w języku Ruby.
-* Omówić implementację gemu [Excelsior]:
-   „Ruby gem that uses C bindings to read CSV files superfast. 
-   I'm totally serial!”.
-* Aaron Patterson. 
-[Writing Ruby C extensions: Part 1](http://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1/)
-
-Kilka linków: 
-
-* [Chromium Blog] [chromium].
-* [Ajax Push Engine - Complete Comet solution] [ape].
-* [HTML5 Web Socket implementation powered by Flash] [web-sockets-js]
-* [Ruby & WebSockets: TCP for the Browser] [igvita-ruby-websockets]
-   
-
-## Lista obecności
-
-1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/)
-1. [Karol Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
-1. [Paweł Olejniczak](http://sigma.inf.ug.edu.pl/~polejnic/rails3/)
-1. [Kamil Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
-1. [Monika Rusajczyk](http://sigma.ug.edu.pl/~mrusajcz/rails3/)
-1. [Marta Sikora](http://sigma.inf.ug.edu.pl/~msikora/blog/)
-1. [Marcin Sulkowski](http://sigma.inf.ug.edu.pl/~msulkows/rails3/)
-1. [Oskar Szrajer](http://blog.gotar.info/)
-1. [Szymon Szypulski](http://rails.gen2.org/)
-
-
-## Relacje z placu boju
-
-1. [Oskar Szrajer](http://blog.gotar.info/): MPD
+<!--
+* Jacob Kaplan-Moss. [Of the Web](http://jacobian.org/writing/of-the-web/).
+-->
 
 
 ## Proponowane tematy prac
