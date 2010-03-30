@@ -9,18 +9,90 @@
 <p class="author">— Martin Fowler</p>
 </blockquote>
 
+<table id="mgr" summary="Prace magisterskie 2009/2011"> 
+<caption><em>Prace magisterskie <b>2009–2011</b></em></caption> 
+<thead>
+  <tr> 
+    <th class="autor">Autor</th> 
+    <th class="tytul">Tytuł pracy</th> 
+  </tr>
+</thead> 
+<tbody> 
 
-## Lista obecności
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/">Piotr Chałkowski</a></td> 
+    <td>tytuł pracy (dlaczego wybrałem taki temat & literatura, html/pdf – linki)</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">spis treści (html/pdf – linki) & przykładowy rozdział (html/pdf – linki)</td> 
+  </tr>
 
-1. [Piotr Chałkowski](http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/)
-1. [Karol Domagała](http://sigma.inf.ug.edu.pl/~kdomagal/rails3/)
-1. [Paweł Olejniczak](http://sigma.inf.ug.edu.pl/~polejnic/rails3/)
-1. [Kamil Pluszczewicz](http://sigma.inf.ug.edu.pl/~kpluszcz/sem/)
-1. [Monika Rusajczyk](http://sigma.ug.edu.pl/~mrusajcz/rails3/)
-1. [Marta Sikora](http://sigma.inf.ug.edu.pl/~msikora/blog/)
-1. [Marcin Sulkowski](http://sigma.inf.ug.edu.pl/~msulkows/rails3/)
-1. [Oskar Szrajer](http://blog.gotar.info/)
-1. [Szymon Szypulski](http://rails.gen2.org/)
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~kdomagal/rails3/">Karol Domagała</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~polejnic/rails3/">Paweł Olejniczak</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~kpluszcz/sem/">Kamil Pluszczewicz</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://sigma.ug.edu.pl/~mrusajcz/rails3/">Monika Rusajczyk</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~msikora/blog/">Marta Sikora</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://sigma.inf.ug.edu.pl/~msulkows/rails3/">Marcin Sulkowski</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://blog.gotar.info/">Oskar Szrajer</a></td> 
+    <td>j.w. (link obok nie działa?)</td> 
+  </tr> 
+  <tr> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+  <tr class="info"> 
+    <td><a href="http://rails.gen2.org/">Szymon Szypulski</a></td> 
+    <td>j.w.</td> 
+  </tr> 
+  <tr class="info"> 
+    <td class="sample" colspan="2">— " —</td> 
+  </tr>
+
+</tbody>
+</table>
 
 
 ## Info

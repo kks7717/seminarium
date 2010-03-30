@@ -158,3 +158,11 @@ thead th {
 li ul {
   margin-bottom: 0.25em;
 }
+
+#mgr .autor { width: 200px; }
+
+#mgr .tytul { width: 361px; }
+
+#mgr tr.info td { border-bottom: 1px dotted #888; }
+
+#mgr .sample { border-bottom: 1px solid #888; text-align: center; }

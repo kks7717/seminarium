@@ -6,7 +6,6 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
   
     <%= stylesheet_link_tag "/stylesheets/rails-2009.css", 
-                            "/stylesheets/screen.css", 
                             "/stylesheets/uv.css" %>
 
     <title><%= @title || "Seminarium 2009: Rails 3" %></title>
