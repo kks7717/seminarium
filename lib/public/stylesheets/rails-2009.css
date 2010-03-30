@@ -159,6 +159,10 @@ li ul {
   margin-bottom: 0.25em;
 }
 
+th { text-align: left; padding-left: 20px; }
+
+td { vertical-align: text-top; }
+
 #mgr .autor { width: 200px; }
 
 #mgr .tytul { width: 361px; }

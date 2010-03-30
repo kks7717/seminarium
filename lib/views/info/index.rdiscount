@@ -94,8 +94,25 @@
 </tbody>
 </table>
 
+Na zajęciach **14.05.2010** i **21.05.2010** każdy z uczestników seminarium
+będzie musiał: przedstawić tytuł pracy i odpowiedzieć na pytanie
+dlaczego wybrałem / wybrałam taki temat pracy magisterskiej.
+
+**Warunkiem uzyskania zaliczenia jest:**
+
+* dostarczenie do **7.05.2010** linków do dokumentów opisanych 
+  w tabelce powyżej
+* zaakceptowanie przeze mnie tytułu pracy oraz argumentów za
+  wyborem tematu pracy
+* poprawienie referatów (o ile miałem jakieś uwagi)
+
+*Uwaga:* Przy każdej pozycji literatury należy wyjaśnić 
+jak zamierzam wykorzystać ją w pracy.
+
 
 ## Info
+
+Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %}
 
 [28.03.2010] Pojawiła się nowa strona poświęcona technologiom
 NoSQL — [NoSQL.pl](http://nosql.pl). Warto też zajrzeć
@@ -125,9 +142,6 @@ serii [Writing great documentation](http://jacobian.org/writing/great-documentat
 
 -->
 
-Luźne uwagi na temat: {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %}
-
-
 ## Referaty: lato 2010
 
 1\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
@@ -155,21 +169,21 @@ Githubie.
 
 3\. *K. Domagała*. 
 Model zdarzeń w programach sieciowych na przykładzie
-[NodeJS](http://nodejs.org/). **19.03.2010**
+[Node.JS](http://nodejs.org/). **19.03.2010**
 
 * Simon Willison. 
-  [Node.js is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
+  [Node.JS is genuinely exciting](http://simonwillison.net/2009/Nov/23/node/).
 * Ryan Dahl.
   [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
   prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
 * TJ Holowaychuk.
   [Express](http://expressjs.com/) —
-  is a *Node.js* web development framework loosely based on
+  is a *Node.JS* web development framework loosely based on
   the Sinatra framework for Ruby. Express aims to be one of the
   fastest and most user friendly frameworks on the web, by combining
-  the RESTful Sinatra DSL with the raw asynchronous power of *Node.js*.
+  the RESTful Sinatra DSL with the raw asynchronous power of *Node.JS*.
 * [How To Node](http://howtonode.org/) — 
-  is a blog featuring projects and tutorials relating to the *Node.js* project. 
+  is a blog featuring projects and tutorials relating to the *Node.JS* project.
 
 4\. *Sz. Szypulski*
    Porównanie wydajności MongoDB z PostgreSQL.
@@ -253,8 +267,6 @@ Plan referatu: (1) Piszemy rozszerzenie „hello world”.
 -->
 
 
-## Proponowane tematy prac
-
 <blockquote>
 {%= image_tag "/images/chesterton.png", :alt => "[G. K. Chesterton]" %}
 <p>
@@ -264,6 +276,7 @@ Plan referatu: (1) Piszemy rozszerzenie „hello world”.
 <p class="author">— G. K. Chesterton, Heretics</p>
 </blockquote>
 
+## Proponowane tematy prac
 
 NOSQL is a database movement which began in early to mid 2009. The
 term refers to certain non-relational data stores.
