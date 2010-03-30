@@ -184,6 +184,9 @@ Model zdarzeń w programach sieciowych na przykładzie
   the RESTful Sinatra DSL with the raw asynchronous power of *Node.JS*.
 * [How To Node](http://howtonode.org/) — 
   is a blog featuring projects and tutorials relating to the *Node.JS* project.
+* [node.js](http://debuggable.com/posts/node_js:4ab4d9d7-b788-41d4-85c0-1b51cbdd56cb) –
+  benchmarking „hello world” program
+
 
 4\. *Sz. Szypulski*
    [Porównanie wydajności MongoDB z PostgreSQL](http://mongo.gen2.org/doku.php).
