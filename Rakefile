@@ -28,8 +28,8 @@ Seminarium „Rails 3”.
     s.add_dependency 'rack' 
     s.add_dependency 'sinatra'
     s.add_dependency 'rdiscount'
-    s.add_dependency 'wbzyl-sinatra-rdiscount'
-    s.add_dependency 'wbzyl-codehighlighter-middleware'
+    s.add_dependency 'sinatra-rdiscount'
+    s.add_dependency 'rack-codehighlighter'
     s.add_dependency 'coderay'
   
     s.rubyforge_project = 'seminarium'
@@ -38,7 +38,7 @@ Seminarium „Rails 3”.
 rescue LoadError
   puts "Jeweler not available."
   puts "Install it with:"
-  puts "  sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+  puts "  sudo gem install jeweler"
 end
 
 Rake::TestTask.new(:test) do |t|
