@@ -210,8 +210,8 @@ Języki skryptowe na JVM: Groovy on Grails.
 
 7\. *P. Chałkowski*, *M. Malinowski*. Rozszerzenia języka Ruby.
 Plan referatu: (1) Piszemy rozszerzenie „hello world”.
-(2) Przykład za B. W. Kernighan, R. Pike (2002)
-**23.04.2010**, **30.04.2010**
+(2) Przykład za B. W. Kernighan, R. Pike (2002).
+**23.04.2010**
 
 * *Lekcja programowania*. WNT, rozdział 4 *Interfejsy* zawiera
    opis implementacji biblioteki dla formatu CSV. 
@@ -226,6 +226,9 @@ Plan referatu: (1) Piszemy rozszerzenie „hello world”.
 
 8\. *P. Olejniczak*. 
    Autentykacja i autoryzacja w CouchDB. **7.05.2010**
+
+9\. Prezentacje tematów/tematyki prac magisterskich.
+**14.05.2010**, **21.04.2010**
 
 
 ## Referaty: zima 2009
