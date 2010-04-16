@@ -186,7 +186,9 @@ Model zdarzeń w programach sieciowych na przykładzie
   is a blog featuring projects and tutorials relating to the *Node.JS* project.
 * [node.js](http://debuggable.com/posts/node_js:4ab4d9d7-b788-41d4-85c0-1b51cbdd56cb) –
   benchmarking „hello world” program
-
+* Rob von Behren, Jeremy Condit and Eric Brewer.
+  [Why Events Are A Bad Idea (for high-concurrency servers)](http://www.usenix.org/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/) 
+  (artykuł z approx. 2002 roku; pierwsza wersja nodejs — 2009 rok).
 
 4\. *Sz. Szypulski*
    [Porównanie wydajności MongoDB z PostgreSQL](http://mongo.gen2.org/doku.php).
