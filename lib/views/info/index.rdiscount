@@ -317,6 +317,21 @@ programming language, as used on the World Wide Web:
    jQuery](http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery).
    (Przykłady: RJS + Prototype → unobtrusive jQuery.)
 
+„Google Extensions” – Extensions are small software programs that can
+modify and enhance the functionality of Google Chrome. You write them
+using web technologies such as HTML, JavaScript, and CSS.
+
+* [What are Google Chrome Extensions?](http://code.google.com/chrome/extensions/)
+
+„Jetpack Features” – [Jetpack](https://jetpack.mozillalabs.com/) is a
+project to make it easy to build Firefox add-ons using common web
+technologies like HTML, JavaScript, and CSS. Our goal is to enable
+anyone who can build a web site to participate in making the Web a
+better place to work, communicate, and play.
+
+* [Getting started](https://jetpack.mozillalabs.com/sdk/0.2/docs/#guide/getting-started)
+
+
 Pozostałe tematy:
 
 * Rozszerzenia Ruby. Na przykład, piszemy rozszerzenie dla biblioteki 
