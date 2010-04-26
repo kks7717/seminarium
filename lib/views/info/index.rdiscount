@@ -163,6 +163,9 @@ Prezentacja możliwości bazy „key/value” [Redis][] i gemu [Ohm][].
 * [Retwis](http://retwis.antirez.com/index.php) — prosta wersja Twittera
 * [Node + Redis = Fun](http://howtonode.org/node-redis-fun) —
   an example of Pastebin service (uses Pygments to syntax highlight code)
+* Simon Willison.
+  [Redis tutorial, April 2010](http://simonwillison.net/static/2010/redis-tutorial/)
+
 
 Redis działa na serwerach [Craiglists](http://www.craigslist.org/about/sites),
 Githubie.
