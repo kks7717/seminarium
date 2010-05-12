@@ -1,7 +1,7 @@
 # SEMINARIUM: Rails 3
 
 <blockquote>
-{%= image_tag "/images/algorithm.png", :alt => "[algorithm]" %}
+<p>{%= image_tag "/images/algorithm.png", :alt => "[algorithm]" %}</p>
 <p>
   Any fool can write code that a computer can understand.
   Good programmers write code that humans can understand.
@@ -169,6 +169,23 @@ serii [Writing great documentation](http://jacobian.org/writing/great-documentat
 
 -->
 
+<blockquote>
+<p>{%= image_tag "/images/paul-graham.jpg", :alt => "[Paul Graham]" %}</p>
+<p>
+  So what’s interesting? For me, interesting means surprise. […]
+
+  Surprises are things that you not only didn’t know, but that
+  contradict things you thought you knew. And so they’re the most
+  valuable sort of fact you can get.
+</p>
+<p>
+  So if you want to write essays, you need two ingredients: a few
+  topics you've thought about a lot, and some ability to ferret out
+  the unexpected.
+</p>
+<p class="author">— <a href="http://paulgraham.com/essay.html">Paul Graham</a></p>
+</blockquote>
+
 ## Referaty: lato 2010
 
 1\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
@@ -221,6 +238,28 @@ Model zdarzeń w programach sieciowych na przykładzie
 * Rob von Behren, Jeremy Condit and Eric Brewer.
   [Why Events Are A Bad Idea (for high-concurrency servers)](http://www.usenix.org/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/) 
   (artykuł z approx. 2002 roku; pierwsza wersja nodejs — 2009 rok).
+
+<blockquote>
+<p>
+  <em>Essayer</em> is the French verb meaning „to try” and an
+  <em>essai</em> is an attempt. An essay is something you write to try
+  to figure something out.
+
+  Figure out what? You don’t know yet. And so you can’t begin with a
+  thesis, because you don’t have one, and may never have one. An essay
+  doesn’t begin with a statement, but with a question. In a real
+  essay, you don't take a position and defend it. You notice a door
+  that’s ajar, and you open it and walk in to see what's inside.
+</p>
+<p>
+  If all you want to do is figure things out, why do you need to write
+  anything, though? Why not just sit and think? […] Expressing ideas
+  helps to form them. Indeed, helps is far too weak a word. Most of
+  what ends up in my essays I only thought of when I sat down to write
+  them.
+</p>
+<p class="author">— <a href="http://paulgraham.com/essay.html">Paul Graham</a></p>
+</blockquote>
 
 4\. *Sz. Szypulski*
    [Porównanie wydajności MongoDB z PostgreSQL](http://mongo.gen2.org/doku.php).
@@ -292,6 +331,20 @@ Plan referatu: (1) Piszemy rozszerzenie „hello world”.
 <!--
 1. *W. Bzyl*. {%= link_to "Modularne aplikacje WWW", "/slajdy/modularne-aplikacje-www" %}.
 -->
+
+<blockquote>
+<p>
+  Whatever you study, include history—but social and economic history,
+  not political history. History seems to me so important that it's
+  misleading to treat it as a mere field of study. Another way to
+  describe it is <b>all the data we have so far</b>.
+</p>
+<p>
+  Among other things, studying history gives one confidence that there
+  are good ideas waiting to be discovered right under our noses.
+</p>
+<p class="author">— <a href="http://paulgraham.com/essay.html">Paul Graham</a></p>
+</blockquote>
 
 ## Lektura obowiązkowa
 
@@ -373,7 +426,8 @@ Pozostałe tematy:
 * Rozszerzenia Ruby. Na przykład, piszemy rozszerzenie dla biblioteki 
   *couchrest* lub *couch_foo*.
 * Autoryzacja i autentykacja w aplikacjach Rails i Sinatry.
-* [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/).
+* [GIS on Rails](http://www.tokumine.com/2009/09/20/gis-on-rails/),
+  CouchDB, MongoDB, PostgreSQL…
 * Polish stemmer dla wyszukiwarki [Xapian](http://xapian.org/). Skorzystać z
   [Polish dictionary for aspell/ispell/myspell](http://www.sjp.pl/slownik/en/).
 
