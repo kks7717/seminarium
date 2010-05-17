@@ -9,90 +9,10 @@
 <p class="author">— Martin Fowler</p>
 </blockquote>
 
-<table id="mgr" summary="Prace magisterskie 2009/2011"> 
-<caption><em>Prace magisterskie <b>2009–2011</b></em></caption> 
-<thead>
-  <tr> 
-    <th class="autor">Autor</th> 
-    <th class="tytul">Tytuł pracy</th> 
-  </tr>
-</thead> 
-<tbody> 
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~pchalkowski/rails3/">Piotr Chałkowski</a></td> 
-    <td>tytuł pracy (dlaczego wybrałem taki temat & literatura, html/pdf – linki)</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">spis treści (html/pdf – linki) & przykładowy rozdział (html/pdf – linki)</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~kdomagal/rails3/">Karol Domagała</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~polejnic/rails3/">Paweł Olejniczak</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~kpluszcz/sem/">Kamil Pluszczewicz</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.ug.edu.pl/~mrusajcz/rails3/">Monika Rusajczyk</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~msikora/blog/">Marta Sikora</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://sigma.inf.ug.edu.pl/~msulkows/rails3/">Marcin Sulkowski</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://oskar.trug.pl/">Oskar Szrajer</a></td> 
-    <td>j.w.</td> 
-  </tr> 
-  <tr> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-  <tr class="info"> 
-    <td><a href="http://rails.gen2.org/">Szymon Szypulski</a></td> 
-    <td>Dokumentowe systemy baz danych na przykładzie MongoDB</td> 
-  </tr> 
-  <tr class="info"> 
-    <td class="sample" colspan="2">— " —</td> 
-  </tr>
-
-</tbody>
-</table>
+[2010.5.16] Accordion (harmonijkę) z tematami i linkami do umieściłem
+[tutaj](http://inf.ug.edu.pl/~wbzyl/lo/seminarium.html). 
+Aby się autoryzować trzeba wpisać swój login 
+i swoje hasło z Sigmy. 
 
 Na zajęciach **14.05.2010** i **21.05.2010** każdy z uczestników seminarium
 będzie musiał: przedstawić tytuł pracy i odpowiedzieć na pytanie
