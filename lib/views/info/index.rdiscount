@@ -32,11 +32,13 @@ jak zamierzam wykorzystać ją w pracy.
 
 
 <blockquote>
-<p>Na stu – czterech cię przeczyta,<br/>
-Dwóch – zrozumieć zechce,<br/>
-Jeden sercem cię odczuje.<br/>
-Żaden kupić nie chce.</p>
-<p class="author">— Stanisław Grudziński</p>
+<p>{%= image_tag "/images/why.jpg", :alt => "[_Why]" %}</p>
+<p>
+  When you don’t create things, you become defined by your tastes
+  rather than ability. Your tastes only narrow and exclude people. so
+  create.
+</p>
+<p class="author">— <a href="http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/">Why the Lucky Stiff</a></p>
 </blockquote>
 
 ## Info
@@ -90,6 +92,8 @@ serii [Writing great documentation](http://jacobian.org/writing/great-documentat
 
 -->
 
+## Referaty: lato 2010
+
 <blockquote>
 <p>{%= image_tag "/images/paul-graham.jpg", :alt => "[Paul Graham]" %}</p>
 <p>
@@ -106,8 +110,6 @@ serii [Writing great documentation](http://jacobian.org/writing/great-documentat
 </p>
 <p class="author">— <a href="http://paulgraham.com/essay.html">Paul Graham</a></p>
 </blockquote>
-
-## Referaty: lato 2010
 
 1\. *M. Rusajczyk*, *M. Sikora*. i18n w Ruby on Rails
 (model, metody pomocnicze, kontroler, widoki, javascript). **5.03.2010**
