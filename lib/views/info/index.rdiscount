@@ -146,7 +146,8 @@ Model zdarzeń w programach sieciowych na przykładzie
   [Wheat blog engine for node.js](http://thechangelog.com/post/526646366/wheat-blog-engine-for-node-js)
 * Ryan Dahl.
   [node.js](http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf) —
-  prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin.
+  prezentacja z „The European JavaScript Conference”, listopad 2009. Berlin;
+  [Introduction to NodeJS](http://www.yuiblog.com/blog/2010/05/20/video-dahl/).
 * TJ Holowaychuk.
   [Express](http://expressjs.com/) —
   is a *Node.JS* web development framework loosely based on
@@ -160,6 +161,8 @@ Model zdarzeń w programach sieciowych na przykładzie
 * Rob von Behren, Jeremy Condit and Eric Brewer.
   [Why Events Are A Bad Idea (for high-concurrency servers)](http://www.usenix.org/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/) 
   (artykuł z approx. 2002 roku; pierwsza wersja nodejs — 2009 rok).
+* [Node.js Knockout ](http://nodeknockout.com/); przykłady aplikacji:
+  [Nodify](http://del-fuegos.no.de/)
 
 <blockquote>
 <p>
