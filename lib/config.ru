@@ -1,13 +1,12 @@
+require 'bundler'
+
+Bundler.require
+
 require 'seminarium'
 
-gem 'rack-codehighlighter'
+require 'coderay'
 require 'rack/codehighlighter'
 
-gem 'ultraviolet'
-require 'uv'
+use Rack::Codehighlighter, :coderay, :markdown => true, :element => "pre>code"
 
-use Rack::ShowExceptions
-use Rack::Lint
-use Rack::Codehighlighter, :ultraviolet, :theme => "dawn", :element => "pre>code"
-
-run Seminarium::Rails.new
+run Semianrium::Rails
