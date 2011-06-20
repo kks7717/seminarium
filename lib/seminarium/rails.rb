@@ -1,6 +1,5 @@
 module Seminarium
   class Rails < Sinatra::Base
-    helpers Sinatra::UrlForHelper
     register Sinatra::StaticAssets
 
     get '/' do
