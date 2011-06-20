@@ -5,16 +5,15 @@
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 
-    <%= stylesheet_link_tag "/stylesheets/rails-2009.css",
-                            "/stylesheets/uv.css" %>
+    {%= stylesheet_link_tag "/stylesheets/rails-2009.css", "/stylesheets/uv.css" %}
 
-    <title><%= @title || "Seminarium 2009: Rails 3" %></title>
+    <title><%= @title || "Seminarium 2009" %></title>
   </head>
 
   <body>
 
     <div class="container">
-      <%= yield %>
+      {%= yield %}
     </div>
 
 <script type="text/javascript">

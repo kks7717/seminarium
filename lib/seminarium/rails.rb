@@ -2,17 +2,15 @@ module Seminarium
   class Rails < Sinatra::Base
     helpers Sinatra::UrlForHelper
     register Sinatra::StaticAssets
-    
-    helpers Sinatra::RDiscount
-    
+
     get '/' do
-      rdiscount :"/info/index", :layout => :info
+      erubis markdown(:"/info/index")
     end
-    
+
     get '/info/:title' do
-      rdiscount :"/info/#{params[:title]}", :layout => :info
+      erubis markdown(:"/info/#{params[:title]}")
     end
-    
+
     get '/slajdy/:title' do
       erb :"slajdy/#{params[:title]}", :layout => :slides
     end
