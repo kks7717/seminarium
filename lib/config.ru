@@ -9,4 +9,4 @@ require 'rack/codehighlighter'
 
 use Rack::Codehighlighter, :coderay, :markdown => true, :element => "pre>code"
 
-run Semianrium::Rails
+run Seminarium::Rails
