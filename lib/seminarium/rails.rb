@@ -7,7 +7,7 @@ module Seminarium
     end
 
     get '/info/:title' do
-      erubis markdown(:"/info/#{params[:title]}")
+      erb markdown(:"/info/#{params[:title]}")
     end
 
     get '/slajdy/:title' do

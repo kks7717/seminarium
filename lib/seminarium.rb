@@ -1,16 +1,18 @@
 require 'rdiscount'
 require 'erubis'
 
+#Tilt.register Tilt::ErubisTemplate, 'erb'
+
 require 'sinatra/base'
 require 'sinatra/static_assets'
-#Tilt.register Tilt::ErubisTemplate, 'erb'
 
 require 'seminarium/rails'
 
 module Seminarium
   class Rails < Sinatra::Base
-    set :app_file, __FILE__
-    set :static, true
+    settings.app_file = __FILE__
+    settings.static = true
+    # settings.logging = false
 
     set :erb, :pattern => '\{% %\}', :trim => true
     set :markdown, :layout => false
