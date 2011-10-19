@@ -3,7 +3,7 @@ module Seminarium
     register Sinatra::StaticAssets
 
     get '/' do
-      erubis markdown(:"/info/index")
+      erb markdown(:"/info/index")
     end
 
     get '/info/:title' do
