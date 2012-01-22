@@ -39,8 +39,8 @@ jak zamierzam wykorzystać ją w pracy.
 [2012.02] Zaczynamy:
 
 * {%= link_to "Jak pisać pracę mgr?", "/info/jak-pisac" %}.
-* [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) ‒ *Dziesięć obrazów pasterskich*
-precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
+* [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) (*Dziesięć obrazów pasterskich*).
+Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
 badaniu własnej praktyki i zachęcają do jej kontynuacji.
 Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
 Obrazki to prosty test pozwalający ocenić jak zaawansowana
