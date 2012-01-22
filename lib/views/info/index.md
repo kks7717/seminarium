@@ -36,7 +36,9 @@ jak zamierzam wykorzystać ją w pracy.
 </blockquote>
 
 
-* {%= link_to "jak pisać pracę mgr?", "/info/jak-pisac" %} ‒ lektura obowiązkowa.
+[2012.02] Zaczynamy:
+
+* {%= link_to "Jak pisać pracę mgr?", "/info/jak-pisac" %}.
 * [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) ‒ *Dziesięć obrazów pasterskich*
 precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
 badaniu własnej praktyki i zachęcają do jej kontynuacji.
@@ -44,6 +46,8 @@ Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
 Obrazki to prosty test pozwalający ocenić jak zaawansowana
 jest twoja praca dyplomowa.
 
+
+<!--
 
 <blockquote>
 <p>
@@ -55,6 +59,8 @@ jest twoja praca dyplomowa.
 <p class="author">— Richard P. Feynman</p>
 </blockquote>
 
+-->
+
 ## Planowane referaty: zima 2012
 
 **TODO**
@@ -64,14 +70,17 @@ jest twoja praca dyplomowa.
 
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
 * Bradford Stephens. [Social Media Kills the
-  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/)
+  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/).
 * Jacob Kaplan-Moss. [Writing great documentation](http://jacobian.org/writing/great-documentation/).
-* [Gay marriage: the database engineering perspective](http://qntm.org/gay) z „Things Of Interest”.
+* Sam Hughes. [Gay marriage: the database engineering perspective](http://qntm.org/gay)
+  z „Things Of Interest”.
 * Steve Yegge. [Execution in the Kingdom of
   Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
   – „Today we’re going to hear the story of Evil King Java
   and his quest for worldwide verb stamp-outage.
   *Caution:* This story does not have a happy ending.”
+
+<!--
 
 <blockquote>
 {%= image_tag "/images/chesterton.png", :alt => "[G. K. Chesterton]" %}
@@ -82,7 +91,7 @@ jest twoja praca dyplomowa.
 <p class="author">— G. K. Chesterton, Heretics</p>
 </blockquote>
 
-
+-->
 
 #### Linki
 
