@@ -69,11 +69,11 @@ jest twoja praca dyplomowa.
 
 ## Planowane referaty: zima 2012
 
-* Bachewicz Karol
+* Bachewicz Karol, [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
 * Boyke Tomasz
-* Brzeziński Marcin
+* Brzeziński Marcin, [Gradebook](https://www.learnboost.com/)?
 * Burlingo Ariel
-* Dudziński Michał, Kruk Karolina
+* Dudziński Michał, Kruk Karolina, URL…?
 * Hebel Sebastain
 * Landowski Daniel
 * Podlecki Michał
