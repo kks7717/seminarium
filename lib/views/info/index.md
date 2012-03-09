@@ -50,7 +50,7 @@ jest twoja praca dyplomowa.
 
 * OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
   [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
-  Czy autoryzację LDAP można zastąpić OAuth2? W Instytucie Informatyki?
+  Czy OAuth2 zastąpi LDAP? Jak to będzie w Instytucie Informatyki?
 
 <!--
 
