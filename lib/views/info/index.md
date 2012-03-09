@@ -46,22 +46,11 @@ Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
 Obrazki to prosty test pozwalający ocenić jak zaawansowana
 jest twoja praca dyplomowa.
 
-[2012.03] Interesujace tematy dla prac dyplomowych:
+[2012.03] Ciekawe tematy prac dyplomowych:
 
 * OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
   [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
   Czy autoryzację LDAP można zastąpić OAuth2? W Instytucie Informatyki?
-
-* Bachewicz Karol
-* Boyke Tomasz
-* Brzeziński Marcin
-* Burlingo Ariel
-* Dudziński Michał, Kruk Karolina
-* Hebel Sebastain
-* Landowski Daniel
-* Podlecki Michał
-* Tuszyński Stanisław
-
 
 <!--
 
@@ -77,8 +66,18 @@ jest twoja praca dyplomowa.
 
 -->
 
+
 ## Planowane referaty: zima 2012
 
+* Bachewicz Karol
+* Boyke Tomasz
+* Brzeziński Marcin
+* Burlingo Ariel
+* Dudziński Michał, Kruk Karolina
+* Hebel Sebastain
+* Landowski Daniel
+* Podlecki Michał
+* Tuszyński Stanisław
 
 
 
