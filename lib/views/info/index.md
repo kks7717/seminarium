@@ -69,16 +69,26 @@ jest twoja praca dyplomowa.
 
 ## Planowane referaty: zima 2012
 
-* Bachewicz Karol, [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
-* Boyke Tomasz
-* Brzeziński Marcin, [Gradebook](https://www.learnboost.com/)?
-* Burlingo Ariel
-* Dudziński Michał, Kruk Karolina, URL…?
-* Hebel Sebastain
-* Landowski Daniel
-* Podlecki Michał
-* Tuszyński Stanisław
-
+* Bachewicz Karol,
+  [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
+* Boyke Tomasz,
+  „Only4Players”
+* Brzeziński Marcin,
+  „Health Center”
+* Burlingo Ariel,
+  „My Diet”
+* Dudziński Michał & Kruk Karolina,
+  „Zarządzanie zasobami w sieci”
+* Hebel Sebastain,
+  „Science Book”
+* Paweł Kamola,
+  „Zarządzanie galerią zdjęć”
+* Landowski Daniel,
+  „Your Band”
+* Podlecki Michał,
+  „Gdzie moja kasa?”
+* Tuszyński Stanisław,
+  ???
 
 
 ## Lektura obowiązkowa
