@@ -105,6 +105,13 @@ jest twoja praca dyplomowa.
   and his quest for worldwide verb stamp-outage.
   *Caution:* This story does not have a happy ending.”
 
+
+## Użyteczne narzędzia
+
+* [Web Sequence Diagrams](http://www.websequencediagrams.com/) –
+  draw and edit sequence diagrams in seconds
+
+
 <!--
 
 <blockquote>
