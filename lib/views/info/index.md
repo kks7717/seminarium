@@ -1,7 +1,5 @@
 # SEMINARIUM: Aplikacje webowe
 
-<!--
-
 <blockquote>
 <p>{%= image_tag "/images/algorithm.png", :alt => "[algorithm]" %}</p>
 <p>
@@ -11,19 +9,37 @@
 <p class="author">— Martin Fowler</p>
 </blockquote>
 
-**Warunkiem uzyskania zaliczenia jest:**
+## Informacje
 
-* dostarczenie do **7.05.2010** linka do pdf-a z aktualną wersją pracy,
-  8–12 stron z wstępem do pracy oraz fragment dowolnego rozdziału;
-  do podanej liczby stron nie wliczamy spisu treści, tabel, rysunków itp.
-* zaakceptowanie przeze mnie tytułu pracy oraz argumentów za
-  wyborem tematu pracy
-* poprawienie referatów (o ile miałem jakieś uwagi)
+* {%= link_to "Jak pisać pracę mgr?", "/info/jak-pisac" %}
+* [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) (*Dziesięć obrazów pasterskich*).
+Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
+badaniu własnej praktyki i zachęcają do jej kontynuacji.
+Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
+Obrazki to prosty test pozwalający ocenić jak zaawansowana
+jest twoja praca dyplomowa.
 
-*Uwaga:* Przy każdej pozycji literatury należy wyjaśnić
-jak zamierzam wykorzystać ją w pracy.
+[2012.03.31] Warunkiem uzyskania zaliczenia jest:
 
--->
+1. Założenie repozytorium i umieszczenie w nim **wszystkich** plików
+źródłowych pracy magisterskiej. Pracę należy przygotować w systemie
+XeLaTeX.
+2. Dodanie promotora pracy do „contibutors/collaborators”
+tego repozytorium.
+3. Plik z tekstem pracy powinien liczyć około 24000 znaków, przykładowo:
+
+<pre>ls -l magisterka.tex
+-rw------- 1 me me 24128 03-31 20:30 magisterka.tex
+</pre>
+
+*Uwaga:* Strona w formacie A4 liczy około 2400 znaków (w tym spacje
+i znaki interpukcyjne). Dlatego 24000 znaków przekłada się
+na około 10 stron „czystego” tekstu.
+
+Ostateczny termin rozliczenia się z wszystkich tych rzeczy
+upływa **18.05.2012**. Po poprawkach
+
+<!--
 
 <blockquote>
 <p>{%= image_tag "/images/why.jpg", :alt => "[_Why]" %}</p>
@@ -35,24 +51,7 @@ jak zamierzam wykorzystać ją w pracy.
 <p class="author">— <a href="http://www.smashingmagazine.com/2010/05/15/why-a-tale-of-a-post-modern-genius/">Why the Lucky Stiff</a></p>
 </blockquote>
 
-
-[2012.02] Zaczynamy:
-
-* {%= link_to "Jak pisać pracę mgr?", "/info/jak-pisac" %}
-* [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) (*Dziesięć obrazów pasterskich*).
-Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
-badaniu własnej praktyki i zachęcają do jej kontynuacji.
-Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
-Obrazki to prosty test pozwalający ocenić jak zaawansowana
-jest twoja praca dyplomowa.
-
-[2012.03] Ciekawe tematy prac dyplomowych:
-
-* OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
-  [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
-  Czy OAuth2 zastąpi LDAP? Jak to będzie w Instytucie Informatyki?
-
-<!--
+-->
 
 <blockquote>
 <p>
@@ -64,10 +63,7 @@ jest twoja praca dyplomowa.
 <p class="author">— Richard P. Feynman</p>
 </blockquote>
 
--->
-
-
-## Planowane referaty: zima 2012
+## Prezentacje (lato 2012)
 
 * Bachewicz Karol,
   [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
@@ -104,6 +100,17 @@ jest twoja praca dyplomowa.
   – „Today we’re going to hear the story of Evil King Java
   and his quest for worldwide verb stamp-outage.
   *Caution:* This story does not have a happy ending.”
+
+Interesujące tematy:
+
+* OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
+  [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
+  Czy OAuth2 zastąpi LDAP? Jak to będzie w Instytucie Informatyki?
+
+
+## JTZ?
+
+* [Multi-Device Layout Patterns](http://www.lukew.com/ff/entry.asp?1514)
 
 
 ## Użyteczne narzędzia
