@@ -79,6 +79,8 @@ upływa **18.05.2012**. Po poprawkach
   „Science Book”
 * Paweł Kamola,
   „Zarządzanie galerią zdjęć”
+  - [Picozu](http://www.picozu.com/)
+  - [JPEGmini](http://www.jpegmini.com/main/home)
 * Landowski Daniel,
   „Your Band”
 * Podlecki Michał,
