@@ -39,6 +39,9 @@ na około 10 stron „czystego” tekstu.
 Ostateczny termin rozliczenia się z wszystkich tych rzeczy
 upływa **18.05.2012**. Po poprawkach
 
+[2012.04.04] [On Academic Talks: Memory and Fear](http://cscs.umich.edu/~crshalizi/weblog/900.html) –
+2000 words of advice to larval academics, based on mere guesswork and ill-assimilated psychology
+
 <!--
 
 <blockquote>
