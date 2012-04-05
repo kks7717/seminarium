@@ -90,6 +90,8 @@ upływa **18.05.2012**. Po poprawkach
   „Gdzie moja kasa?”
 * Tuszyński Stanisław,
   ???
+* Wyszomirski Łukasz,
+  „Księgowość internetowa”
 
 
 ## Lektura obowiązkowa
