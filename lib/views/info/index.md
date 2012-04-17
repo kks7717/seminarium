@@ -88,6 +88,9 @@ upływa **18.05.2012**. Po poprawkach
   - [JPEGmini](http://www.jpegmini.com/main/home)
 * Landowski Daniel,
   „Your Band”
+  - [Fandalism is for Musicians](http://fandalism.com/),
+    zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
+    (2-3 miesiące za późno?)
 * Podlecki Michał,
   „Gdzie moja kasa?”
 * Tuszyński Stanisław,
