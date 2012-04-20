@@ -83,12 +83,15 @@ upływa **18.05.2012**. Po poprawkach
 * Paweł Kamola,
   „Zarządzanie galerią zdjęć”
   - [Adaptive Images](http://adaptive-images.com/) – z Apache 2 na Nginx
-  – [Carrierwave or Dragonfly](http://stackoverflow.com/questions/3755662/carrierwave-or-dragonfly)
+  - [Carrierwave or Dragonfly](http://stackoverflow.com/questions/3755662/carrierwave-or-dragonfly)
   - [Rails 3 paperclip vs carrierwave vs dragonfly vs attachment_fu](http://stackoverflow.com/questions/7419731/rails-3-paperclip-vs-carrierwave-vs-dragonfly-vs-attachment-fu)
   - [Picozu](http://www.picozu.com/)
   - [JPEGmini](http://www.jpegmini.com/main/home)
 * Landowski Daniel,
   „Your Band”
+  - [Fandalism is for Musicians](http://fandalism.com/),
+    zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
+    (2-3 miesiące za późno?)
 * Podlecki Michał,
   „Gdzie moja kasa?”
 * Tuszyński Stanisław,
