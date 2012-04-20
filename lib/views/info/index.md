@@ -82,6 +82,7 @@ upływa **18.05.2012**. Po poprawkach
   „Science Book”
 * Paweł Kamola,
   „Zarządzanie galerią zdjęć”
+  - [Adaptive Images](http://adaptive-images.com/) – z Apache 2 na Nginx
   – [Carrierwave or Dragonfly](http://stackoverflow.com/questions/3755662/carrierwave-or-dragonfly)
   - [Rails 3 paperclip vs carrierwave vs dragonfly vs attachment_fu](http://stackoverflow.com/questions/7419731/rails-3-paperclip-vs-carrierwave-vs-dragonfly-vs-attachment-fu)
   - [Picozu](http://www.picozu.com/)
