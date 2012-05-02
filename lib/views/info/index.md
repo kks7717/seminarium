@@ -78,6 +78,7 @@ upływa **18.05.2012**. Po poprawkach
   „My Diet”
 * Dudziński Michał & Kruk Karolina,
   „Zarządzanie zasobami w sieci”
+  - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
 * Hebel Sebastain,
   „Science Book”
 * Paweł Kamola,
