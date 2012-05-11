@@ -72,6 +72,8 @@ upływa **18.05.2012**. Po poprawkach
   [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
 * Boyke Tomasz,
   „Only4Players”
+  - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
+  - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef?utm_source=NoSQL%20Weekly%20Newsletter&utm_campaign=08c50bd2e4-NoSQL_Weekly_Issue_76_May_10_2012&utm_medium=email) – rozszerzenie dla Chrome
 * Brzeziński Marcin,
   „Health Center”
 * Burlingo Ariel,
