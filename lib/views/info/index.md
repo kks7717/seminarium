@@ -78,6 +78,8 @@ upływa **18.05.2012**. Po poprawkach
   „Health Center”
 * Burlingo Ariel,
   „My Diet”
+  - [Peter Thiel’s CS183: Startup - Class 11 Notes Essay](http://blakemasters.tumblr.com/post/22866240816/peter-thiels-cs183-startup-class-11-notes-essay) –
+  coś do wstępu do pracy: fragment z *nutrition*
 * Dudziński Michał & Kruk Karolina,
   „Zarządzanie zasobami w sieci”
   - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
