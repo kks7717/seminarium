@@ -108,6 +108,8 @@ upływa **18.05.2012**. Po poprawkach
 
 ## Lektura obowiązkowa
 
+* Bret Victor.
+  [Inventing on Principle](http://vimeo.com/36579366) (video, 55 min.)
 * [John Cleese on Creativity](http://www.youtube.com/watch?v=VShmtsLhkQg) (video, 36 min.)
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
 * Bradford Stephens. [Social Media Kills the
