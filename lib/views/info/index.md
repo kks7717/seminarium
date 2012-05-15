@@ -108,6 +108,7 @@ upływa **18.05.2012**. Po poprawkach
 
 ## Lektura obowiązkowa
 
+* [John Cleese on Creativity](http://www.youtube.com/watch?v=VShmtsLhkQg) (video, 36 min.)
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
 * Bradford Stephens. [Social Media Kills the
   Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/).
