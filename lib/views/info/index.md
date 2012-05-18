@@ -80,6 +80,8 @@ upływa **18.05.2012**. Po poprawkach
   „My Diet”
   - [Peter Thiel’s CS183: Startup - Class 11 Notes Essay](http://blakemasters.tumblr.com/post/22866240816/peter-thiels-cs183-startup-class-11-notes-essay) –
   coś do wstępu do pracy: fragment z *nutrition*
+  - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
+  - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
 * Dudziński Michał & Kruk Karolina,
   „Zarządzanie zasobami w sieci”
   - [Hopper](http://gethopper.com/you) – save anything from anywhere
@@ -100,6 +102,7 @@ upływa **18.05.2012**. Po poprawkach
     (2-3 miesiące za późno?)
 * Podlecki Michał,
   „Gdzie moja kasa?”
+  - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
 * Tuszyński Stanisław,
   ???
 * Wyszomirski Łukasz,
