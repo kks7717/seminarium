@@ -74,7 +74,7 @@ upływa **18.05.2012**. Po poprawkach
   coś do wstępu do pracy: fragment z *nutrition*
   - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
-* Karolina Kruk (link do repo),
+* Karolina Kruk (**brak** linka do repo),
   „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
   - [Hopper](http://gethopper.com/you) – save anything from anywhere
   - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
@@ -96,15 +96,15 @@ upływa **18.05.2012**. Po poprawkach
 
 Czekam na informacje o postępach w pisaniu pracy:
 
-* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
+* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
   „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
-* Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
+* Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
   „Wykorzystanie HTML5 i CSS3 w projekcie portalu przyjaznego studentowi”
-* Hebel Sebastain (link do repo, spis treści, literatura, 2 strony wstępu),
+* Hebel Sebastain (link do repo, spis treści, literatura, 2 strony wstępu),
   „Moduł systemu zgłoszeniowego” (**tytuł niezrozumiały**, czekam na spis treści, literaturę, 2 strony wstępu)
-* Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
+* Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
   „Od drag&drop do…”
-* Wyszomirski Łukasz (**prezentacja**, spis treści, literatura, 2 strony wstępu),
+* Wyszomirski Łukasz (**prezentacja**, spis treści, literatura, 2 strony wstępu),
   „Księgowość internetowa”
 * Paweł Kamola (**prosze zmienić tytuł**, link do repo, czekam na spis treści, literaturę, 2 strony wstępu),
   „Zarządzanie galerią zdjęć”
