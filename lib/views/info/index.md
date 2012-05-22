@@ -68,45 +68,51 @@ upływa **18.05.2012**. Po poprawkach
 
 ## Prezentacje (lato 2012)
 
-* Bachewicz Karol,
-  [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/)?
-* Boyke Tomasz,
-  „Only4Players”
-  - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
-  - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef?utm_source=NoSQL%20Weekly%20Newsletter&utm_campaign=08c50bd2e4-NoSQL_Weekly_Issue_76_May_10_2012&utm_medium=email) – rozszerzenie dla Chrome
-* Brzeziński Marcin,
-  „Health Center”
-* Burlingo Ariel,
-  „My Diet”
+* Ariel Burlingo,
+  „Kontrola żywienia i planowanie treningu za pomocą aplikacji HTML5”
   - [Peter Thiel’s CS183: Startup - Class 11 Notes Essay](http://blakemasters.tumblr.com/post/22866240816/peter-thiels-cs183-startup-class-11-notes-essay) –
   coś do wstępu do pracy: fragment z *nutrition*
   - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
-* Dudziński Michał & Kruk Karolina,
-  „Zarządzanie zasobami w sieci”
+* Karolina Kruk (link do repo),
+  „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
   - [Hopper](http://gethopper.com/you) – save anything from anywhere
   - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
-* Hebel Sebastain,
-  „Science Book”
-* Paweł Kamola,
+* Michał Dudziński (link do repo),
+  „Zastosowanie technologii NoSQL w aplikacjiach webowych”
+   [Trello](https://trello.com/)
+* Michał Podlecki,
+  „Kontola domowych finansów w aplikacjach HTML5”
+  - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
+* Tomasz Boyke,
+  „Only4Players – serwis statystyk dla gier online”
+  - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
+  - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef?utm_source=NoSQL%20Weekly%20Newsletter&utm_campaign=08c50bd2e4-NoSQL_Weekly_Issue_76_May_10_2012&utm_medium=email) – rozszerzenie dla Chrome
+* Daniel Landowski,
+  „Your Band – serwis webowy dla lokalnej społeczności muzyków”
+  - [Fandalism is for Musicians](http://fandalism.com/),
+    zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
+    (2-3 miesiące za późno?)
+
+Czekam na informacje o postępach w pisaniu pracy:
+
+* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
+  „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
+* Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
+  „Wykorzystanie HTML5 i CSS3 w projekcie portalu przyjaznego studentowi”
+* Hebel Sebastain (link do repo, spis treści, literatura, 2 strony wstępu),
+  „Moduł systemu zgłoszeniowego” (**tytuł niezrozumiały**, czekam na spis treści, literaturę, 2 strony wstępu)
+* Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
+  „Od drag&drop do…”
+* Wyszomirski Łukasz (**prezentacja**, spis treści, literatura, 2 strony wstępu),
+  „Księgowość internetowa”
+* Paweł Kamola (**prosze zmienić tytuł**, link do repo, czekam na spis treści, literaturę, 2 strony wstępu),
   „Zarządzanie galerią zdjęć”
   - [Adaptive Images](http://adaptive-images.com/) – z Apache 2 na Nginx
   - [Carrierwave or Dragonfly](http://stackoverflow.com/questions/3755662/carrierwave-or-dragonfly)
   - [Rails 3 paperclip vs carrierwave vs dragonfly vs attachment_fu](http://stackoverflow.com/questions/7419731/rails-3-paperclip-vs-carrierwave-vs-dragonfly-vs-attachment-fu)
   - [Picozu](http://www.picozu.com/)
   - [JPEGmini](http://www.jpegmini.com/main/home)
-* Landowski Daniel,
-  „Your Band”
-  - [Fandalism is for Musicians](http://fandalism.com/),
-    zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
-    (2-3 miesiące za późno?)
-* Podlecki Michał,
-  „Gdzie moja kasa?”
-  - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
-* Tuszyński Stanisław,
-  ???
-* Wyszomirski Łukasz,
-  „Księgowość internetowa”
 
 
 ## Lektura obowiązkowa
