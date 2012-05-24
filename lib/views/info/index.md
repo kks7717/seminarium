@@ -165,6 +165,17 @@ Interesujące tematy:
 <p class="author">— G. K. Chesterton, Heretics</p>
 </blockquote>
 
+source: http://web.archive.org/web/20080213082423/http://www.marginalia.org/dfw_kenyon_commencement.html
+
+The really important kind of freedom involves attention and awareness
+and discipline, and being able truly to care about other people and to
+sacrifice for them over and over in myriad petty, unsexy ways every
+day.
+
+The alternative is unconsciousness, the default setting, the rat race,
+the constant gnawing sense of having had, and lost, some infinite
+thing.
+
 -->
 
 #### Linki
