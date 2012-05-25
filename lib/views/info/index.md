@@ -74,6 +74,7 @@ upływa **18.05.2012**. Po poprawkach
   coś do wstępu do pracy: fragment z *nutrition*
   - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
+  - trochę nie na temat – Oliver Reichenstein, [Responsive Typography](http://informationarchitects.net/blog/responsive-typography/)
 * Karolina Kruk (**brak** linka do repo),
   „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
   - [Hopper](http://gethopper.com/you) – save anything from anywhere
