@@ -108,6 +108,7 @@ Czekam na informacje o postępach w pisaniu pracy:
   „Moduł systemu zgłoszeniowego” (**tytuł niezrozumiały**, czekam na spis treści, literaturę, 2 strony wstępu)
 * Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
   „Od drag&drop do…”
+  - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
 * Wyszomirski Łukasz (**prezentacja**, spis treści, literatura, 2 strony wstępu),
   „Księgowość internetowa”
 * Paweł Kamola (**prosze zmienić tytuł**, link do repo, czekam na spis treści, literaturę, 2 strony wstępu),
@@ -118,6 +119,7 @@ Czekam na informacje o postępach w pisaniu pracy:
   - [Picozu](http://www.picozu.com/)
   - [JPEGmini](http://www.jpegmini.com/main/home)
   - [HTML5 adaptive images: end of round one](http://html5doctor.com/html5-adaptive-images-end-of-round-one/)
+  - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
 
 
 ## Lektura obowiązkowa
