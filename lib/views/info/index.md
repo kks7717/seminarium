@@ -117,6 +117,7 @@ Czekam na informacje o postępach w pisaniu pracy:
   - [Rails 3 paperclip vs carrierwave vs dragonfly vs attachment_fu](http://stackoverflow.com/questions/7419731/rails-3-paperclip-vs-carrierwave-vs-dragonfly-vs-attachment-fu)
   - [Picozu](http://www.picozu.com/)
   - [JPEGmini](http://www.jpegmini.com/main/home)
+  - [HTML5 adaptive images: end of round one](http://html5doctor.com/html5-adaptive-images-end-of-round-one/)
 
 
 ## Lektura obowiązkowa
