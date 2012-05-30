@@ -97,15 +97,18 @@ upływa **18.05.2012**. Po poprawkach
   - [Fandalism is for Musicians](http://fandalism.com/),
     zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
     (2-3 miesiące za późno?)
+* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
+  „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
+* Hebel Sebastian,
+  „Projekt i implementacja systemu zgłoszeń korzystającego z technologii Rails Engines”
+ - Przykładowe Engines: [Rails Admin](https://github.com/sferik/rails_admin),
+   [Devise ?](https://github.com/plataformatec/devise),
+   [RefineryCMS Blog?](https://github.com/resolve/refinerycms-blog)
 
 Czekam na informacje o postępach w pisaniu pracy:
 
-* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
-  „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
 * Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
   „Wykorzystanie HTML5 i CSS3 w projekcie portalu przyjaznego studentowi”
-* Hebel Sebastain (link do repo, spis treści, literatura, 2 strony wstępu),
-  „Moduł systemu zgłoszeniowego” (**tytuł niezrozumiały**, czekam na spis treści, literaturę, 2 strony wstępu)
 * Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
   „Od drag&drop do…”
   - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
