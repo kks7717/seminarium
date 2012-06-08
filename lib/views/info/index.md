@@ -143,12 +143,8 @@ Czekam na informacje o postępach w pisaniu pracy:
   – „Today we’re going to hear the story of Evil King Java
   and his quest for worldwide verb stamp-outage.
   *Caution:* This story does not have a happy ending.”
-
-Interesujące tematy:
-
-* OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
-  [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
-  Czy OAuth2 zastąpi LDAP? Jak to będzie w Instytucie Informatyki?
+* Tim Bray.
+  [Public-Speaking Antipatterns](http://www.tbray.org/ongoing/When/201x/2012/06/07/Speaking-Antipatterns)
 
 
 ## JTZ?
@@ -163,6 +159,12 @@ Interesujące tematy:
 
 
 <!--
+
+Interesujące tematy:
+
+* OAuth2, [Introducing OAuth 2.0](http://hueniverse.com/2010/05/introducing-oauth-2-0/),
+  [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do?sortby=publicationDate).
+  Czy OAuth2 zastąpi LDAP? Jak to będzie w Instytucie Informatyki?
 
 <blockquote>
 {%= image_tag "/images/chesterton.png", :alt => "[G. K. Chesterton]" %}
