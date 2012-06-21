@@ -125,8 +125,18 @@ Czekam na informacje o postępach w pisaniu pracy:
   - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
 
 
+<blockquote>
+<p>If academic research is often astonishingly successful, it always
+is because the researchers had the wisdom and the opportunity to avoid
+both the trivial and the impossible, and to follow the very narrow
+path in between.</p>
+<p class="author">— Edsger W. Dijkstra</p>
+</blockquote>
+
 ## Lektura obowiązkowa
 
+* Vivek Haldar
+  - (21.06) [Operations should be in the computer science curriculum](http://blog.vivekhaldar.com/post/23994485648/operations-should-be-in-the-computer-science-curriculum)
 * Bret Victor.
   [Inventing on Principle](http://vimeo.com/36579366) (video, 55 min.)
 * Rich Hickey (autor języka Clojure, video, 35_min.).
