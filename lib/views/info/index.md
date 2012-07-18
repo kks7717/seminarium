@@ -107,25 +107,8 @@ upływa **18.05.2012**. Po poprawkach
   - Przykładowe Engines: [Rails Admin](https://github.com/sferik/rails_admin),
     [Devise ?](https://github.com/plataformatec/devise),
     [RefineryCMS Blog?](https://github.com/resolve/refinerycms-blog)
-
-Czekam na informacje o postępach w pisaniu pracy:
-
 * Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
   „Wykorzystanie HTML5 i CSS3 w projekcie portalu przyjaznego studentowi”
-* Bachewicz Karol (link do repo, spis treści, literatura, 2 strony opisu jak z drag&drop powstawały technologie…),
-  „Od drag&drop do…”
-  - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
-* Wyszomirski Łukasz (**prezentacja**, spis treści, literatura, 2 strony wstępu),
-  „Księgowość internetowa”
-* Paweł Kamola (**prosze zmienić tytuł**, link do repo, czekam na spis treści, literaturę, 2 strony wstępu),
-  „Zarządzanie galerią zdjęć”
-  - [Adaptive Images](http://adaptive-images.com/) – z Apache 2 na Nginx
-  - [Carrierwave or Dragonfly](http://stackoverflow.com/questions/3755662/carrierwave-or-dragonfly)
-  - [Rails 3 paperclip vs carrierwave vs dragonfly vs attachment_fu](http://stackoverflow.com/questions/7419731/rails-3-paperclip-vs-carrierwave-vs-dragonfly-vs-attachment-fu)
-  - [Picozu](http://www.picozu.com/)
-  - [JPEGmini](http://www.jpegmini.com/main/home)
-  - [HTML5 adaptive images: end of round one](http://html5doctor.com/html5-adaptive-images-end-of-round-one/)
-  - [Drag and Drop and Automatically Send to the Server](http://html5doctor.com/drag-and-drop-to-server/)
 
 
 <blockquote>
