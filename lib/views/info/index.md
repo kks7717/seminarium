@@ -87,6 +87,9 @@ upływa **18.05.2012**. Po poprawkach
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
 * Tomasz Boyke,
   „Only4Players – serwis statystyk dla gier online”
+  - Mark Logoan.
+    [Six Impossible Problems](http://blog.artillerygames.com/2012/07/six-impossible-problems.html)
+    – coś do wstępu
   - [Performance Tuning Apache and Passenger](http://vimeo.com/37392361) –
     rozdział pracy: „Performance Tuning Nginx and Unicorn (Passenger?)”
     (polecenia: *httperf*, *htop*, *iftop*)
@@ -101,9 +104,9 @@ upływa **18.05.2012**. Po poprawkach
   „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
 * Hebel Sebastian,
   „Projekt i implementacja systemu zgłoszeń korzystającego z technologii Rails Engines”
- - Przykładowe Engines: [Rails Admin](https://github.com/sferik/rails_admin),
-   [Devise ?](https://github.com/plataformatec/devise),
-   [RefineryCMS Blog?](https://github.com/resolve/refinerycms-blog)
+  - Przykładowe Engines: [Rails Admin](https://github.com/sferik/rails_admin),
+    [Devise ?](https://github.com/plataformatec/devise),
+    [RefineryCMS Blog?](https://github.com/resolve/refinerycms-blog)
 
 Czekam na informacje o postępach w pisaniu pracy:
 
