@@ -122,6 +122,7 @@ path in between.</p>
 ## Lektura obowiązkowa
 
 * Vivek Haldar
+  - (18.07) [On Vagueness](http://blog.vivekhaldar.com/post/27415471917/on-vagueness)
   - (21.06) [Executable Thought](http://blog.vivekhaldar.com/post/23430363068/executable-thought)
   - (21.06) [Operations should be in the computer science curriculum](http://blog.vivekhaldar.com/post/23994485648/operations-should-be-in-the-computer-science-curriculum)
 * Bret Victor.
