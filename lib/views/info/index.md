@@ -13,7 +13,7 @@
 
 * {%= link_to "Jak pisać pracę mgr?", "/info/jak-pisac" %}
 * Jak pisać zrozumiale? –
-  [10 Tips on Writing from David Ogilvy](http://www.brainpickings.org/index.php/2012/02/07/david-ogilvy-on-writing/) —
+  [10 Tips on Writing from David Ogilvy](http://www.brainpickings.org/index.php/2012/02/07/david-ogilvy-on-writing/).
 * [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) (*Dziesięć obrazów pasterskich*).
 Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
 badaniu własnej praktyki i zachęcają do jej kontynuacji.
