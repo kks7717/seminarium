@@ -86,6 +86,9 @@ upływa **18.05.2012**. Po poprawkach
    [Trello](https://trello.com/)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
+  - [Mint](https://www.mint.com/) –
+  Manage your budget with easy to use personal finance tools and calculators.
+  Track spending and monitor your online banking account
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
 * Tomasz Boyke,
   „Only4Players – serwis statystyk dla gier online”
