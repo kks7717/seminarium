@@ -72,6 +72,7 @@ upływa **18.05.2012**. Po poprawkach
 
 * Ariel Burlingo,
   „Kontrola żywienia i planowanie treningu za pomocą aplikacji HTML5”
+  - [BJ. Fogg](http://www.bjfogg.com/): [BJ Fogg's Behavior Model](http://www.behaviormodel.org/)
   - [Peter Thiel’s CS183: Startup - Class 11 Notes Essay](http://blakemasters.tumblr.com/post/22866240816/peter-thiels-cs183-startup-class-11-notes-essay) –
   coś do wstępu do pracy: fragment z *nutrition*
   - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
