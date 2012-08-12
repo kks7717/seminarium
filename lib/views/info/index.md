@@ -118,11 +118,9 @@ upływa **18.05.2012**. Po poprawkach
 
 
 <blockquote>
-<p>If academic research is often astonishingly successful, it always
-is because the researchers had the wisdom and the opportunity to avoid
-both the trivial and the impossible, and to follow the very narrow
-path in between.</p>
-<p class="author">— Edsger W. Dijkstra</p>
+<p>If your freshman outing is in journalism, your brain gets tattooed (in a good way)
+with <b>who-what-where-when-why</b>, <b>fact-check-everything</b>, <b>never-bury-the-lead</b>.</p>
+<p class="author">— Steven Pressfield</p>
 </blockquote>
 
 ## Lektura obowiązkowa
@@ -150,6 +148,14 @@ path in between.</p>
 * Tim Bray.
   [Public-Speaking Antipatterns](http://www.tbray.org/ongoing/When/201x/2012/06/07/Speaking-Antipatterns)
 
+
+<blockquote>
+<p>If academic research is often astonishingly successful, it always
+is because the researchers had the wisdom and the opportunity to avoid
+both the trivial and the impossible, and to follow the very narrow
+path in between.</p>
+<p class="author">— Edsger W. Dijkstra</p>
+</blockquote>
 
 ## JTZ?
 

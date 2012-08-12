@@ -56,11 +56,21 @@ Kompozycja powinna odpowiadać następującemu układowi treści:
 1. bibliografia — zestawiony w porządku alfabetycznym,
    według nazwisk autorów, spis wykorzystanych tekstów
 
+<blockquote>
+<p>(1) Reduce your message to its simplest, clearest, easiest-to-understand form.
+(2) Make it fun. Or sexy or interesting or informative.
+(3) Apply that to all forms of writing or art or commerce.
+</p>
+<p class="author">— Steven Pressfield</p>
+</blockquote>
+
 Praca magisterska często ma formę eseju, czyli szkicu krytycznego
 o charakterze naukowym. Stałą cechą eseju jest kompozycyjna
 swoboda, przełamywanie reguł, dążenie do formy otwartej
 i hybrydycznej, łaczącej w sobie elementy narracji, dyskursu
 naukowego, żartu, parodii i in.
+
+## Kompozycja tekstu
 
 <blockquote>
 {%= image_tag "/images/agnieszka_osiecka.jpg", :alt => "[Agnieszka Osiecka]", :title => "Agnieszka Osiecka" %}
@@ -74,8 +84,6 @@ naukowego, żartu, parodii i in.
 </blockquote>
 
 <!-- Zofia Turowska, Agnieszki. Pejzaże z Agnieszką Osiecką, s. 92 -->
-
-## Kompozycja tekstu
 
 Każdy tekst pisany, którego celem jest zaprezentowanie
 stanowiska lub poglądów autora, omówienie jakiegoś
