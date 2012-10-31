@@ -149,6 +149,8 @@ with <b>who-what-where-when-why</b>, <b>fact-check-everything</b>, <b>never-bury
   *Caution:* This story does not have a happy ending.”
 * Tim Bray.
   [Public-Speaking Antipatterns](http://www.tbray.org/ongoing/When/201x/2012/06/07/Speaking-Antipatterns)
+* Vivek Haldar.
+  [Writing and happiness](http://blog.vivekhaldar.com/post/31339272934/writing-and-happiness)
 
 
 <blockquote>
