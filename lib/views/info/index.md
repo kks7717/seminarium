@@ -115,6 +115,8 @@ upływa **18.05.2012**. Po poprawkach
     [RefineryCMS Blog?](https://github.com/resolve/refinerycms-blog)
 * Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
   „Wykorzystanie HTML5 i CSS3 w projekcie portalu przyjaznego studentowi”
+  - Phil Sturgeon, [Puppet or Chef?](http://philsturgeon.co.uk/blog/2012/10/puppet-or-chef
+)
 
 
 <blockquote>
