@@ -70,6 +70,8 @@ upływa **18.05.2012**. Po poprawkach
 
 ## Prezentacje (lato 2012)
 
+<!--
+
 * Ariel Burlingo,
   „Kontrola żywienia i planowanie treningu za pomocą aplikacji HTML5”
   - [BJ. Fogg](http://www.bjfogg.com/): [BJ Fogg's Behavior Model](http://www.behaviormodel.org/)
@@ -82,11 +84,17 @@ upływa **18.05.2012**. Po poprawkach
   „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
   - [Hopper](http://gethopper.com/you) – save anything from anywhere
   - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
+
+-->
+
 * Michał Dudziński (link do repo),
   „Zastosowanie technologii NoSQL w aplikacjiach webowych”
-   [Trello](https://trello.com/)
+  - [Trello](https://trello.com/)
+  - [Listango](https://www.listango.com/)
+  - NoSQL: Redis czy Riak? (key-value), Cassandra?, a może Neo4j (graph database)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
+  - [Backbone.Marionetett.js](https://tutsplus.com/lesson/backbone-marionette/)
   - [Mint](https://www.mint.com/) –
   Manage your budget with easy to use personal finance tools and calculators.
   Track spending and monitor your online banking account
