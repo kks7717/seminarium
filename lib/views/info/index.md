@@ -68,7 +68,7 @@ upływa **18.05.2012**. Po poprawkach
 <p class="author">— Richard P. Feynman</p>
 </blockquote>
 
-## Prezentacje (lato 2012)
+## Tematy prac
 
 <!--
 
