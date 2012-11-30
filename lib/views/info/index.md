@@ -87,7 +87,7 @@ upływa **18.05.2012**. Po poprawkach
 
 -->
 
-* Michał Dudziński (link do repo),
+* Michał Dudziński,
   „Zastosowanie technologii NoSQL w aplikacjiach webowych”
   - [Trello](https://trello.com/)
   - [Listango](https://www.listango.com/)
@@ -114,7 +114,7 @@ upływa **18.05.2012**. Po poprawkach
   - [Fandalism is for Musicians](http://fandalism.com/),
     zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
     (2-3 miesiące za późno?)
-* Brzeziński Marcin (spis treści, literatura, 2 strony wstępu),
+* Brzeziński Marcin,
   „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
 * Hebel Sebastian,
   „Projekt i implementacja systemu zgłoszeń korzystającego z technologii Rails Engines”
