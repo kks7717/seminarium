@@ -91,7 +91,9 @@ upływa **18.05.2012**. Po poprawkach
   „Zastosowanie technologii NoSQL w aplikacjiach webowych”
   - [Trello](https://trello.com/)
   - [Listango](https://www.listango.com/)
-  - NoSQL: Redis czy Riak? (key-value), Cassandra?, a może Neo4j (graph database)
+  - Kristóf Kovács,
+  [Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Membase vs Neo4j comparison](http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis)
+  - NoSQL: Redis czy Riak? (key-value store), Cassandra? (column families), a może Neo4j (graph database)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
   - [Backbone.Marionetett.js](https://tutsplus.com/lesson/backbone-marionette/)
