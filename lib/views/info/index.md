@@ -108,7 +108,7 @@ upływa **18.05.2012**. Po poprawkach
     rozdział pracy: „Performance Tuning Nginx and Unicorn (Passenger?)”
     (polecenia: *httperf*, *htop*, *iftop*)
   - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
-  - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef?utm_source=NoSQL%20Weekly%20Newsletter&utm_campaign=08c50bd2e4-NoSQL_Weekly_Issue_76_May_10_2012&utm_medium=email) – rozszerzenie dla Chrome
+  - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef) – rozszerzenie dla Chrome
 * Daniel Landowski,
   „Your Band – serwis webowy dla lokalnej społeczności muzyków”
   - [Fandalism is for Musicians](http://fandalism.com/),
