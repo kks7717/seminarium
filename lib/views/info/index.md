@@ -128,8 +128,7 @@ upływa **18.05.2012**. Po poprawkach
   - [Rails 3.1: Engine vs. Mountable App](http://stackoverflow.com/questions/6118905/rails-3-1-engine-vs-mountable-app)
 * Tuszyński Stanisław (link do repo, spis treści, literatura, 2 strony wstępu),
   „System Chef w pracowniach II”
-  - Phil Sturgeon, [Puppet or Chef?](http://philsturgeon.co.uk/blog/2012/10/puppet-or-chef
-)
+  - Phil Sturgeon, [Puppet or Chef?](http://philsturgeon.co.uk/blog/2012/10/puppet-or-chef)
 
 
 <blockquote>
