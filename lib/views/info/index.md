@@ -15,11 +15,13 @@
 * Jak pisać zrozumiale? –
   [10 Tips on Writing from David Ogilvy](http://www.brainpickings.org/index.php/2012/02/07/david-ogilvy-on-writing/).
 * [The Ten Oxherding Pictures](http://www.buddhanet.net/oxherd1.htm) (*Dziesięć obrazów pasterskich*).
-Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne w
-badaniu własnej praktyki i zachęcają do jej kontynuacji.
+Precyzyjnie pokazują one nasz postęp w praktyce, są bardzo pomocne
+w badaniu własnej praktyki i zachęcają do jej kontynuacji.
 Na obrazach „shepherd” symbolizuje ciebie, a „ox” – twój umysł).
 Obrazki to prosty test pozwalający ocenić jak zaawansowana
 jest twoja praca dyplomowa.
+
+<!--
 
 [2012.03.31] Warunkiem uzyskania zaliczenia jest:
 
@@ -40,6 +42,11 @@ na około 10 stron „czystego” tekstu.
 
 Ostateczny termin rozliczenia się z wszystkich tych rzeczy
 upływa **18.05.2012**. Po poprawkach
+
+-->
+
+[2012.12.10] [Meteor.js with Matt Debergalis](http://marakana.com/s/post/1343/meteor_javascript_html5_video) –
+HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy dyplomowej
 
 [2012.04.04] [On Academic Talks: Memory and Fear](http://cscs.umich.edu/~crshalizi/weblog/900.html) –
 2000 words of advice to larval academics, based on mere guesswork and ill-assimilated psychology
