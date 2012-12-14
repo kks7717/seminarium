@@ -101,6 +101,8 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - Kristóf Kovács,
   [Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Membase vs Neo4j comparison](http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis)
   - NoSQL: Redis czy Riak? (key-value store), Cassandra? (column families), a może Neo4j (graph database)
+  - Jeff Atwood,
+    [Web Discussions: Flat by Design](http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
   - [Backbone.Marionetett.js](https://tutsplus.com/lesson/backbone-marionette/)
