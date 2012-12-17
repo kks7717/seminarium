@@ -45,11 +45,17 @@ upływa **18.05.2012**. Po poprawkach
 
 -->
 
+[2012.12.18] Wireframe Tools dla Chrome:
+[UXPin](https://chrome.google.com/webstore/detail/uxpin/nenaeeaoehmlmgaaibpcnbbalgjcfdag);
+inne: [Wireframe.cc](http://wireframe.cc/), [Balsamiq Mockups](https://balsamiqgdrive.appspot.com/).
+
+[2012.12.16] Rob Johnson, [Why is Learning to Code So Hard?](http://www.startuprob.com/learn-to-code/).
+
 [2012.12.10] [Meteor.js with Matt Debergalis](http://marakana.com/s/post/1343/meteor_javascript_html5_video) –
-HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy dyplomowej
+HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy dyplomowej.
 
 [2012.04.04] [On Academic Talks: Memory and Fear](http://cscs.umich.edu/~crshalizi/weblog/900.html) –
-2000 words of advice to larval academics, based on mere guesswork and ill-assimilated psychology
+2000 words of advice to larval academics, based on mere guesswork and ill-assimilated psychology.
 
 <!--
 
