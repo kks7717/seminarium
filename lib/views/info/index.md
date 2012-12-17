@@ -46,7 +46,8 @@ upływa **18.05.2012**. Po poprawkach
 -->
 
 [2012.12.20] The Nuxeo UI Style Guide,
-[Reguła W^5](http://showcase.nuxeo.com/nuxeo/styleGuide/Recommendations)
+[Reguła W^5](http://showcase.nuxeo.com/nuxeo/styleGuide/Recommendations),
+[Icons](http://showcase.nuxeo.com/nuxeo/styleGuide/Icons).
 
 [2012.12.18] Wireframe Tools dla Chrome:
 [UXPin](https://chrome.google.com/webstore/detail/uxpin/nenaeeaoehmlmgaaibpcnbbalgjcfdag);
