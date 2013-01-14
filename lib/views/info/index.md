@@ -113,6 +113,10 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - NoSQL: Redis czy Riak? (key-value store), Cassandra? (column families), a może Neo4j (graph database)
   - Jeff Atwood,
     [Web Discussions: Flat by Design](http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html)
+  - Building an Ember app with RailsAPI, 
+    [Part 1](http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html),
+    [Part 2](http://reefpoints.dockyard.com/ember/2013/01/09/building-an-ember-app-with-rails-api-part-2.html),
+    [Part 3](http://reefpoints.dockyard.com/ember/2013/01/10/building-an-ember-app-with-rails-api-part-3.html)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
   - [Backbone.Marionetett.js](https://tutsplus.com/lesson/backbone-marionette/)
@@ -130,6 +134,7 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
     (polecenia: *httperf*, *htop*, *iftop*)
   - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
   - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef) – rozszerzenie dla Chrome
+  - [mongopi, sharding]http://mongopi.wordpress.com/tag/sharding/)
 * Daniel Landowski,
   „Your Band – serwis webowy dla lokalnej społeczności muzyków”
   - [Fandalism is for Musicians](http://fandalism.com/),
