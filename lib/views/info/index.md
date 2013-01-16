@@ -97,22 +97,26 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
   - [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
   - trochę nie na temat – Oliver Reichenstein, [Responsive Typography](http://informationarchitects.net/blog/responsive-typography/)
-* Karolina Kruk (**brak** linka do repo),
-  „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
-  - [Hopper](http://gethopper.com/you) – save anything from anywhere
-  - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
-
 -->
 
 * Michał Dudziński,
   „Zastosowanie technologii NoSQL w aplikacjiach webowych”
-  - [Trello](https://trello.com/)
-  - [Listango](https://www.listango.com/)
   - Kristóf Kovács,
   [Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Membase vs Neo4j comparison](http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis)
   - NoSQL: Redis czy Riak? (key-value store), Cassandra? (column families), a może Neo4j (graph database)
   - Jeff Atwood,
     [Web Discussions: Flat by Design](http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html)
+  - Building an Ember app with RailsAPI,
+    [Part 1](http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html),
+    [Part 2](http://reefpoints.dockyard.com/ember/2013/01/09/building-an-ember-app-with-rails-api-part-2.html),
+    [Part 3](http://reefpoints.dockyard.com/ember/2013/01/10/building-an-ember-app-with-rails-api-part-3.html)
+  - [Simple data sharing with Data Clips](https://postgres.heroku.com/blog/past/2012/1/31/simple_data_sharing_with_data_clips/)
+* Karolina Kruk,
+  „Tworzenie zaawansowanego interfejsu użytkownika aplikacji webowej w HTML5”
+  - [Hopper](http://gethopper.com/you) – save anything from anywhere
+  - [Trello](https://trello.com/)
+  - [Listango](https://www.listango.com/)
+  - [Humble Beginnings](http://blog.alexmaccaw.com/humble-beginnings)
 * Michał Podlecki,
   „Kontola domowych finansów w aplikacjach HTML5”
   - [Backbone.Marionetett.js](https://tutsplus.com/lesson/backbone-marionette/)
@@ -132,6 +136,7 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef) – rozszerzenie dla Chrome
   - Kenny Gorman,
     [MongoDB Performance Tuning](http://www.10gen.com/presentations/mongosv-2012/mongodb-performance-tuning)
+  - [mongopi, sharding]http://mongopi.wordpress.com/tag/sharding/)
 * Daniel Landowski,
   „Your Band – serwis webowy dla lokalnej społeczności muzyków”
   - [Fandalism is for Musicians](http://fandalism.com/),

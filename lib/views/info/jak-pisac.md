@@ -140,6 +140,10 @@ zastosować któryś z poniższych sposobów:
 * posłużyć się oryginalnym przykładem, etymologią wyrazu,
   paradoksem
 
+W artykule K. Thomasa,
+[How to Write an Opening Sentence](http://asserttrue.blogspot.com/)
+znajdziemy jeszcze kilka pomysłów, jak zacząć pierwszy akapit.
+
 
 <blockquote>
 <p>
