@@ -106,7 +106,7 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - NoSQL: Redis czy Riak? (key-value store), Cassandra? (column families), a może Neo4j (graph database)
   - Jeff Atwood,
     [Web Discussions: Flat by Design](http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html)
-  - Building an Ember app with RailsAPI, 
+  - Building an Ember app with RailsAPI,
     [Part 1](http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html),
     [Part 2](http://reefpoints.dockyard.com/ember/2013/01/09/building-an-ember-app-with-rails-api-part-2.html),
     [Part 3](http://reefpoints.dockyard.com/ember/2013/01/10/building-an-ember-app-with-rails-api-part-3.html)
@@ -140,6 +140,7 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - [Fandalism is for Musicians](http://fandalism.com/),
     zob. [I have 404,772 users. Now what?](http://pud.com/post/21248770833/i-have-404-772-users-now-what)
     (2-3 miesiące za późno?)
+  - [BandFrame promo](http://vimeo.com/61587845) – napisany w Ember.js; [BandFrame](https://bandframe.com/)
 * Brzeziński Marcin,
   „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
 * Hebel Sebastian,
