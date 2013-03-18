@@ -134,6 +134,8 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
     (polecenia: *httperf*, *htop*, *iftop*)
   - [diagnosing high readahead](http://www.snailinaturtleneck.com/blog/2012/05/10/thursday-5-diagnosing-high-readahead/)
   - [Mongo Live](https://chrome.google.com/webstore/detail/apgglicbkgjcfnohdcgbcobengnkcjef) – rozszerzenie dla Chrome
+  - Kenny Gorman,
+    [MongoDB Performance Tuning](http://www.10gen.com/presentations/mongosv-2012/mongodb-performance-tuning)
   - [mongopi, sharding]http://mongopi.wordpress.com/tag/sharding/)
 * Daniel Landowski,
   „Your Band – serwis webowy dla lokalnej społeczności muzyków”
