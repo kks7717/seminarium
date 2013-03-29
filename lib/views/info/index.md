@@ -137,6 +137,8 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - Kenny Gorman,
     [MongoDB Performance Tuning](http://www.10gen.com/presentations/mongosv-2012/mongodb-performance-tuning)
   - [mongopi, sharding]http://mongopi.wordpress.com/tag/sharding/)
+  - Ajay Singh,
+    [MongoDB Replication Testing in Development Environment](http://ajay555.wordpress.com/2013/03/29/mongodb-replication-testing-in-development-environment/)
 * Daniel Landowski,
   „Your Band – serwis webowy dla lokalnej społeczności muzyków”
   - [Fandalism is for Musicians](http://fandalism.com/),
