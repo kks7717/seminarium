@@ -45,6 +45,8 @@ upływa **18.05.2012**. Po poprawkach
 
 -->
 
+[2013.04.18] Mikito Takada, [Single page apps in depth](http://singlepageappbook.com/)
+
 [2012.12.20] The Nuxeo UI Style Guide,
 [Reguła W^5](http://showcase.nuxeo.com/nuxeo/styleGuide/Recommendations),
 [Icons](http://showcase.nuxeo.com/nuxeo/styleGuide/Icons).
