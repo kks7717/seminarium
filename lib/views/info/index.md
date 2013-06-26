@@ -149,6 +149,7 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
   - [BandFrame promo](http://vimeo.com/61587845) – napisany w Ember.js; [BandFrame](https://bandframe.com/)
 * Brzeziński Marcin,
   „Zastosowanie technologii HTML5 w aplikacjach dla służby zdrowia”
+  - Khaled El Emam & Luk Arbuckle, [Anonymizing Health Data](http://shop.oreilly.com/product/0636920029229.do)
 * Hebel Sebastian,
   „Projekt i implementacja systemu zgłoszeń korzystającego z technologii Rails Engines”
   - Przykładowe Engines: [Rails Admin](https://github.com/sferik/rails_admin),
