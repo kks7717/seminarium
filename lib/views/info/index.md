@@ -45,6 +45,8 @@ upływa **18.05.2012**. Po poprawkach
 
 -->
 
+[2013.07.18] Steve McConnell, [How To Read A Technical Article](http://www.stevemcconnell.com/ieeesoftware/eic02.htm)
+
 [2013.04.18] Mikito Takada, [Single page apps in depth](http://singlepageappbook.com/)
 
 [2012.12.20] The Nuxeo UI Style Guide,
