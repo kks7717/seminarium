@@ -101,7 +101,7 @@ obmyślenie jest opłacalny. Zaletami tytułu są prostota
 i zwięzłość.
 
 ---
-Blake Snyder, „Save the Cat!”
+Blake Snyder, *Save the Cat!*
 
 In order to better create a good “What is it?” the author
 must be able to tell a good one-line or logline — a one-
