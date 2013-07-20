@@ -98,7 +98,25 @@ według następującego ogólnego **planu**:
 
 Każdy praca powinna mieć **tytuł**. Wysiłek włożony w jego
 obmyślenie jest opłacalny. Zaletami tytułu są prostota
-i zwięzłość.
+i zwięzłość.
+
+---
+Blake Snyder, „Save the Cat!”
+
+In order to better create a good “What is it?” the author
+must be able to tell a good one-line or logline — a one-
+or two- sentence grabber that tells us everything.
+It must satisfy four basicelements to be effective:
+
+1. *Irony.* It must be in some way ironic and emotionally involving
+— a dramatic situation that is like an itch you have to scratch.
+2. *A compelling mental picture.* It must bloom in your mind when you
+hear it. A whole movie must be implied, often including a time frame.
+3. *Audience and cost.* It must demarcate the tone, the target audience,
+and the sense of cost, so buyers will know if it canmake a profit.
+4. *A killer title.* The one-two punch of a good logline mustinclude a
+great title, one that “says what it is” and does so in aclever way.
+---
 
 Ważne jest dokładne sprecyzowanie **tematu**.
 Zbyt obszerne jego ujecie prowadzi do powierzchowności.
