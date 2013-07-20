@@ -100,6 +100,16 @@ Każdy praca powinna mieć **tytuł**. Wysiłek włożony w jego
 obmyślenie jest opłacalny. Zaletami tytułu są prostota
 i zwięzłość.
 
+Ważne jest dokładne sprecyzowanie **tematu**.
+Zbyt obszerne jego ujecie prowadzi do powierzchowności.
+Temat powinien być ciekawy i interesujący, należy
+zadbać aby podejście do tematu było oryginalne.
+Piszmy wiec nie o czymś w ogóle, lecz o czymś
+z jakiejś perspektywy.
+
+Praca powinna mieć **konspekt** tekstu — skrótowy, przygotowany
+w punktach zarys planowanej wypowiedzi.
+
 ---
 Blake Snyder, *Save the Cat!*
 
@@ -117,16 +127,6 @@ and the sense of cost, so buyers will know if it canmake a profit.
 4. *A killer title.* The one-two punch of a good logline mustinclude a
 great title, one that “says what it is” and does so in aclever way.
 ---
-
-Ważne jest dokładne sprecyzowanie **tematu**.
-Zbyt obszerne jego ujecie prowadzi do powierzchowności.
-Temat powinien być ciekawy i interesujący, należy
-zadbać aby podejście do tematu było oryginalne.
-Piszmy wiec nie o czymś w ogóle, lecz o czymś
-z jakiejś perspektywy.
-
-Praca powinna mieć **konspekt** tekstu — skrótowy, przygotowany
-w punktach zarys planowanej wypowiedzi.
 
 
 <blockquote>
