@@ -158,9 +158,10 @@ zastosować któryś z poniższych sposobów:
 * posłużyć się oryginalnym przykładem, etymologią wyrazu,
   paradoksem
 
-W artykule K. Thomasa,
+W artykułach K. Thomasa
 [How to Write an Opening Sentence](http://asserttrue.blogspot.com/)
-znajdziemy jeszcze kilka pomysłów, jak zacząć pierwszy akapit.
+i S. Schwertly [5 Powerful Ways to Open a Presentation](http://blog.slideshare.net/2013/07/22/5-powerful-ways-to-open-a-presentation/)
+znajdziemy jeszcze kilka pomysłów na pierwszy akapit.
 
 
 <blockquote>
@@ -179,6 +180,10 @@ Możemy tutaj skorzystać z pewnych utartych schematów, np.
 * wyrazić swoją indywidualną opinię na dany temat
 * zalecić jakiś sposób postępowania
 * zamknąć tekst zgrabnym cytatem
+
+W artykule
+S. Schwertly [5 Powerful Ways to Close a Presentation](http://blog.slideshare.net/2013/07/29/5-powerful-ways-to-close-a-presentation/)
+znajdziemy kilka innych pomysłów na zakończenie.
 
 
 <blockquote>
