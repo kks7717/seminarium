@@ -67,9 +67,11 @@ HTML5 Dev Conf. Od 2 do 5 minuty – slajdy do wykorzystania w każdej pracy d
 
 
 <blockquote>
-<p>If your freshman outing is in journalism, your brain gets tattooed (in a good way)
-with <b>who-what-where-when-why</b>, <b>fact-check-everything</b>, <b>never-bury-the-lead</b>.</p>
-<p class="author">— Steven Pressfield</p>
+<p>If academic research is often astonishingly successful, it always
+is because the researchers had the wisdom and the opportunity to avoid
+both the trivial and the impossible, and to follow the very narrow
+path in between.</p>
+<p class="author">— Edsger W. Dijkstra</p>
 </blockquote>
 
 ## Lektura obowiązkowa
@@ -99,14 +101,6 @@ with <b>who-what-where-when-why</b>, <b>fact-check-everything</b>, <b>never-bury
 * Vivek Haldar.
   [Writing and happiness](http://blog.vivekhaldar.com/post/31339272934/writing-and-happiness)
 
-
-<blockquote>
-<p>If academic research is often astonishingly successful, it always
-is because the researchers had the wisdom and the opportunity to avoid
-both the trivial and the impossible, and to follow the very narrow
-path in between.</p>
-<p class="author">— Edsger W. Dijkstra</p>
-</blockquote>
 
 ## Użyteczne narzędzia
 
