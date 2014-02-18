@@ -76,30 +76,24 @@ path in between.</p>
 
 ## Lektura obowiązkowa
 
-* Vivek Haldar
-  - (18.07) [On Vagueness](http://blog.vivekhaldar.com/post/27415471917/on-vagueness)
-  - (21.06) [Executable Thought](http://blog.vivekhaldar.com/post/23430363068/executable-thought)
-  - (21.06) [Operations should be in the computer science curriculum](http://blog.vivekhaldar.com/post/23994485648/operations-should-be-in-the-computer-science-curriculum)
 * Bret Victor.
   [Inventing on Principle](http://vimeo.com/36579366) (video, 55 min.)
 * Rich Hickey (autor języka Clojure, video, 35_min.).
   [Simplicity Matters](http://www.youtube.com/watch?v=rI8tNMsozo0)
 * [John Cleese on Creativity](http://www.youtube.com/watch?v=VShmtsLhkQg) (video, 36 min.)
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
-* Bradford Stephens. [Social Media Kills the
-  Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/).
+* Bradford Stephens.
+  [Social Media Kills the Database](http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/).
 * Jacob Kaplan-Moss. [Writing great documentation](http://jacobian.org/writing/great-documentation/).
 * Sam Hughes. [Gay marriage: the database engineering perspective](http://qntm.org/gay)
   z „Things Of Interest”.
-* Steve Yegge. [Execution in the Kingdom of
-  Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
+* Steve Yegge.
+  [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
   – „Today we’re going to hear the story of Evil King Java
   and his quest for worldwide verb stamp-outage.
   *Caution:* This story does not have a happy ending.”
 * Tim Bray.
   [Public-Speaking Antipatterns](http://www.tbray.org/ongoing/When/201x/2012/06/07/Speaking-Antipatterns)
-* Vivek Haldar.
-  [Writing and happiness](http://blog.vivekhaldar.com/post/31339272934/writing-and-happiness)
 
 
 ## Użyteczne narzędzia
