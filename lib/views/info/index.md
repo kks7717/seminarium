@@ -78,7 +78,7 @@ path in between.</p>
 
 * Bret Victor.
   [Inventing on Principle](http://vimeo.com/36579366) (video, 55 min.)
-* Rich Hickey (autor języka Clojure, video, 35_min.).
+* Rich Hickey (autor języka Clojure, video, 35 min.).
   [Simplicity Matters](http://www.youtube.com/watch?v=rI8tNMsozo0)
 * [John Cleese on Creativity](http://www.youtube.com/watch?v=VShmtsLhkQg) (video, 36 min.)
 * Jacob Kaplan-Moss. [Snakes on the Web](http://jacobian.org/writing/snakes-on-the-web/).
